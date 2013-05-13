@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 
-Sitemap: http://dmgerman.github.io/sitemap.xml 
+Sitemap: http://turingmachine.org/sitemap.xml 

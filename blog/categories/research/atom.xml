@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: research | My Octopress Blog]]></title>
-  <link href="http://dmgerman.github.io/blog/categories/research/atom.xml" rel="self"/>
-  <link href="http://dmgerman.github.io/"/>
-  <updated>2013-05-12T23:06:20-07:00</updated>
-  <id>http://dmgerman.github.io/</id>
+  <title><![CDATA[Category: research | Turing Machine]]></title>
+  <link href="http://turingmachine.org/blog/categories/research/atom.xml" rel="self"/>
+  <link href="http://turingmachine.org/"/>
+  <updated>2013-05-12T23:15:28-07:00</updated>
+  <id>http://turingmachine.org/</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
+    <name><![CDATA[Daniel German]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Towards a census of free and open source licenses.]]></title>
-    <link href="http://dmgerman.github.io/blog/2013/05/12/towards-a-census-of-used-open-source-licenses/"/>
+    <link href="http://turingmachine.org/blog/2013/05/12/towards-a-census-of-used-open-source-licenses/"/>
     <updated>2013-05-12T19:09:00-07:00</updated>
-    <id>http://dmgerman.github.io/blog/2013/05/12/towards-a-census-of-used-open-source-licenses</id>
+    <id>http://turingmachine.org/blog/2013/05/12/towards-a-census-of-used-open-source-licenses</id>
     <content type="html"><![CDATA[<p>During the last three years I have been attending the <a href="http://fsfe.org/activities/ftf/network.en.html">European Legal
 Network</a> Free Software
 Legal and Licensing Workshop.  Because of
