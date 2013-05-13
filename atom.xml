@@ -4,7 +4,7 @@
   <title><![CDATA[Turing Machine]]></title>
   <link href="http://turingmachine.org/atom.xml" rel="self"/>
   <link href="http://turingmachine.org/"/>
-  <updated>2013-05-13T00:46:47-07:00</updated>
+  <updated>2013-05-13T01:03:04-07:00</updated>
   <id>http://turingmachine.org/</id>
   <author>
     <name><![CDATA[Daniel German]]></name>
@@ -14,6 +14,41 @@
 
   
   <entry>
+    <title type="html"><![CDATA[Cellar de Can Roca: the best meal of my life (in the best restaurant of the world)]]></title>
+    <link href="http://turingmachine.org/blog/2013/05/13/cellar-de-can-roca/"/>
+    <updated>2013-05-13T00:49:00-07:00</updated>
+    <id>http://turingmachine.org/blog/2013/05/13/cellar-de-can-roca</id>
+    <content type="html"><![CDATA[<p>I knew I was never going to be able to get a reservation at
+<a href="http://en.wikipedia.org/wiki/El_Bulli">elBulli</a> (note the camelCase
+:).  But since <a href="http://en.wikipedia.org/wiki/Ferran_Adri%C3%A0">Ferran
+Adrià</a> decided to close it
+I knew I had a chance to one day eat the best restaurant in the
+world.</p>
+
+<p>Looking at the <a href="http://en.wikipedia.org/wiki/The_World's_50_Best_Restaurants">rakings of the best places to
+eat</a> <!--more-->
+I decided that that restaurant was going to be El Cellar de CanRoca.</p>
+
+<p>Two years before, I was visiting Girona, and decided to walk into the
+restaurant (no planning from my part, as usual). Of course, there was
+no space :). I asked my friend Jaume, who lives in Girona, to reserve
+a table. He did, last year.  And just few days ago, <a href="http://www.guardian.co.uk/lifeandstyle/2013/apr/29/el-celler-de-can-roca-restaurant">the Cellar was
+named the best restaurant in the
+world</a>. I
+am glad we went when we did. I was told that the day it was announced,
+its web site crashed and they got thousands of phone calls.</p>
+
+<p>Was it worth it? You bet. Here are the <a href="http://www.flickr.com/photos/28858028@N00/sets/72157629963362602/">photos of each of the dishes
+we were
+served</a>. It
+has been, without a doubt, the best meal in my life, and the longest
+(we arrived at 1:30 and left at 5:30).</p>
+
+<p>&mdash;dmg</p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Barcelona: champions]]></title>
     <link href="http://turingmachine.org/blog/2013/05/12/barcelona-champions/"/>
     <updated>2013-05-12T21:02:00-07:00</updated>
@@ -21,7 +56,7 @@
     <content type="html"><![CDATA[<p>FC Barcelona is finally champion of <a href="http://en.wikipedia.org/wiki/2012%E2%80%9313_La_Liga">la
 Liga</a>. It is
 certainly an accomplishment to have won 4 out of the last 5
-championships. Yet this year has a sombre tone. The lost against
+championships. Yet this year has a sombre tone. The loss against
 <a href="http://www.guardian.co.uk/football/2013/may/01/barcelona-bayern-munich-live-mbm-report">Bayern
 0-7</a>
 left much to be desired. <!--more-->It was not only that they lost, but the
