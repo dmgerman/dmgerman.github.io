@@ -1,46 +1,46 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
-        <loc>http://turingmachine.org/blog/2009/04/22/illiterate-cultural-shock/</loc>
+        <loc>http://turingmachine.org/bl/2009/04/22/illiterate-cultural-shock/</loc>
         <lastmod>2013-05-13T00:39:29-07:00</lastmod>
     </url>
     <url>
-        <loc>http://turingmachine.org/blog/2010/05/25/does-the-new-york-times-mocks-me/</loc>
+        <loc>http://turingmachine.org/bl/2010/05/25/does-the-new-york-times-mocks-me/</loc>
         <lastmod>2013-05-13T00:31:36-07:00</lastmod>
     </url>
     <url>
         <loc>
-            http://turingmachine.org/blog/2011/06/21/nserc-discovery-grants-2011-in-computer-science/
+            http://turingmachine.org/bl/2011/06/21/nserc-discovery-grants-2011-in-computer-science/
         </loc>
         <lastmod>2013-05-13T00:19:56-07:00</lastmod>
     </url>
     <url>
         <loc>
-            http://turingmachine.org/blog/2013/05/12/this-is-the-beginning-of-the-world-dot-dot-dot/
+            http://turingmachine.org/bl/2013/05/12/this-is-the-beginning-of-the-world-dot-dot-dot/
         </loc>
         <lastmod>2013-05-12T21:36:34-07:00</lastmod>
     </url>
     <url>
         <loc>
-            http://turingmachine.org/blog/2013/05/12/towards-a-census-of-used-open-source-licenses/
+            http://turingmachine.org/bl/2013/05/12/towards-a-census-of-used-open-source-licenses/
         </loc>
         <lastmod>2013-05-13T00:20:43-07:00</lastmod>
     </url>
     <url>
-        <loc>http://turingmachine.org/blog/2013/05/12/barcelona-champions/</loc>
+        <loc>http://turingmachine.org/bl/2013/05/12/barcelona-champions/</loc>
         <lastmod>2013-05-13T00:48:41-07:00</lastmod>
     </url>
     <url>
-        <loc>http://turingmachine.org/blog/2013/05/13/cellar-de-can-roca/</loc>
-        <lastmod>2013-05-13T01:02:51-07:00</lastmod>
-    </url>
-    <url>
-        <loc>http://turingmachine.org/blog/archives/</loc>
-        <lastmod>2013-05-13T01:02:51-07:00</lastmod>
+        <loc>http://turingmachine.org/bl/2013/05/13/cellar-de-can-roca/</loc>
+        <lastmod>2013-05-13T01:12:59-07:00</lastmod>
     </url>
     <url>
         <loc>http://turingmachine.org/</loc>
-        <lastmod>2013-05-13T01:02:51-07:00</lastmod>
+        <lastmod>2013-05-13T01:22:26-07:00</lastmod>
+    </url>
+    <url>
+        <loc>http://turingmachine.org/bl/archives/</loc>
+        <lastmod>2013-05-13T01:12:59-07:00</lastmod>
     </url>
     <url>
         <loc>http://turingmachine.org/robots.txt</loc>

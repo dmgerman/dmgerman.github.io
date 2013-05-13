@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: research | Turing Machine]]></title>
+  <link href="http://turingmachine.org/bl/categories/research/atom.xml" rel="self"/>
+  <link href="http://turingmachine.org/"/>
+  <updated>2013-05-13T01:24:51-07:00</updated>
+  <id>http://turingmachine.org/</id>
+  <author>
+    <name><![CDATA[Daniel German]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Towards a census of free and open source licenses.]]></title>
+    <link href="http://turingmachine.org/bl/2013/05/12/towards-a-census-of-used-open-source-licenses/"/>
+    <updated>2013-05-12T19:09:00-07:00</updated>
+    <id>http://turingmachine.org/bl/2013/05/12/towards-a-census-of-used-open-source-licenses</id>
+    <content type="html"><![CDATA[<p>During the last three years I have been attending the <a href="http://fsfe.org/activities/ftf/network.en.html">European Legal
+Network</a> Free Software
+Legal and Licensing Workshop.  Because of
+the quality of people in attendance this is probably the best
+workshop/conference for open source licensing in the world.</p>
+
+<p>This year I presented a talk called <em>Toward a census of free and open
+source software licenses</em>.  <!--more-->
+Ever since I started working with open
+source licenses I have been looking into the issues of what licenses
+are more widely used.</p>
+
+<p>The objective of this talk is to describe that a census is not
+trivial. There are many factors that can affect the final result. For
+this reason it is very important to be very aware of the methodology
+behind the census. Otherwise one might be misled by the results.</p>
+
+<p><a href="http://blog.man7.org/">Michael Kerrisk</a> from <a href="https://lwn.net/">LWN</a>
+was in attendance. As it is customary in this workshop, its discussion
+is subject to <a href="http://en.wikipedia.org/wiki/Chatham_House_Rule">Chatham House
+Rule</a>. In a nutshell,
+after the meeting you can mention what was discussed, but not who
+discussed it.</p>
+
+<p>For that reason Michael requested my permission to write an article at
+LWN on my talk. He did a <a href="https://lwn.net/Articles/547400/">great
+job</a>. It is almost a play-by-play of
+the presentation, which I am making available
+<a href="/assets/presentations/20130404-amsterdam-licenses-census.pdf">here</a>. Just
+a word of advice: the numbers are preliminary. We&rsquo;ll publish
+accurate in the very short future.</p>
+
+<p>&mdash;dmg</p>
+]]></content>
+  </entry>
+  
+</feed>
