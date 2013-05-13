@@ -1,15 +1,35 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
-        <loc>http://dmgerman.github.io/blog/archives/</loc>
+        <loc>
+            http://turingmachine.org/blog/2013/05/12/this-is-the-beginning-of-the-world-dot-dot-dot/
+        </loc>
+        <lastmod>2013-05-12T21:36:34-07:00</lastmod>
+    </url>
+    <url>
+        <loc>
+            http://turingmachine.org/blog/2013/05/12/towards-a-census-of-used-open-source-licenses/
+        </loc>
+        <lastmod>2013-05-12T21:35:23-07:00</lastmod>
+    </url>
+    <url>
+        <loc>http://turingmachine.org/blog/2013/05/12/barcelona-champions/</loc>
+        <lastmod>2013-05-12T21:35:13-07:00</lastmod>
+    </url>
+    <url>
+        <loc>http://turingmachine.org/blog/archives/</loc>
+        <lastmod>2013-05-12T21:36:34-07:00</lastmod>
+    </url>
+    <url>
+        <loc>http://turingmachine.org/</loc>
+        <lastmod>2013-05-12T21:36:34-07:00</lastmod>
+    </url>
+    <url>
+        <loc>http://turingmachine.org/robots.txt</loc>
         <lastmod>2013-05-12T15:45:41-07:00</lastmod>
     </url>
     <url>
-        <loc>http://dmgerman.github.io/</loc>
-        <lastmod>2013-05-12T15:45:41-07:00</lastmod>
-    </url>
-    <url>
-        <loc>http://dmgerman.github.io/robots.txt</loc>
-        <lastmod>2013-05-12T15:45:41-07:00</lastmod>
+        <loc>http://turingmachine.org/who-i-am/</loc>
+        <lastmod>2013-05-12T18:32:59-07:00</lastmod>
     </url>
 </urlset>
