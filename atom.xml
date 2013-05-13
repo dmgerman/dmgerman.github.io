@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Turing Machine]]></title>
-  <link href="http://turingmachine.org/atom.xml" rel="self"/>
-  <link href="http://turingmachine.org/"/>
-  <updated>2013-05-12T22:58:15-07:00</updated>
-  <id>http://turingmachine.org/</id>
+  <title><![CDATA[My Octopress Blog]]></title>
+  <link href="http://dmgerman.github.io/atom.xml" rel="self"/>
+  <link href="http://dmgerman.github.io/"/>
+  <updated>2013-05-12T23:06:20-07:00</updated>
+  <id>http://dmgerman.github.io/</id>
   <author>
-    <name><![CDATA[Daniel German]]></name>
+    <name><![CDATA[Your Name]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Barcelona: champions]]></title>
-    <link href="http://turingmachine.org/blog/2013/05/12/barcelona-champions/"/>
+    <link href="http://dmgerman.github.io/blog/2013/05/12/barcelona-champions/"/>
     <updated>2013-05-12T21:02:00-07:00</updated>
-    <id>http://turingmachine.org/blog/2013/05/12/barcelona-champions</id>
+    <id>http://dmgerman.github.io/blog/2013/05/12/barcelona-champions</id>
     <content type="html"><![CDATA[<p>FC Barcelona is finally champion of <a href="http://en.wikipedia.org/wiki/2012%E2%80%9313_La_Liga">la
 Liga</a>. It is
 certainly an accomplishment to have won 4 out of the last 5
@@ -38,9 +38,9 @@ up.</p>
   
   <entry>
     <title type="html"><![CDATA[Towards a census of free and open source licenses.]]></title>
-    <link href="http://turingmachine.org/blog/2013/05/12/towards-a-census-of-used-open-source-licenses/"/>
+    <link href="http://dmgerman.github.io/blog/2013/05/12/towards-a-census-of-used-open-source-licenses/"/>
     <updated>2013-05-12T19:09:00-07:00</updated>
-    <id>http://turingmachine.org/blog/2013/05/12/towards-a-census-of-used-open-source-licenses</id>
+    <id>http://dmgerman.github.io/blog/2013/05/12/towards-a-census-of-used-open-source-licenses</id>
     <content type="html"><![CDATA[<p>During the last three years I have been attending the <a href="http://fsfe.org/activities/ftf/network.en.html">European Legal
 Network</a> Free Software
 Legal and Licensing Workshop.  Because of
@@ -68,7 +68,7 @@ discussed it.</p>
 LWN on my talk. He did a <a href="https://lwn.net/Articles/547400/">great
 job</a>. It is almost a play-by-play of
 the presentation, which I am making available
-<a href="http://turingmachine.org/assets/presentations/20130404-amsterdam-licenses-census.pdf">here</a>. Just
+<a href="http://dmgerman.github.io/assets/presentations/20130404-amsterdam-licenses-census.pdf">here</a>. Just
 a word of advice: the numbers are preliminary. We&rsquo;ll publish
 accurate in the very short future.</p>
 
@@ -78,9 +78,9 @@ accurate in the very short future.</p>
   
   <entry>
     <title type="html"><![CDATA[This is the beginning of the world... again]]></title>
-    <link href="http://turingmachine.org/blog/2013/05/12/this-is-the-beginning-of-the-world-dot-dot-dot/"/>
+    <link href="http://dmgerman.github.io/blog/2013/05/12/this-is-the-beginning-of-the-world-dot-dot-dot/"/>
     <updated>2013-05-12T17:52:00-07:00</updated>
-    <id>http://turingmachine.org/blog/2013/05/12/this-is-the-beginning-of-the-world-dot-dot-dot</id>
+    <id>http://dmgerman.github.io/blog/2013/05/12/this-is-the-beginning-of-the-world-dot-dot-dot</id>
     <content type="html"><![CDATA[<p>I am tired of web-based blogging. I want to blog when I want, where I
 want&mdash;that includes not having an internet connection&mdash;-and don&rsquo;t be
 forced to use any specific infrastructure to do it.</p>
