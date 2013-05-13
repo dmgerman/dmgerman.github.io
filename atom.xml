@@ -4,7 +4,7 @@
   <title><![CDATA[Turing Machine]]></title>
   <link href="http://turingmachine.org/atom.xml" rel="self"/>
   <link href="http://turingmachine.org/"/>
-  <updated>2013-05-13T02:49:30-07:00</updated>
+  <updated>2013-05-13T11:43:20-07:00</updated>
   <id>http://turingmachine.org/</id>
   <author>
     <name><![CDATA[Daniel German]]></name>
@@ -12,6 +12,107 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[NSERC Discovery Grants 2012 in Computer Science]]></title>
+    <link href="http://turingmachine.org/bl/2013/05/13/nserc-discovery-grants-2012/"/>
+    <updated>2013-05-13T10:50:00-07:00</updated>
+    <id>http://turingmachine.org/bl/2013/05/13/nserc-discovery-grants-2012</id>
+    <content type="html"><![CDATA[<p>The day of the publication of the results of the NSERC Discovery Grants for 2013 is approaching, and I just realized that I didn&rsquo;t publish the ones from 2012, which
+<a href="http://turingmachine.org/bl/2011/06/21/nserc-discovery-grants-2011-in-computer-science/">I did for 2011</a></p>
+
+<p>The <a href="http://www.nserc-crsng.gc.ca/NSERC-CRSNG/FundingDecisions-DecisionsFinancement/ResearchGrants-SubventionsDeRecherche/ResultsGSC-ResultatsCSS_eng.asp?Year=2012">full list of results can be found here</a>.</p>
+
+<p> <!--more--></p>
+
+<h3>What is the distribution of grants?</h3>
+
+
+<p>First, the total amount for Discovery Grants in Computer Science was $5,943,920 per year ($5,126,543 last year) divided in 227 grants (202 last year). There were 11 1-year, 3 3-year, 213 5-year (10 1-year, 1 2-year, 1-3 year and the rest 5 years in 2011). They went to 49 different institutions (45 in 2011).</p>
+
+<p>Minimum amount was (like the year before) $14k, first quantile $17k (20k last year), median $22k (24 last year), average $26,185 ($25.380k last year), third quartile $28k ($29k), and maximum of $122.2 ($96k last year). A Shapiro-Wilk test shows that this distribution appears NOT to be normal (p &lt;&lt; 0.01). Compared to 2011, the grants got smaller, but one person got a lot of money.</p>
+
+<p>Compared to 2011, there was more money available per person (26.2k versus 254k), and there were many more smaller grant, but also the larger grants accounted for a larger share.</p>
+
+<p>This is the distribution of grants per amount.</p>
+
+<pre>
+14,000      43
+17,000      32
+19,000      9 
+22,000      47
+27,000      2 
+27,920      1 
+28,000      39
+33,000      1 
+34,000      23
+42,000      17
+52,000      5 
+62,000      3 
+74,000      1 
+78,000      2 
+92,000      1 
+122,000     1 
+</pre>
+
+
+<p>A simple way to visualize this data is tot plot individuals to amounts. Colours reflect the province (click to enlarge):</p>
+
+<p><img src="http://turingmachine.org/assets/images/2012/nserc2012byInd.png"></p>
+
+<p>As it can be seen, there is a fairly uniform distribution across the lowest amounts, with few outliers to the right. Not surprisingly Ontario is, again, the most frequent.
+Ontario and BC represent most of the points at the right side.</p>
+
+<p>Here is a breakdown of the 4 big ones:</p>
+
+<p><img src="http://turingmachine.org/assets/images/2012/ab2012.png"></p>
+
+<p><img src="http://turingmachine.org/assets/images/2012/bc2012.png"></p>
+
+<p><img src="http://turingmachine.org/assets/images/2012/on2012.png"></p>
+
+<p><img src="http://turingmachine.org/assets/images/2012/qc2012.png"></p>
+
+<h3>How do institutions compare?</h3>
+
+
+<p>I present the results arranged by University. Each vertical column is
+a university; they have been sorted by province.  Each point in the
+plot is a recipient. The colour of the point represents the type of
+grant (1 to 5 years). Most are 5 years, with few being 1 year (what I
+call probation grant: they either have faith you can do significantly
+better next year, or they are giving you a warning signal).</p>
+
+<p>The median across the country was $22k per year (in the spirit of disclosure mine is $24k&mdash;2011).</p>
+
+<p>The boxplots are a simpler way to compare universities and are
+overlayed on the data. I have removed outliers from them to avoid
+confusion with the data points. Of course, if you have paid attention
+to your stats courses you will know that boxplots are good when the
+data is normally distributed (which I don&rsquo;t assume it is). Hence their
+use in this data is flawed, but they are still useful.</p>
+
+<p><img src="http://turingmachine.org/assets/images/2012/nserc2012byInst.png"></p>
+
+<p>I also got curious who the high fliers were. And below the points are labelled.</p>
+
+<p><img src="http://turingmachine.org/assets/images/2012/nserc2012byInstLabels.png"></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Those Russian Dash Cams...]]></title>
+    <link href="http://turingmachine.org/bl/2013/05/13/those-russian-dash-cams/"/>
+    <updated>2013-05-13T09:56:00-07:00</updated>
+    <id>http://turingmachine.org/bl/2013/05/13/those-russian-dash-cams</id>
+    <content type="html"><![CDATA[<p>They show the bad, but they also show the humane side.<!--more--></p>
+
+<iframe width="560" height="315" src="http://www.youtube.com/embed/TzBInt4zljQ" frameborder="0" allowfullscreen></iframe>
+
+
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Cellar de Can Roca: the best meal of my life (in the best restaurant of the world)]]></title>
