@@ -4,7 +4,7 @@
   <title><![CDATA[Category: research | Turing Machine]]></title>
   <link href="http://turingmachine.org/blog/categories/research/atom.xml" rel="self"/>
   <link href="http://turingmachine.org/"/>
-  <updated>2013-05-12T23:42:31-07:00</updated>
+  <updated>2013-05-13T00:46:47-07:00</updated>
   <id>http://turingmachine.org/</id>
   <author>
     <name><![CDATA[Daniel German]]></name>
@@ -25,7 +25,8 @@ the quality of people in attendance this is probably the best
 workshop/conference for open source licensing in the world.</p>
 
 <p>This year I presented a talk called <em>Toward a census of free and open
-source software licenses</em>. Ever since I started working with open
+source software licenses</em>.  <!--more-->
+Ever since I started working with open
 source licenses I have been looking into the issues of what licenses
 are more widely used.</p>
 
