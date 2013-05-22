@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: papers | Turing Machine]]></title>
+  <link href="http://turingmachine.org/bl/categories/papers/atom.xml" rel="self"/>
+  <link href="http://turingmachine.org/"/>
+  <updated>2013-05-22T09:37:36-07:00</updated>
+  <id>http://turingmachine.org/</id>
+  <author>
+    <name><![CDATA[Daniel German]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[The Future of Continuous Integration in GNOME]]></title>
+    <link href="http://turingmachine.org/bl/2013-05-21-the-future-of-continuous-integration-in-gnome.html"/>
+    <updated>2013-05-21T00:00:00-07:00</updated>
+    <id>http://turingmachine.org/bl/the-future-of-continuous-integration-in-gnome</id>
+    <content type="html"><![CDATA[<p>This year is the first edition of RelEng: The International Workshop
+on Release Engineering.  Germán presented our paper <a href="../assets/pdfs/papers/dmg2013_relengGnome.pdf">The Future of
+Continuous Integration in GNOME</a>. Its full bibliographic entry is:</p>
+
+<blockquote><p>Colin Walters, Germán Poo-Caamaño, and Daniel M. German, <em>The Future
+of Continuous Integration in GNOME</em>, First International Workshop on
+Release Engineering, RELENG 2013, pages XX&#x2013;YY, May 2013.</p></blockquote>
+
+<!-- more -->
+
+
+<p>This paper is a description of the new method to deploy releases in
+GNOME in a manner that uses a version control model. The goal is to
+make it easy to deploy (and equally important) rollback releases of
+the entire desktop.</p>
+
+<blockquote><p>In Free and Open Source Software (FOSS) projects
+based on Linux systems, the users usually install the software
+from distributions. The distributions act as intermediaries be-
+tween software developers and users. Distributors collect the
+source code of the different projects and package them, ready
+to be installed by the users. Packages seems to work well for
+managing and distributing stable major and minor releases. It
+presents, however, various release management challenges for
+developers of projects with multiples dependencies not always
+available in the stable version of their systems. In projects like
+GNOME, composed of dozens of individual components, devel-
+opers must build newer versions of the libraries and applications
+that their applications depend upon before working in their own
+projects. This process can be cumbersome for developers who are
+not programmers, such as user interaction designers or technical
+writers. In this paper we describe some of the problems that the
+current distribution model presents to do continuous integration,
+testing and deployment for developers in GNOME, and present
+ongoing work intended to address these problems that uses a git-
+like approach to the building and deployment of applications.</p></blockquote>
+
+<p>Here is the presentation:</p>
+
+<center>
+<iframe src="http://www.slideshare.net/slideshow/embed_code/21650647" width="476" height="400" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+</center>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Will My Patch Make It? And How Fast? Case Study on the Linux Kernel]]></title>
+    <link href="http://turingmachine.org/bl/2013-05-19-will-my-patch-make-it-linux-msr-2013.html"/>
+    <updated>2013-05-19T00:00:00-07:00</updated>
+    <id>http://turingmachine.org/bl/will-my-patch-make-it-linux-msr-2013</id>
+    <content type="html"><![CDATA[<p>Today Yujuan presented our paper <a href="../assets/pdfs/papers/dmg2013_msrPatch.pdf">Will My Patch Make It? And How Fast? Case Study on the Linux Kernel</a> at <a href="http://2013.msrconf.org/">MSR 2013</a>. Its full bibliographic entry is:</p>
+
+<blockquote><p>Yujuan Jiang, Bram Adams, and Daniel M. German <em>Will My Patch Make It?
+And How Fast? Case Study on the Linux Kernel</em>, International
+Working Conference of Mining Software Repositories, MSR'2013, pages
+XX-YY. May 2013.</p></blockquote>
+
+<!-- more -->
+
+
+<p>The main objective of the paper is to try to determine what are the
+characteristics that make a patch being accepted by the Linux
+development team.</p>
+
+<blockquote><p>The Linux kernel follows an extremely distributed reviewing and
+integration process supported by 130 developer mailing lists and a
+hierarchy of dozens of Git repositories for version control. Since not
+every patch can make it and of those that do, some patches require a
+lot more reviewing and integration effort than others, developers,
+reviewers and integrators need support for estimating which patches
+are worthwhile to spend effort on and which ones do not stand a
+chance. This paper cross-links and analyzes eight years of patch
+reviews from the kernel mailing lists and committed patches from the
+Git repository to understand which patches are accepted and how long
+it takes those patches to get to the end user. We found that 33\% of
+the patches makes it into a Linux release, and that most of them need
+3 to 6 months for this. Furthermore, that patches developed by more
+experienced developers are more easily accepted and faster reviewed
+and integrated. Additionally, reviewing time is impacted by submission
+time, the number of affected subsystems by the patch and the number of
+requested reviewers.</p></blockquote>
+
+<p>The main outcome is that experience plays one of the most important
+factors.</p>
+
+<p>&#x2013;dmg</p>
+]]></content>
+  </entry>
+  
+</feed>

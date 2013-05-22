@@ -1,0 +1,302 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Using Octopress and Org-Mode for my website - Turing Machine</title>
+	<meta name="author" content="Daniel German">
+
+	
+	<meta name="description" content="Every few years I decide that it is time to use a new infrastructure
+to start blogging. This time Leif suggested that I look into
+Octopres. I like &hellip;">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<link href="/atom.xml" rel="alternate" title="Turing Machine" type="application/atom+xml">
+	<link rel="canonical" href="">
+	<link href="/favicon.png" rel="shortcut icon">
+	<link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+	<!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	
+</head>
+
+<body>
+	<header id="header" class="inner"><h1><a href="/bl">Turing Machine</a></h1>
+<nav id="main-nav"><ul class="main">
+	<li><a href="/bl/">Blog</a></li>
+	<li><a href="/research/">Research</a></li>
+	<li><a href="/bl/archives">Archives</a></li>
+        <li><a href="/who-i-am">About&nbsp;me</a></li>
+        <li><a href="http://silvernegative.com">My&nbsp;photography</a></li>
+</ul>
+</nav>
+<nav id="mobile-nav">
+	<div class="alignleft menu">
+		<a class="button">Menu</a>
+		<div class="container"><ul class="main">
+	<li><a href="/bl/">Blog</a></li>
+	<li><a href="/research/">Research</a></li>
+	<li><a href="/bl/archives">Archives</a></li>
+        <li><a href="/who-i-am">About&nbsp;me</a></li>
+        <li><a href="http://silvernegative.com">My&nbsp;photography</a></li>
+</ul>
+</div>
+	</div>
+	<div class="alignright search">
+		<a class="button"></a>
+		<div class="container">
+			<form action="http://google.com/search" method="get">
+				<input type="text" name="q" results="0">
+				<input type="hidden" name="q" value="site:turingmachine.org">
+			</form>
+		</div>
+	</div>
+</nav>
+<nav id="sub-nav" class="alignright">
+	<div class="social">
+		
+		
+		
+		
+    
+		
+		
+		
+		
+		
+		<a class="rss" href="/atom.xml" title="RSS">RSS</a>
+		
+	</div>
+	<form class="search" action="http://google.com/search" method="get">
+		<input class="alignright" type="text" name="q" results="0">
+		<input type="hidden" name="q" value="site:turingmachine.org">
+	</form>
+</nav>
+
+</header>
+	
+		
+	
+	<div id="content" class="inner"><article class="post">
+
+	<h2 class="title">Using Octopress and Org-Mode for My Website</h2>
+	<div class="entry-content">
+       
+        <div class="entry-image">
+        <a class="fancybox" rel="group" href="/assets/images/101021_7303_850.jpg"><img src="/assets/images/101021_7303_850.jpg" alt=""></a>
+        </div>
+       
+        <p>Every few years I decide that it is time to use a new infrastructure
+to start blogging. This time <a href="http://leif.me">Leif</a> suggested that I look into
+<a href="http://octopress.org">Octopres</a>. I like its original tag: <em>A blogging framework for hackers</em>,
+but its source infrastructure put me off (it uses ruby, of which I am no fan).</p>
+
+<!-- more -->
+
+
+<p>Nonetheless, after doing some research, I decided to try it and it works well.</p>
+
+<p>It makes my website independent of the website where it runs.  It moves
+the management from the deployment site to the author&rsquo;s site. And no more
+need of a database. It simply creates a bunch of flat files.</p>
+
+<p>What makes it even more interesting is that it uses flat, plain text
+files. I think that is the ultimate definition of hacking tools. Flat
+files are malleable, they are universal, they are easy to author, and
+easy to search, and they will surve the (software) Apocalypse.</p>
+
+<p>So the next step was to see if I could get away from having to learn a
+new type of typesetting called <a href="http://en.wikipedia.org/wiki/Markdown">markdown</a>, and instead use <a href="http://org-mode">org-mode</a>. In
+my opinion <strong>org-mode</strong> is the <strong>most useful tool</strong> that has landed in my
+computer in the last 3 years. It has totally revolutionized the way
+that I author text (including the way that I write papers).</p>
+
+<p>Well, as it happens, I was not the only one. There has been many
+people who have done the same (the church of emacs). At the end I
+used Yoshinari Nomura&rsquo;s <a href="https://github.com/yoshinari-nomura/org-octopress">org-octopress</a>, and customized it to export to
+Markdown rather than HTML (let octopress do the typesetting). This
+requires Org-mode from git (org-octopress uses many new features that
+have not been released yet).</p>
+
+<h1>Some examples:</h1>
+
+<h2>A table</h2>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+<caption>This is the caption</caption>
+
+<colgroup>
+<col  class="left" />
+
+<col  class="left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="left">This is a table</th>
+<th scope="col" class="left">2nd column</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td class="left">Value1</td>
+<td class="left">Value2</td>
+</tr>
+</tbody>
+</table>
+
+
+<p>The table above was authored like this:</p>
+
+<pre><code>#+CAPTION: This is the caption
+| This is a table | 2nd column |
+|-----------------+------------|
+| Value1          | Value2     |
+</code></pre>
+
+<h2>How about code?</h2>
+
+<pre><code>(defun org-octo-md--get-option (info property-name &amp;optional default)
+  (let ((property (plist-get info property-name)))
+    (format "%s" (or property default ""))))
+</code></pre>
+
+<p>this is what I wrote:</p>
+
+<pre><code>#+BEGIN_SRC emacs-lisp
+(defun org-octo-md--get-option (info property-name &amp;optional default)
+  (let ((property (plist-get info property-name)))
+    (format "%s" (or property default ""))))
+#+END_SRC
+</code></pre>
+
+<h2>But here is where it excels: code execution inside text files</h2>
+
+<p>In org-mode you can have snippets of code that generate text that is
+then used in the document. It can also generate images that are then embedded in the document.
+Here is an
+example of a dotty generated image:</p>
+
+<p><img src="/assets/images/2013/exampleDotty.png" alt="Example of Dotty Image" /></p>
+
+<p>This is what I wrote:</p>
+
+<pre><code>:NOT:
+#+NAME: dottyExample
+#+BEGIN_SRC dot :file /assets/images/2013/exampleDotty.png :exports results
+digraph G {
+   rankdir=RL;
+   node [shape=circle width="0.7cm" height="0.7cm" fontsize=16 penwidth=2];
+   edge [color=red penwidth=3]
+
+   "dots1" [label="..." color=white fontsize=30]
+   "r" [shape=circle  fillcolor=white style=filled label="r"];
+   "h" [shape=circle  fillcolor=white style=filled label="h"];
+   "c" [shape=circle  fillcolor=green style=filled];
+   "dots2" [label="..." color=white fontsize=30]
+
+   "c" -&gt; "r" [label="            "]
+   "r" -&gt; "dots1" [label="            "]
+   "dots2" -&gt; "r" [label="            "]
+   "h" -&gt; "dots2" [label="            "]
+}}
+#+END_SRC
+
+:END:
+
+
+#+RESULTS[6d2ac873c0fc0e0232e317a2a88e734600e5ac0d]: dottyExample
+#+CAPTION: Example of Dotty Image
+[[file:/assets/images/2013/exampleDotty.png]]
+</code></pre>
+
+<p>I am a happy camper.</p>
+
+<p>&#x2013;dmg</p>
+</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-05-14T00:00:00-07:00" pubdate data-updated="true">May 14<span>th</span>, 2013</time></div>
+	<div class="tags">
+
+
+	<a class='category' href='/bl/categories/hacking/'>hacking</a>
+
+
+</div>
+	
+</div>
+
+
+
+
+<div id="sub-nav"> 
+        <div class="clear">&nbsp;</div> 
+        <div class="left"> 
+         
+                <a href="/bl/2013-05-13-nserc-discovery-grants-2012.html" title="Previous Post: 
+NSERC Discovery Grants 2012 in Computer Science">Older: NSERC Discovery Grants 2012 in Computer Science</a> 
+         
+        </div> 
+
+        <div class="right"> 
+         
+                <a href="/bl/2013-05-15-why-pay-for-wine-at-all%3F.html" title="next Post: 
+Why pay for wine at all?">Newer: Why pay for wine at all? </a> 
+         
+        </div> 
+        <div class="clear">&nbsp;</div> 
+</div> 
+</article>
+
+
+	<div class="share">
+	<div class="addthis_toolbox addthis_default_style ">
+	
+	
+	<a class="addthis_button_tweet"></a>
+	
+	
+	<a class="addthis_counter addthis_pill_style"></a>
+	</div>
+  <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid="></script>
+</div>
+
+
+
+</div>
+	<footer id="footer" class="inner">Copyright &copy; 2013
+
+    Daniel German
+
+</footer>
+	<script src="/javascripts/slash.js"></script>
+<script src="/javascripts/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+	$('.fancybox').fancybox();
+})(jQuery);
+</script> <!-- Delete or comment this line to disable Fancybox -->
+
+
+
+
+
+
+</body>
+</html>

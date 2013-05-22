@@ -4,7 +4,7 @@
   <title><![CDATA[Category: cookingEngineering | Turing Machine]]></title>
   <link href="http://turingmachine.org/bl/categories/cookingengineering/atom.xml" rel="self"/>
   <link href="http://turingmachine.org/"/>
-  <updated>2013-05-13T11:43:20-07:00</updated>
+  <updated>2013-05-22T09:37:36-07:00</updated>
   <id>http://turingmachine.org/</id>
   <author>
     <name><![CDATA[Daniel German]]></name>
@@ -14,15 +14,61 @@
 
   
   <entry>
+    <title type="html"><![CDATA[We are not afraid to fail]]></title>
+    <link href="http://turingmachine.org/bl/2013-05-20-we-are-not-afraid-to-fail.html"/>
+    <updated>2013-05-20T00:00:00-07:00</updated>
+    <id>http://turingmachine.org/bl/we-are-not-afraid-to-fail</id>
+    <content type="html"><![CDATA[<p><a href="http://en.wikipedia.org/wiki/Grant_Achatz">Grant Achatz</a> is one of the great chefs of our times. His restaurant
+<a href="http://en.wikipedia.org/wiki/Alinea_(restaurant)">Alinea</a> (in Chicago) is considered one of the best in the world.</p>
+
+<!-- more -->
+
+
+<p>In a presentation he gave at Harvard (almost 3 years ago) he talked about
+his approach to cooking and some of the innovative techniques he has
+developed. But what I remember the most are two questions he was posed
+by the audience, and his answers:</p>
+
+<blockquote><p>Audience member: &ldquo;Roasted hey, wood stocks, apparently turn into very tasty things. There has to be some really abysmal failures you&rsquo;d never wish on the tongues of even your worst enemies&#x2026;Any you would like to share?&rdquo;</p>
+
+<p>Grant: &ldquo;There are tones of failures. But we know that going in. <strong>We are not afraid  to fail</strong>.&rdquo;</p></blockquote>
+
+<p>I suspect that that attitude: willing to try and not being afraid to fail is what makes them succeed.</p>
+
+<p>Another interesting question is:</p>
+
+<blockquote><p>Audience member: &ldquo;If I had to add three things to my kitchen that my parents didn&rsquo;t have, what would they be?&rdquo;</p></blockquote>
+
+<p>Grant answers:</p>
+
+<ol>
+<li><p><a href="http://en.wikipedia.org/wiki/Xanthan_gum">Xanthan Gum</a></p></li>
+<li><p><a href="http://en.wikipedia.org/wiki/Carrageenan">IOTA Carrogeenan</a></p></li>
+<li><p><a href="http://en.wikipedia.org/wiki/Agar_agar">Agar Agar</a></p></li>
+</ol>
+
+
+<p>I have never used IOTA, but I use agar-agar and xanthan gum on a regular basis.</p>
+
+<p>The presentation is well worth it, and also the Q&amp;A section at the end.</p>
+
+<iframe width="560" height="315" src="http://www.youtube.com/embed/dYDe3RASpa0" frameborder="0" allowfullscreen></iframe>
+
+
+<p>&#x2013;dmg</p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Cellar de Can Roca: the best meal of my life (in the best restaurant of the world)]]></title>
-    <link href="http://turingmachine.org/bl/2013/05/13/cellar-de-can-roca/"/>
+    <link href="http://turingmachine.org/bl/2013-05-13-cellar-de-can-roca.html"/>
     <updated>2013-05-13T00:49:00-07:00</updated>
-    <id>http://turingmachine.org/bl/2013/05/13/cellar-de-can-roca</id>
+    <id>http://turingmachine.org/bl/cellar-de-can-roca</id>
     <content type="html"><![CDATA[<p>I knew I was never going to be able to get a reservation at
 <a href="http://en.wikipedia.org/wiki/El_Bulli">elBulli</a> (note the camelCase
 :).  But since <a href="http://en.wikipedia.org/wiki/Ferran_Adri%C3%A0">Ferran
 Adrià</a> decided to close it
-I knew I had a chance to one day eat the best restaurant in the
+I knew I had a chance to one day eat at the best restaurant in the
 world.</p>
 
 <p>Looking at the <a href="http://en.wikipedia.org/wiki/The_World's_50_Best_Restaurants">rakings of the best places to

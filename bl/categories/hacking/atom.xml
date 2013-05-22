@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: hacking | Turing Machine]]></title>
+  <link href="http://turingmachine.org/bl/categories/hacking/atom.xml" rel="self"/>
+  <link href="http://turingmachine.org/"/>
+  <updated>2013-05-22T09:37:36-07:00</updated>
+  <id>http://turingmachine.org/</id>
+  <author>
+    <name><![CDATA[Daniel German]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Using Octopress and Org-Mode for my website]]></title>
+    <link href="http://turingmachine.org/bl/2013-05-14-using-octopress-and-org-mode.html"/>
+    <updated>2013-05-14T00:00:00-07:00</updated>
+    <id>http://turingmachine.org/bl/using-octopress-and-org-mode</id>
+    <content type="html"><![CDATA[<p>Every few years I decide that it is time to use a new infrastructure
+to start blogging. This time <a href="http://leif.me">Leif</a> suggested that I look into
+<a href="http://octopress.org">Octopres</a>. I like its original tag: <em>A blogging framework for hackers</em>,
+but its source infrastructure put me off (it uses ruby, of which I am no fan).</p>
+
+<!-- more -->
+
+
+<p>Nonetheless, after doing some research, I decided to try it and it works well.</p>
+
+<p>It makes my website independent of the website where it runs.  It moves
+the management from the deployment site to the author&rsquo;s site. And no more
+need of a database. It simply creates a bunch of flat files.</p>
+
+<p>What makes it even more interesting is that it uses flat, plain text
+files. I think that is the ultimate definition of hacking tools. Flat
+files are malleable, they are universal, they are easy to author, and
+easy to search, and they will surve the (software) Apocalypse.</p>
+
+<p>So the next step was to see if I could get away from having to learn a
+new type of typesetting called <a href="http://en.wikipedia.org/wiki/Markdown">markdown</a>, and instead use <a href="http://org-mode">org-mode</a>. In
+my opinion <strong>org-mode</strong> is the <strong>most useful tool</strong> that has landed in my
+computer in the last 3 years. It has totally revolutionized the way
+that I author text (including the way that I write papers).</p>
+
+<p>Well, as it happens, I was not the only one. There has been many
+people who have done the same (the church of emacs). At the end I
+used Yoshinari Nomura&rsquo;s <a href="https://github.com/yoshinari-nomura/org-octopress">org-octopress</a>, and customized it to export to
+Markdown rather than HTML (let octopress do the typesetting). This
+requires Org-mode from git (org-octopress uses many new features that
+have not been released yet).</p>
+
+<h1>Some examples:</h1>
+
+<h2>A table</h2>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+<caption>This is the caption</caption>
+
+<colgroup>
+<col  class="left" />
+
+<col  class="left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="left">This is a table</th>
+<th scope="col" class="left">2nd column</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td class="left">Value1</td>
+<td class="left">Value2</td>
+</tr>
+</tbody>
+</table>
+
+
+<p>The table above was authored like this:</p>
+
+<pre><code>#+CAPTION: This is the caption
+| This is a table | 2nd column |
+|-----------------+------------|
+| Value1          | Value2     |
+</code></pre>
+
+<h2>How about code?</h2>
+
+<pre><code>(defun org-octo-md--get-option (info property-name &amp;optional default)
+  (let ((property (plist-get info property-name)))
+    (format "%s" (or property default ""))))
+</code></pre>
+
+<p>this is what I wrote:</p>
+
+<pre><code>#+BEGIN_SRC emacs-lisp
+(defun org-octo-md--get-option (info property-name &amp;optional default)
+  (let ((property (plist-get info property-name)))
+    (format "%s" (or property default ""))))
+#+END_SRC
+</code></pre>
+
+<h2>But here is where it excels: code execution inside text files</h2>
+
+<p>In org-mode you can have snippets of code that generate text that is
+then used in the document. It can also generate images that are then embedded in the document.
+Here is an
+example of a dotty generated image:</p>
+
+<p><img src="/assets/images/2013/exampleDotty.png" alt="Example of Dotty Image" /></p>
+
+<p>This is what I wrote:</p>
+
+<pre><code>:NOT:
+#+NAME: dottyExample
+#+BEGIN_SRC dot :file /assets/images/2013/exampleDotty.png :exports results
+digraph G {
+   rankdir=RL;
+   node [shape=circle width="0.7cm" height="0.7cm" fontsize=16 penwidth=2];
+   edge [color=red penwidth=3]
+
+   "dots1" [label="..." color=white fontsize=30]
+   "r" [shape=circle  fillcolor=white style=filled label="r"];
+   "h" [shape=circle  fillcolor=white style=filled label="h"];
+   "c" [shape=circle  fillcolor=green style=filled];
+   "dots2" [label="..." color=white fontsize=30]
+
+   "c" -&gt; "r" [label="            "]
+   "r" -&gt; "dots1" [label="            "]
+   "dots2" -&gt; "r" [label="            "]
+   "h" -&gt; "dots2" [label="            "]
+}}
+#+END_SRC
+
+:END:
+
+
+#+RESULTS[6d2ac873c0fc0e0232e317a2a88e734600e5ac0d]: dottyExample
+#+CAPTION: Example of Dotty Image
+[[file:/assets/images/2013/exampleDotty.png]]
+</code></pre>
+
+<p>I am a happy camper.</p>
+
+<p>&#x2013;dmg</p>
+]]></content>
+  </entry>
+  
+</feed>

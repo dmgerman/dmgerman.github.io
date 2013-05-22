@@ -4,7 +4,7 @@
   <title><![CDATA[Turing Machine]]></title>
   <link href="http://turingmachine.org/atom.xml" rel="self"/>
   <link href="http://turingmachine.org/"/>
-  <updated>2013-05-13T11:43:20-07:00</updated>
+  <updated>2013-05-22T09:37:36-07:00</updated>
   <id>http://turingmachine.org/</id>
   <author>
     <name><![CDATA[Daniel German]]></name>
@@ -14,10 +14,434 @@
 
   
   <entry>
+    <title type="html"><![CDATA[The Future of Continuous Integration in GNOME]]></title>
+    <link href="http://turingmachine.org/bl/2013-05-21-the-future-of-continuous-integration-in-gnome.html"/>
+    <updated>2013-05-21T00:00:00-07:00</updated>
+    <id>http://turingmachine.org/bl/the-future-of-continuous-integration-in-gnome</id>
+    <content type="html"><![CDATA[<p>This year is the first edition of RelEng: The International Workshop
+on Release Engineering.  Germán presented our paper <a href="../assets/pdfs/papers/dmg2013_relengGnome.pdf">The Future of
+Continuous Integration in GNOME</a>. Its full bibliographic entry is:</p>
+
+<blockquote><p>Colin Walters, Germán Poo-Caamaño, and Daniel M. German, <em>The Future
+of Continuous Integration in GNOME</em>, First International Workshop on
+Release Engineering, RELENG 2013, pages XX&#x2013;YY, May 2013.</p></blockquote>
+
+<!-- more -->
+
+
+<p>This paper is a description of the new method to deploy releases in
+GNOME in a manner that uses a version control model. The goal is to
+make it easy to deploy (and equally important) rollback releases of
+the entire desktop.</p>
+
+<blockquote><p>In Free and Open Source Software (FOSS) projects
+based on Linux systems, the users usually install the software
+from distributions. The distributions act as intermediaries be-
+tween software developers and users. Distributors collect the
+source code of the different projects and package them, ready
+to be installed by the users. Packages seems to work well for
+managing and distributing stable major and minor releases. It
+presents, however, various release management challenges for
+developers of projects with multiples dependencies not always
+available in the stable version of their systems. In projects like
+GNOME, composed of dozens of individual components, devel-
+opers must build newer versions of the libraries and applications
+that their applications depend upon before working in their own
+projects. This process can be cumbersome for developers who are
+not programmers, such as user interaction designers or technical
+writers. In this paper we describe some of the problems that the
+current distribution model presents to do continuous integration,
+testing and deployment for developers in GNOME, and present
+ongoing work intended to address these problems that uses a git-
+like approach to the building and deployment of applications.</p></blockquote>
+
+<p>Here is the presentation:</p>
+
+<center>
+<iframe src="http://www.slideshare.net/slideshow/embed_code/21650647" width="476" height="400" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+</center>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Tactics]]></title>
+    <link href="http://turingmachine.org/bl/2013-05-21-tactics-.html"/>
+    <updated>2013-05-21T00:00:00-07:00</updated>
+    <id>http://turingmachine.org/bl/tactics-</id>
+    <content type="html"><![CDATA[<p><a href="http://en.wikipedia.org/wiki/Jonathan_Wilson_(writer)">Jonathan Wilson</a> is one of the best analysts of the <a href="http://en.wikipedia.org/wiki/Association_football">Beautiful Game</a>. He
+answers an important question: <em>what is the relationship between
+players and tactics?</em> and then I ask <em>does this have any relevance to
+software engineering?</em></p>
+
+<!-- more -->
+
+
+<p>His <a href="http://www.guardian.co.uk/football/blog/2013/apr/10/th-question-players-tactics-jonathan-wilson">article</a> breaks tactics into two layers: <em>base</em> and
+<em>superstructure</em>:</p>
+
+<blockquote><p>Base governs which side creates more chances and what sort of chances
+they are; superstructure determines whether those chances are taken.</p></blockquote>
+
+<p>Of course, it is more complex than that. I wonder if there is an extra
+layer: the skill of each player. Perhaps this is part of the
+<em>base</em>. Skill is divided into the innate, and the part that can be
+taught&#x2013;usually in the long term. It is not the same to have Messi,
+Falcao or Ronaldo in your team compared to <a href="http://en.wikipedia.org/wiki/Chris_Wondolowski">Chris Wondolowski</a>. Rich
+teams can improve this part of their <em>base</em> with signings, hence the
+reason we are seeing the establishment of the era of the Super Teams
+in EUFA.</p>
+
+<p>There is another part of the <em>base</em> that is essentially the work
+that a coach does for a team. This includes the organization of the
+team on the field, the design of set pieces, the preparation before
+each game, the designation of the starting 11, substitutions, etc.</p>
+
+<p>And this helps explain why I admire some coaches, such as <a href="http://en.wikipedia.org/wiki/Manuel_Pellegrini">Pellegrini</a>,
+who with a weaker <em>base</em> of players, can create a team that can
+compete with the best in Europe. I think he will be spectacular in his
+new job at Manchester City.</p>
+
+<p>Then it comes superstructure, which is the non-deterministic part of
+the game, and why we are not playing with robots.</p>
+
+<p>In Wilson&rsquo;s words, the objective of the tactics is to reduce the
+chances to score of the other team, and to improve your own.  His
+analysis makes me think of <a href="http://www.imdb.com/title/tt1210166/">Moneyball</a>.  One of Billy Beane&rsquo;s goals was to get
+players that improved the chance to score runs for a team.</p>
+
+<p>Which brings me software engineering: <strong>Software development is a team sport.</strong></p>
+
+<p>Any software development team has players with their own <em>base</em>. Some
+are better than others. We can always go out and try to hire <em>better
+ones</em> (based on pure skill). We know that some programmers can be as
+productive as 10 times others.</p>
+
+<p>There is a part of their <em>base</em> that can be taught. I always wonder
+why managers are not more proactive at teaching their players how to
+improve their debugging or editing. It is as if these skills are
+expected to be learned on their own. As if we are knowledge workers,
+not production line ones, even though frequently we would benefit from
+learning how to improve our processes as if we were in a production line.</p>
+
+<p>Now, imagine you were just promoted to be the coach (the <em>manager</em>) of
+the team. You might have a chance to make few signings or you might
+have to be content with the team you have (unless you work for a Super
+Team &#x2014;e.g. Google&#x2014; where you might have a lot of money to hire the
+best) . Say you get a budget, what type of player would you hire?</p>
+
+<p>Think about it. If tactics play a role in software development, then
+we need to choose a player that fits the team, and makes the team
+better; not necessarily the best player available in the market. And
+who works better for the team might not be the best developer out
+there. For example, a team might be better of with a great tester than
+with a productive software developer that hates testing. Are these
+decisions considered by a typical manager? I don&rsquo;t know.</p>
+
+<p>Now, if we take a Moneyball point of view, we should start to align
+features of players with their ability to create chances to score. In
+software development teams this means the chance not to screw
+up. Software development teams are combination of individuals each
+with unique strengths; if the manager is able to create a good <em>base</em>
+around them, they will be able to produce more than working
+individually (even if working towards the same common goal).</p>
+
+<p>I have had a SE manager that was a good tactician (I had around 10 in
+my life as a developer). I wonder if they exist. Usually they care
+about tracking deadlines, and break the work apart so each of us could
+do our part, but I never had a feeling that we were working together
+supporting each other as we completed our work.</p>
+
+<p>I am sure there are certainly software developers that make their
+teams better around them. I think we need to learn to quantify
+this. And we need to learn how to make software development managers
+better at improving their <em>base</em>.</p>
+
+<p>&#x2013;dmg</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[We are not afraid to fail]]></title>
+    <link href="http://turingmachine.org/bl/2013-05-20-we-are-not-afraid-to-fail.html"/>
+    <updated>2013-05-20T00:00:00-07:00</updated>
+    <id>http://turingmachine.org/bl/we-are-not-afraid-to-fail</id>
+    <content type="html"><![CDATA[<p><a href="http://en.wikipedia.org/wiki/Grant_Achatz">Grant Achatz</a> is one of the great chefs of our times. His restaurant
+<a href="http://en.wikipedia.org/wiki/Alinea_(restaurant)">Alinea</a> (in Chicago) is considered one of the best in the world.</p>
+
+<!-- more -->
+
+
+<p>In a presentation he gave at Harvard (almost 3 years ago) he talked about
+his approach to cooking and some of the innovative techniques he has
+developed. But what I remember the most are two questions he was posed
+by the audience, and his answers:</p>
+
+<blockquote><p>Audience member: &ldquo;Roasted hey, wood stocks, apparently turn into very tasty things. There has to be some really abysmal failures you&rsquo;d never wish on the tongues of even your worst enemies&#x2026;Any you would like to share?&rdquo;</p>
+
+<p>Grant: &ldquo;There are tones of failures. But we know that going in. <strong>We are not afraid  to fail</strong>.&rdquo;</p></blockquote>
+
+<p>I suspect that that attitude: willing to try and not being afraid to fail is what makes them succeed.</p>
+
+<p>Another interesting question is:</p>
+
+<blockquote><p>Audience member: &ldquo;If I had to add three things to my kitchen that my parents didn&rsquo;t have, what would they be?&rdquo;</p></blockquote>
+
+<p>Grant answers:</p>
+
+<ol>
+<li><p><a href="http://en.wikipedia.org/wiki/Xanthan_gum">Xanthan Gum</a></p></li>
+<li><p><a href="http://en.wikipedia.org/wiki/Carrageenan">IOTA Carrogeenan</a></p></li>
+<li><p><a href="http://en.wikipedia.org/wiki/Agar_agar">Agar Agar</a></p></li>
+</ol>
+
+
+<p>I have never used IOTA, but I use agar-agar and xanthan gum on a regular basis.</p>
+
+<p>The presentation is well worth it, and also the Q&amp;A section at the end.</p>
+
+<iframe width="560" height="315" src="http://www.youtube.com/embed/dYDe3RASpa0" frameborder="0" allowfullscreen></iframe>
+
+
+<p>&#x2013;dmg</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Will My Patch Make It? And How Fast? Case Study on the Linux Kernel]]></title>
+    <link href="http://turingmachine.org/bl/2013-05-19-will-my-patch-make-it-linux-msr-2013.html"/>
+    <updated>2013-05-19T00:00:00-07:00</updated>
+    <id>http://turingmachine.org/bl/will-my-patch-make-it-linux-msr-2013</id>
+    <content type="html"><![CDATA[<p>Today Yujuan presented our paper <a href="../assets/pdfs/papers/dmg2013_msrPatch.pdf">Will My Patch Make It? And How Fast? Case Study on the Linux Kernel</a> at <a href="http://2013.msrconf.org/">MSR 2013</a>. Its full bibliographic entry is:</p>
+
+<blockquote><p>Yujuan Jiang, Bram Adams, and Daniel M. German <em>Will My Patch Make It?
+And How Fast? Case Study on the Linux Kernel</em>, International
+Working Conference of Mining Software Repositories, MSR&#8217;2013, pages
+XX-YY. May 2013.</p></blockquote>
+
+<!-- more -->
+
+
+<p>The main objective of the paper is to try to determine what are the
+characteristics that make a patch being accepted by the Linux
+development team.</p>
+
+<blockquote><p>The Linux kernel follows an extremely distributed reviewing and
+integration process supported by 130 developer mailing lists and a
+hierarchy of dozens of Git repositories for version control. Since not
+every patch can make it and of those that do, some patches require a
+lot more reviewing and integration effort than others, developers,
+reviewers and integrators need support for estimating which patches
+are worthwhile to spend effort on and which ones do not stand a
+chance. This paper cross-links and analyzes eight years of patch
+reviews from the kernel mailing lists and committed patches from the
+Git repository to understand which patches are accepted and how long
+it takes those patches to get to the end user. We found that 33\% of
+the patches makes it into a Linux release, and that most of them need
+3 to 6 months for this. Furthermore, that patches developed by more
+experienced developers are more easily accepted and faster reviewed
+and integrated. Additionally, reviewing time is impacted by submission
+time, the number of affected subsystems by the patch and the number of
+requested reviewers.</p></blockquote>
+
+<p>The main outcome is that experience plays one of the most important
+factors.</p>
+
+<p>&#x2013;dmg</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[The Data Track at MSR 2013]]></title>
+    <link href="http://turingmachine.org/bl/2013-05-16-msr-2013.html"/>
+    <updated>2013-05-16T00:00:00-07:00</updated>
+    <id>http://turingmachine.org/bl/msr-2013</id>
+    <content type="html"><![CDATA[<p>This year, during <a href="http://msrcanada.org/msrvision2020/">MSR Vision 20/20</a> there was an interesting discussion
+about providing some type of reward for researchers who share their data with
+others. We decided to implement a new track&#x2013;the data track&#x2013; at the
+the <a href="http://2013.msrconf.org/">International Working Conference in Mining Software Repositories</a>
+this year. I volunteered to be its chair.</p>
+
+<!-- more -->
+
+
+<p>We decided that the papers would be 4 pages long and should describe
+datasets that are to be shared with others.  It was a total success. Of
+27 papers we accepted 15. I really hope that some of these datasets
+become seminal to the community.</p>
+
+<p><a href="http://thomas-zimmermann.com/">Tom Zimmermann</a>, the general chair, has created a good preview of the Conference.</p>
+
+<center>
+<iframe src="http://www.slideshare.net/slideshow/embed_code/18030579"
+width="427" height="356" frameborder="0" marginwidth="0"
+marginheight="0" scrolling="no" style="border:1px
+solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen
+webkitallowfullscreen mozallowfullscreen> </iframe> <div
+style="margin-bottom:5px"> <strong> <a
+href="http://www.slideshare.net/tom.zimmermann/msr-preview-v2"
+title="MSR 2013 Preview" target="_blank">MSR 2013 Preview</a>
+</strong> from <strong><a
+href="http://www.slideshare.net/tom.zimmermann" target="_blank">Thomas
+Zimmermann</a></strong> </div>
+</center>
+
+
+<p>The conference happens this Saturday and Sunday, in San Francisco.</p>
+
+<p>&#x2013;dmg</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Why pay for wine at all?]]></title>
+    <link href="http://turingmachine.org/bl/2013-05-15-why-pay-for-wine-at-all%3F.html"/>
+    <updated>2013-05-15T00:00:00-07:00</updated>
+    <id>http://turingmachine.org/bl/why-pay-for-wine-at-all?</id>
+    <content type="html"><![CDATA[<p>The Globe and Mail asks: <a href="http://www.theglobeandmail.com/life/food-and-wine/wine/why-you-pay-52-for-a-15-wine-in-a-restaurant/article11919459/">Why you pay $52 for a $15 wine in a restaurant?</a>. My response to that, why pay for wine at all?</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Using Octopress and Org-Mode for my website]]></title>
+    <link href="http://turingmachine.org/bl/2013-05-14-using-octopress-and-org-mode.html"/>
+    <updated>2013-05-14T00:00:00-07:00</updated>
+    <id>http://turingmachine.org/bl/using-octopress-and-org-mode</id>
+    <content type="html"><![CDATA[<p>Every few years I decide that it is time to use a new infrastructure
+to start blogging. This time <a href="http://leif.me">Leif</a> suggested that I look into
+<a href="http://octopress.org">Octopres</a>. I like its original tag: <em>A blogging framework for hackers</em>,
+but its source infrastructure put me off (it uses ruby, of which I am no fan).</p>
+
+<!-- more -->
+
+
+<p>Nonetheless, after doing some research, I decided to try it and it works well.</p>
+
+<p>It makes my website independent of the website where it runs.  It moves
+the management from the deployment site to the author&rsquo;s site. And no more
+need of a database. It simply creates a bunch of flat files.</p>
+
+<p>What makes it even more interesting is that it uses flat, plain text
+files. I think that is the ultimate definition of hacking tools. Flat
+files are malleable, they are universal, they are easy to author, and
+easy to search, and they will surve the (software) Apocalypse.</p>
+
+<p>So the next step was to see if I could get away from having to learn a
+new type of typesetting called <a href="http://en.wikipedia.org/wiki/Markdown">markdown</a>, and instead use <a href="http://org-mode">org-mode</a>. In
+my opinion <strong>org-mode</strong> is the <strong>most useful tool</strong> that has landed in my
+computer in the last 3 years. It has totally revolutionized the way
+that I author text (including the way that I write papers).</p>
+
+<p>Well, as it happens, I was not the only one. There has been many
+people who have done the same (the church of emacs). At the end I
+used Yoshinari Nomura&rsquo;s <a href="https://github.com/yoshinari-nomura/org-octopress">org-octopress</a>, and customized it to export to
+Markdown rather than HTML (let octopress do the typesetting). This
+requires Org-mode from git (org-octopress uses many new features that
+have not been released yet).</p>
+
+<h1>Some examples:</h1>
+
+<h2>A table</h2>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+<caption>This is the caption</caption>
+
+<colgroup>
+<col  class="left" />
+
+<col  class="left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="left">This is a table</th>
+<th scope="col" class="left">2nd column</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td class="left">Value1</td>
+<td class="left">Value2</td>
+</tr>
+</tbody>
+</table>
+
+
+<p>The table above was authored like this:</p>
+
+<pre><code>#+CAPTION: This is the caption
+| This is a table | 2nd column |
+|-----------------+------------|
+| Value1          | Value2     |
+</code></pre>
+
+<h2>How about code?</h2>
+
+<pre><code>(defun org-octo-md--get-option (info property-name &amp;optional default)
+  (let ((property (plist-get info property-name)))
+    (format "%s" (or property default ""))))
+</code></pre>
+
+<p>this is what I wrote:</p>
+
+<pre><code>#+BEGIN_SRC emacs-lisp
+(defun org-octo-md--get-option (info property-name &amp;optional default)
+  (let ((property (plist-get info property-name)))
+    (format "%s" (or property default ""))))
+#+END_SRC
+</code></pre>
+
+<h2>But here is where it excels: code execution inside text files</h2>
+
+<p>In org-mode you can have snippets of code that generate text that is
+then used in the document. It can also generate images that are then embedded in the document.
+Here is an
+example of a dotty generated image:</p>
+
+<p><img src="http://turingmachine.org/assets/images/2013/exampleDotty.png" alt="Example of Dotty Image" /></p>
+
+<p>This is what I wrote:</p>
+
+<pre><code>:NOT:
+#+NAME: dottyExample
+#+BEGIN_SRC dot :file /assets/images/2013/exampleDotty.png :exports results
+digraph G {
+   rankdir=RL;
+   node [shape=circle width="0.7cm" height="0.7cm" fontsize=16 penwidth=2];
+   edge [color=red penwidth=3]
+
+   "dots1" [label="..." color=white fontsize=30]
+   "r" [shape=circle  fillcolor=white style=filled label="r"];
+   "h" [shape=circle  fillcolor=white style=filled label="h"];
+   "c" [shape=circle  fillcolor=green style=filled];
+   "dots2" [label="..." color=white fontsize=30]
+
+   "c" -&gt; "r" [label="            "]
+   "r" -&gt; "dots1" [label="            "]
+   "dots2" -&gt; "r" [label="            "]
+   "h" -&gt; "dots2" [label="            "]
+}}
+#+END_SRC
+
+:END:
+
+
+#+RESULTS[6d2ac873c0fc0e0232e317a2a88e734600e5ac0d]: dottyExample
+#+CAPTION: Example of Dotty Image
+[[file:/assets/images/2013/exampleDotty.png]]
+</code></pre>
+
+<p>I am a happy camper.</p>
+
+<p>&#x2013;dmg</p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[NSERC Discovery Grants 2012 in Computer Science]]></title>
-    <link href="http://turingmachine.org/bl/2013/05/13/nserc-discovery-grants-2012/"/>
+    <link href="http://turingmachine.org/bl/2013-05-13-nserc-discovery-grants-2012.html"/>
     <updated>2013-05-13T10:50:00-07:00</updated>
-    <id>http://turingmachine.org/bl/2013/05/13/nserc-discovery-grants-2012</id>
+    <id>http://turingmachine.org/bl/nserc-discovery-grants-2012</id>
     <content type="html"><![CDATA[<p>The day of the publication of the results of the NSERC Discovery Grants for 2013 is approaching, and I just realized that I didn&rsquo;t publish the ones from 2012, which
 <a href="http://turingmachine.org/bl/2011/06/21/nserc-discovery-grants-2011-in-computer-science/">I did for 2011</a></p>
 
@@ -28,11 +452,11 @@
 <h3>What is the distribution of grants?</h3>
 
 
-<p>First, the total amount for Discovery Grants in Computer Science was $5,943,920 per year ($5,126,543 last year) divided in 227 grants (202 last year). There were 11 1-year, 3 3-year, 213 5-year (10 1-year, 1 2-year, 1-3 year and the rest 5 years in 2011). They went to 49 different institutions (45 in 2011).</p>
+<p>First, the total amount for Discovery Grants in Computer Science was $5,943,920 per year ($5,126,543 last year) divided into 227 grants (202 last year). There were 11 1-year, 3 3-year, 213 5-year (10 1-year, 1 2-year, 1-3 year and the rest 5 years in 2011). They went to 49 different institutions (45 in 2011).</p>
 
-<p>Minimum amount was (like the year before) $14k, first quantile $17k (20k last year), median $22k (24 last year), average $26,185 ($25.380k last year), third quartile $28k ($29k), and maximum of $122.2 ($96k last year). A Shapiro-Wilk test shows that this distribution appears NOT to be normal (p &lt;&lt; 0.01). Compared to 2011, the grants got smaller, but one person got a lot of money.</p>
+<p>Minimum amount was (like the year before) $14k, first quantile $17k (20k last year), median $22k (24 last year), average $26,185 ($25.380k last year), third quartile $28k ($29k), and maximum of $122.2 ($96k last year). A Shapiro-Wilk test shows that this distribution appears NOT to be normal (p &lt;&lt; 0.01).</p>
 
-<p>Compared to 2011, there was more money available per person (26.2k versus 254k), and there were many more smaller grant, but also the larger grants accounted for a larger share.</p>
+<p>Compared to 2011, there was more money available per person (26.2k versus 25.4k), and there were many more smaller grant, but also the larger grants accounted for a larger share (one person got a lot of money).</p>
 
 <p>This is the distribution of grants per amount.</p>
 
@@ -102,9 +526,9 @@ use in this data is flawed, but they are still useful.</p>
   
   <entry>
     <title type="html"><![CDATA[Those Russian Dash Cams...]]></title>
-    <link href="http://turingmachine.org/bl/2013/05/13/those-russian-dash-cams/"/>
+    <link href="http://turingmachine.org/bl/2013-05-13-those-russian-dash-cams.html"/>
     <updated>2013-05-13T09:56:00-07:00</updated>
-    <id>http://turingmachine.org/bl/2013/05/13/those-russian-dash-cams</id>
+    <id>http://turingmachine.org/bl/those-russian-dash-cams</id>
     <content type="html"><![CDATA[<p>They show the bad, but they also show the humane side.<!--more--></p>
 
 <iframe width="560" height="315" src="http://www.youtube.com/embed/TzBInt4zljQ" frameborder="0" allowfullscreen></iframe>
@@ -116,14 +540,14 @@ use in this data is flawed, but they are still useful.</p>
   
   <entry>
     <title type="html"><![CDATA[Cellar de Can Roca: the best meal of my life (in the best restaurant of the world)]]></title>
-    <link href="http://turingmachine.org/bl/2013/05/13/cellar-de-can-roca/"/>
+    <link href="http://turingmachine.org/bl/2013-05-13-cellar-de-can-roca.html"/>
     <updated>2013-05-13T00:49:00-07:00</updated>
-    <id>http://turingmachine.org/bl/2013/05/13/cellar-de-can-roca</id>
+    <id>http://turingmachine.org/bl/cellar-de-can-roca</id>
     <content type="html"><![CDATA[<p>I knew I was never going to be able to get a reservation at
 <a href="http://en.wikipedia.org/wiki/El_Bulli">elBulli</a> (note the camelCase
 :).  But since <a href="http://en.wikipedia.org/wiki/Ferran_Adri%C3%A0">Ferran
 Adrià</a> decided to close it
-I knew I had a chance to one day eat the best restaurant in the
+I knew I had a chance to one day eat at the best restaurant in the
 world.</p>
 
 <p>Looking at the <a href="http://en.wikipedia.org/wiki/The_World's_50_Best_Restaurants">rakings of the best places to
@@ -151,9 +575,9 @@ has been, without a doubt, the best meal in my life, and the longest
   
   <entry>
     <title type="html"><![CDATA[Barcelona: champions]]></title>
-    <link href="http://turingmachine.org/bl/2013/05/12/barcelona-champions/"/>
+    <link href="http://turingmachine.org/bl/2013-05-12-barcelona-champions.html"/>
     <updated>2013-05-12T21:02:00-07:00</updated>
-    <id>http://turingmachine.org/bl/2013/05/12/barcelona-champions</id>
+    <id>http://turingmachine.org/bl/barcelona-champions</id>
     <content type="html"><![CDATA[<p>FC Barcelona is finally champion of <a href="http://en.wikipedia.org/wiki/2012%E2%80%9313_La_Liga">la
 Liga</a>. It is
 certainly an accomplishment to have won 4 out of the last 5
@@ -174,9 +598,9 @@ up.</p>
   
   <entry>
     <title type="html"><![CDATA[Towards a census of free and open source licenses.]]></title>
-    <link href="http://turingmachine.org/bl/2013/05/12/towards-a-census-of-used-open-source-licenses/"/>
+    <link href="http://turingmachine.org/bl/2013-05-12-towards-a-census-of-used-open-source-licenses.html"/>
     <updated>2013-05-12T19:09:00-07:00</updated>
-    <id>http://turingmachine.org/bl/2013/05/12/towards-a-census-of-used-open-source-licenses</id>
+    <id>http://turingmachine.org/bl/towards-a-census-of-used-open-source-licenses</id>
     <content type="html"><![CDATA[<p>During the last three years I have been attending the <a href="http://fsfe.org/activities/ftf/network.en.html">European Legal
 Network</a> Free Software
 Legal and Licensing Workshop.  Because of
@@ -204,9 +628,14 @@ discussed it.</p>
 <p>For that reason Michael requested my permission to write an article at
 LWN on my talk. He did a <a href="https://lwn.net/Articles/547400/">great
 job</a>. It is almost a play-by-play of
-the presentation, which I am making available
-<a href="http://turingmachine.org/assets/presentations/20130404-amsterdam-licenses-census.pdf">here</a>. Just
-a word of advice: the numbers are preliminary. We&rsquo;ll publish
+the presentation:</p>
+
+<center>
+<iframe src="http://www.slideshare.net/slideshow/embed_code/21300738" width="476" height="400" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+</center>
+
+
+<p>Only a word of advice: the numbers are preliminary. We&rsquo;ll publish
 accurate in the very short future.</p>
 
 <p>&mdash;dmg</p>
@@ -215,9 +644,9 @@ accurate in the very short future.</p>
   
   <entry>
     <title type="html"><![CDATA[This is the beginning of the world... again]]></title>
-    <link href="http://turingmachine.org/bl/2013/05/12/this-is-the-beginning-of-the-world-dot-dot-dot/"/>
+    <link href="http://turingmachine.org/bl/2013-05-12-this-is-the-beginning-of-the-world-dot-dot-dot.html"/>
     <updated>2013-05-12T17:52:00-07:00</updated>
-    <id>http://turingmachine.org/bl/2013/05/12/this-is-the-beginning-of-the-world-dot-dot-dot</id>
+    <id>http://turingmachine.org/bl/this-is-the-beginning-of-the-world-dot-dot-dot</id>
     <content type="html"><![CDATA[<p>I am tired of web-based blogging. I want to blog when I want, where I
 want&mdash;that includes not having an internet connection&mdash;-and don&rsquo;t be
 forced to use any specific infrastructure to do it.</p>
@@ -234,9 +663,9 @@ happen every few years&hellip;</p>
   
   <entry>
     <title type="html"><![CDATA[NSERC Discovery Grants 2011 in Computer Science]]></title>
-    <link href="http://turingmachine.org/bl/2011/06/21/nserc-discovery-grants-2011-in-computer-science/"/>
+    <link href="http://turingmachine.org/bl/2011-06-21-nserc-discovery-grants-2011-in-computer-science.html"/>
     <updated>2011-06-21T23:50:00-07:00</updated>
-    <id>http://turingmachine.org/bl/2011/06/21/nserc-discovery-grants-2011-in-computer-science</id>
+    <id>http://turingmachine.org/bl/nserc-discovery-grants-2011-in-computer-science</id>
     <content type="html"><![CDATA[<p>NSERC has published the results of the <a href="http://www.nserc-crsng.gc.ca/NSERC-CRSNG/FundingDecisions-DecisionsFinancement/ResearchGrants-SubventionsDeRecherche/ResultsGSC-ResultatsCSS_eng.asp?Year=2011">NSERC discovery grant
 competition in
 2011</a>. NSERC
@@ -321,9 +750,9 @@ use in this data is flawed, but they are still useful.</p>
   
   <entry>
     <title type="html"><![CDATA[Does the New York Times mocks me?]]></title>
-    <link href="http://turingmachine.org/bl/2010/05/25/does-the-new-york-times-mocks-me/"/>
+    <link href="http://turingmachine.org/bl/2010-05-25-does-the-new-york-times-mocks-me.html"/>
     <updated>2010-05-25T00:22:00-07:00</updated>
-    <id>http://turingmachine.org/bl/2010/05/25/does-the-new-york-times-mocks-me</id>
+    <id>http://turingmachine.org/bl/does-the-new-york-times-mocks-me</id>
     <content type="html"><![CDATA[<p>This weekend I watched &ldquo;The People vs Larry Flint&rdquo;. One of the scenes is:</p>
 
 <!--more-->
@@ -352,9 +781,9 @@ rescue sooner.&rdquo;</p>
   
   <entry>
     <title type="html"><![CDATA[Illiterate: cultural shock]]></title>
-    <link href="http://turingmachine.org/bl/2009/04/22/illiterate-cultural-shock/"/>
+    <link href="http://turingmachine.org/bl/2009-04-22-illiterate-cultural-shock.html"/>
     <updated>2009-04-22T00:35:00-07:00</updated>
-    <id>http://turingmachine.org/bl/2009/04/22/illiterate-cultural-shock</id>
+    <id>http://turingmachine.org/bl/illiterate-cultural-shock</id>
     <content type="html"><![CDATA[<p>I got an envelope today, and &ldquo;suddenly it hit me&rdquo;. I am totally
 illiterate. I can&rsquo;t even read my own name. I needed 10 minutes using
 the wikipedia to understand it (and of course I knew what it was!)</p>

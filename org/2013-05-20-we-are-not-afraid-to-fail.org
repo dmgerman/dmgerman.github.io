@@ -1,0 +1,47 @@
+#+TITLE: We are not afraid to fail
+#+DATE: 2013-05-20
+#+SETUPFILE: ~/git.w/octopress/source/octopress.org
+#+OCTO-MD_LAYOUT: post
+#+OCTO-MD_CATEGORIES: cookingEngineering
+#+OCTO-MD_ICON: 070222-070122_3906_850
+#+OCTO-MD_PUBLISHED: true
+
+[[http://en.wikipedia.org/wiki/Grant_Achatz][Grant Achatz]] is one of the great chefs of our times. His restaurant
+[[http://en.wikipedia.org/wiki/Alinea_\(restaurant\)][Alinea]] (in Chicago) is considered one of the best in the world.
+
+{{{more}}}
+
+In a presentation he gave at Harvard (almost 3 years ago) he talked about
+his approach to cooking and some of the innovative techniques he has
+developed. But what I remember the most are two questions he was posed
+by the audience, and his answers:
+
+#+begin_quote
+Audience member: "Roasted hey, wood stocks, apparently turn into very tasty things. There has to be some really abysmal failures you'd never wish on the tongues of even your worst enemies...Any you would like to share?"
+
+Grant: "There are tones of failures. But we know that going in. *We are not afraid  to fail*."
+#+end_quote
+
+I suspect that that attitude: willing to try and not being afraid to fail is what makes them succeed.
+
+Another interesting question is:
+
+#+begin_quote
+Audience member: "If I had to add three things to my kitchen that my parents didn't have, what would they be?"
+#+end_quote
+
+Grant answers:
+
+1. [[http://en.wikipedia.org/wiki/Xanthan_gum][Xanthan Gum]]
+2. [[http://en.wikipedia.org/wiki/Carrageenan][IOTA Carrogeenan]]
+3. [[http://en.wikipedia.org/wiki/Agar_agar][Agar Agar]]
+
+I have never used IOTA, but I use agar-agar and xanthan gum on a regular basis.
+
+The presentation is well worth it, and also the Q&A section at the end.
+
+#+BEGIN_HTML
+<iframe width="560" height="315" src="http://www.youtube.com/embed/dYDe3RASpa0" frameborder="0" allowfullscreen></iframe>
+#+END_HTML
+
+--dmg

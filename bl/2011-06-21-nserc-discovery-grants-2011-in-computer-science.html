@@ -1,0 +1,255 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>NSERC Discovery Grants 2011 in Computer Science - Turing Machine</title>
+	<meta name="author" content="Daniel German">
+
+	
+	<meta name="description" content="NSERC has published the results of the NSERC discovery grant
+competition in
+2011. NSERC
+only published the raw data, so with a little bit of &hellip;">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<link href="/atom.xml" rel="alternate" title="Turing Machine" type="application/atom+xml">
+	<link rel="canonical" href="">
+	<link href="/favicon.png" rel="shortcut icon">
+	<link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+	<!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	
+</head>
+
+<body>
+	<header id="header" class="inner"><h1><a href="/bl">Turing Machine</a></h1>
+<nav id="main-nav"><ul class="main">
+	<li><a href="/bl/">Blog</a></li>
+	<li><a href="/research/">Research</a></li>
+	<li><a href="/bl/archives">Archives</a></li>
+        <li><a href="/who-i-am">About&nbsp;me</a></li>
+        <li><a href="http://silvernegative.com">My&nbsp;photography</a></li>
+</ul>
+</nav>
+<nav id="mobile-nav">
+	<div class="alignleft menu">
+		<a class="button">Menu</a>
+		<div class="container"><ul class="main">
+	<li><a href="/bl/">Blog</a></li>
+	<li><a href="/research/">Research</a></li>
+	<li><a href="/bl/archives">Archives</a></li>
+        <li><a href="/who-i-am">About&nbsp;me</a></li>
+        <li><a href="http://silvernegative.com">My&nbsp;photography</a></li>
+</ul>
+</div>
+	</div>
+	<div class="alignright search">
+		<a class="button"></a>
+		<div class="container">
+			<form action="http://google.com/search" method="get">
+				<input type="text" name="q" results="0">
+				<input type="hidden" name="q" value="site:turingmachine.org">
+			</form>
+		</div>
+	</div>
+</nav>
+<nav id="sub-nav" class="alignright">
+	<div class="social">
+		
+		
+		
+		
+    
+		
+		
+		
+		
+		
+		<a class="rss" href="/atom.xml" title="RSS">RSS</a>
+		
+	</div>
+	<form class="search" action="http://google.com/search" method="get">
+		<input class="alignright" type="text" name="q" results="0">
+		<input type="hidden" name="q" value="site:turingmachine.org">
+	</form>
+</nav>
+
+</header>
+	
+		
+	
+	<div id="content" class="inner"><article class="post">
+
+	<h2 class="title">NSERC Discovery Grants 2011 in Computer Science</h2>
+	<div class="entry-content">
+       
+        <div class="entry-image">
+        <a class="fancybox" rel="group" href="/assets/images/091010_8525_850.jpg"><img src="/assets/images/091010_8525_850.jpg" alt=""></a>
+        </div>
+       
+        <p>NSERC has published the results of the <a href="http://www.nserc-crsng.gc.ca/NSERC-CRSNG/FundingDecisions-DecisionsFinancement/ResearchGrants-SubventionsDeRecherche/ResultsGSC-ResultatsCSS_eng.asp?Year=2011">NSERC discovery grant
+competition in
+2011</a>. NSERC
+only published the raw data, so with a little bit of initiative one
+can retrieve it and visualize it.</p>
+
+<p>I had several questions about this data&hellip;.</p>
+
+<p> <!--more--></p>
+
+<h3>What is the distribution of grants?</h3>
+
+
+<p>First, the total amount for Discovery Grants in Computer Science was $5,126,543 per year divided in 202 grants (10 1 year, 1 2 year, 1 3 year and the rest 5 years). They went to 45 different institutions.</p>
+
+<p>Minimum amount was $14k, first quantile $20k, median $24k, average, $25.380k, third quartile $29k, and maximum of $96k (find out below who got it). A Shapiro-Wilk test shows that this distribution appears NOT to be normal (p &lt;&lt; 0.01).</p>
+
+<p>This is the distribution of grants per amount.</p>
+
+<pre>
+14,000 46
+15,000 1
+18,000 1
+20,000 39
+24,000 43
+29,000 34
+33,000 19
+42,000 7
+49,000 6
+59,243 1
+60,000 1
+60,300 1
+76,000 1
+85,000 1
+96,000 1
+</pre>
+
+
+<p>A simple way to visualize this data is tot plot individuals to amounts. Colours reflect the province (click to enlarge):</p>
+
+<p><img src="/assets/images/2011/nserc2011byInd.png"></p>
+
+<p>As it can be seen, there is a fairly uniform distribution across the lowest amounts, with few outliers to the right. Not surprisingly Ontario is the most frequent.
+Ontario and BC represent most of the points at the right side. It is surprising to see the absence of Alberta there (its highest is 33k).</p>
+
+<p>Here is a breakdown of the 4 big ones:</p>
+
+<p><img src="/assets/images/2011/ab2011.png"></p>
+
+<p><img src="/assets/images/2011/bc2011.png"></p>
+
+<p><img src="/assets/images/2011/on2011.png"></p>
+
+<p><img src="/assets/images/2011/qc2011.png"></p>
+
+<h3>How do institutions compare?</h3>
+
+
+<p>I present the results arranged by University. Each vertical column is
+a university; they have been sorted by province.  Each point in the
+plot is a recipient. The colour of the point represents the type of
+grant (1 to 5 years). Most are 5 years, with few being 1 year (what I
+call probation grant: they either have faith you can do significantly
+better next year, or they are giving you a warning signal).</p>
+
+<p>The median across the country was $24k per year (in the spirit of disclosure mine was $24k).</p>
+
+<p>The boxplots are a simpler way to compare universities and are
+overlayed on the data. I have removed outliers from them to avoid
+confusion with the data points. Of course, if you have paid attention
+to your stats courses you will know that boxplots are good when the
+data is normally distributed (which I don&rsquo;t assume it is). Hence their
+use in this data is flawed, but they are still useful.</p>
+
+<p><img src="/assets/images/2011/nserc2011byInst.png"></p>
+
+<p>I also got curious who the high fliers were. And below the points are labelled.</p>
+
+<p><img src="/assets/images/2011/nserc2011byInstLabels.png"></p>
+</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-06-21T23:50:00-07:00" pubdate data-updated="true">Jun 21<span>st</span>, 2011</time></div>
+	<div class="tags">
+
+
+	<a class='category' href='/bl/categories/ramblings/'>ramblings</a>
+
+
+</div>
+	
+</div>
+
+
+
+
+<div id="sub-nav"> 
+        <div class="clear">&nbsp;</div> 
+        <div class="left"> 
+         
+                <a href="/bl/2010-05-25-does-the-new-york-times-mocks-me.html" title="Previous Post: 
+Does the New York Times mocks me?">Older: Does the New York Times mocks me?</a> 
+         
+        </div> 
+
+        <div class="right"> 
+         
+                <a href="/bl/2013-05-12-this-is-the-beginning-of-the-world-dot-dot-dot.html" title="next Post: 
+This is the beginning of the world... again">Newer: This is the beginning of the world... again </a> 
+         
+        </div> 
+        <div class="clear">&nbsp;</div> 
+</div> 
+</article>
+
+
+	<div class="share">
+	<div class="addthis_toolbox addthis_default_style ">
+	
+	
+	<a class="addthis_button_tweet"></a>
+	
+	
+	<a class="addthis_counter addthis_pill_style"></a>
+	</div>
+  <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid="></script>
+</div>
+
+
+
+</div>
+	<footer id="footer" class="inner">Copyright &copy; 2013
+
+    Daniel German
+
+</footer>
+	<script src="/javascripts/slash.js"></script>
+<script src="/javascripts/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+	$('.fancybox').fancybox();
+})(jQuery);
+</script> <!-- Delete or comment this line to disable Fancybox -->
+
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,189 @@
+#+OPTIONS: toc:nil        (no TOC at all)
+#+DRAWERS: NO
+#+BEGIN_HTML
+---
+layout: page
+title: "My Research"
+date: 2013-05-15 15:21
+image:  /assets/images/070302-061014_1336_1000
+comments: true
+sharing: true
+footer: true
+---
+#+END_HTML
+
+#+CAPTION: With my friends, on the feet of a giant.
+[[/assets/images/070302-061014_1336_1000.jpg]]
+
+These are my latest [[../bl/categories/research/][postings]] regarding my research.
+
+#+TOC: headlines 3
+
+** External references
+<a id="sec-1"></a>
+
+These are unbiased sources of information that will tell you a bit more about who I am:
+
+- My [[http://scholar.google.com/citations?user%3Dhpxl9PEAAAAJ&hl%3Den][Google Scholar]] page. Metrics, metrics, metrics.
+- A list of my [[http://www.informatik.uni-trier.de/~ley/db/indices/a-tree/g/Germ%3Daacute%3Dn:Daniel_M%3D.html][papers]] at the [[www.dblp.org][DBLP]] ---the comprehensive repository of of papers published in Computer Science.
+- My [[http://genealogy.math.ndsu.nodak.edu/id.php?id=66950][entry]] at the [[http://genealogy.math.ndsu.nodak.edu/index.php][Math Genealogy Project]] (I am a /descendent/ of [[http://en.wikipedia.org/wiki/Isaac_Newton][Newton]] and [[http://en.wikipedia.org/wiki/Galileo][Galileo]]).
+
+** The Team
+<a id="sec-2"></a>
+
+I don't work alone. My accomplishments are really the accomplishments
+of my team. I have worked with a number of researchers around the
+world, but one group of people who are particularly important are my graduate
+students --and postdoc. They are:
+
+- [[http://thesegalgroup.org/people/eirini-kalliamvakou/][Eirini  Kalliamvakou]]. PhD Student, co-supervised with [[http://danadamian.wordpress.com/][Daniela Damian]].
+- [[http://calcifer.org/][Germán Poo-Caamaño]]. PhD Student.
+- [[http://www.seanstevenson.com/][Seán Stevenson]]. MSc Student, co-supervised with [[http://webhome.cs.uvic.ca/~mstorey][Peggy Storey]].
+- [[http://leif.me][Leif Singer]]. Postdoc, co-supervised with  [[http://webhome.cs.uvic.ca/~mstorey][Peggy Storey]].
+
+*** Previous members:
+<a id="sec-2-1"></a>
+
+- [[http://softwareprocess.es/static/SoftwareProcess.es.html][Abram Hindle]], I supervised his undergraduate and MSc and he is now a prof in CS at Alberta.
+- [[http://users.encs.concordia.ca/~pcr/][Peter Rigby]], I co-supervised his PhD, he is now a prof at Concordia.
+- [[http://juliusdavies.ca/][Julius Davis]], I did a lot of work with him during his undergraduate, he is now a PhD student at UBC.
+- Hanyu Zhang, MSc.
+- Chris Gat, MSc.
+- Chris Chen, MSc.
+- Yan Chen, MSc.
+- Michael Lavender, MSc, co-supervised with Jens Janke-Weber.
+- Iryna Bylikh, MSc, co-supervised with Jens Janke-Weber.
+- Elizabeth Wolfe, MSc.
+- Andrew McNair, MSc.
+
+** Publications
+<a id="sec-3"></a> 
+
+You can find a complete list of my publications (including PDFs) [[http://turingmachine.org/~dmg/papers/][here]].
+
+
+** Research
+
+<a id="sec-4"></a> 
+My main area of research is software engineering but once in a while I
+do work in computational photography. These are three main sub-areas where
+I have been doing research lately:
+
+*** Intellectual property and software engineering
+
+<a id="sec-4-1"></a>
+#+begin_quote
+The long term goal is to incorporate software
+licensing concerns of reusing licensed components into the software
+development processes.
+#+end_quote
+
+Most large software applications are built by combining several
+components, such as reused code snippets, libraries, or other
+applications.  There is a large body of research dedicated to the
+technical aspects of supporting and improving component-based software
+development processes.  However, little attention has been directed
+towards the technical concerns arising from the reuse of components
+with different licenses.
+
+Our recent work (detailed below) has demonstrated that reusing
+components creates new concerns for software developers that have yet
+to be addressed. On one hand, a license of a component might impose
+restrictions on how it can be used (e.g. unless adequately
+interconnected to the rest of the system, using a component licensed
+under the GNU General Public License might severely restrict the
+ability to commercialize a product built upon it; on
+the other hand, using a component might create risks to the
+organization that need to be assessed (e.g. such as when the developer
+downloads a component from the Internet and incorporates into a
+product without the approval of its organization). These issues are
+directly affecting the design and development of software, and are a
+growing concern to software developers and their organizations.
+
+*** Empirical Studies in Software Engineering
+
+<a id="sec-4-2"></a>
+#+begin_quote
+The long term goal is to understand how
+software development is performed, particularly in the context of free
+and open source software.
+#+end_quote
+
+
+My research group and I have developed a set of methods and tools to
+mine historical software repositories. Here are some examples:
+
+- We have proposed methods to extract historical information (version
+  control, defect tracking systems, ChangeLogs, mailings lists) in
+  order to understand how software evolves and to reverse engineer the
+  methodologies used in their development.
+- We have performed numerous empirical studies to analyze how teams of
+  globally distributed developers collaborate in the creation of software.
+- We have developed metrics and visualizations for historical software
+  development information.
+
+*** Impact of Distributed Version Control in software development.
+
+<a id="sec-4-3"></a>
+#+begin_quote
+The long term goal is to understand how distributed version control
+affects the software develpment process of a team.
+#+end_quote
+
+Distributed version control systems are slowly replacing centralized
+ones. We need to understand how these is happening. In our recent
+research we have:
+
+- Developed methods and techniques to mine distribued version control data.
+- Described the main challenges of sturying software development that
+  uses distributed version control.
+
+
+*** Computational Photography
+
+<a id="sec-4-4"></a>
+#+begin_quote
+The long term goal is to create new methods and tool to assist the modern photographer.
+#+end_quote
+
+This is what I call my /hobby research/. I am interested in processes,
+tools and methods that improve photography. And these days this
+implies using the computer. I have done work primarily in the area of *Panorama Making*.
+
+** Service to the Community
+<a id="sec-6"></a>
+
+*** Editorial work
+<a id="sec-6-1"></a>
+
+- I am on the editorial board of the [[http://www.ifosslr.org/ifosslr][International Free and Open Source Software Law Review]]
+
+*** Recently I have been involved in the organization of:
+<a id="sec-6-2"></a>
+
+- Chair of the Data Track of the [[http://2013.msrconf.org/][International Working Conference in Mining Software Repositories 2013]], San Francisco, 2013.
+- Co-organizer of [[http://msrcanada.org/msrvision2020/][MSR Vision 2020]], the 2013 Canadian Summer School in Mining Software Repositories, Kingston, 2013.
+- Co-organizer of [[http://pased.soccerlab.polymtl.ca/][PASED - Canadian Summer School on Practical Analyses of Software Engineering Data]], Montreal, 2012.
+- Co-organizer of [[http://msrcanada.org/2010/04/07/back-to-school/][the 2012 Canadian Mining Summer School 2010]], Kinston, 2011.
+
+*** I review for a lot of different journals and conferences
+<a id="sec-6-3"></a>
+
+Here are some of them...
+
+- IEEE Transactions on Software Engineering
+- IEEE Software
+- Journal of Empirical Software Engineering
+
+:NO:
+- Information & Software Technology
+- Journal of Digital Information 
+- Software Process: Improvement and Practice
+- Software Engineering Knowledge Engineering
+- Journal on Software Maintenance and Evolution: Research and Practice
+- Journal of Open Source Software Systems
+- Communications of the ACM
+- ACM Transactions on Software Engineering and Methodology
+- Computers and Graphics
+- IET Software
+:END:

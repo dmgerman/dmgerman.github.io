@@ -4,7 +4,7 @@
   <title><![CDATA[Category: research | Turing Machine]]></title>
   <link href="http://turingmachine.org/bl/categories/research/atom.xml" rel="self"/>
   <link href="http://turingmachine.org/"/>
-  <updated>2013-05-13T11:43:20-07:00</updated>
+  <updated>2013-05-22T09:37:36-07:00</updated>
   <id>http://turingmachine.org/</id>
   <author>
     <name><![CDATA[Daniel German]]></name>
@@ -14,10 +14,244 @@
 
   
   <entry>
+    <title type="html"><![CDATA[The Future of Continuous Integration in GNOME]]></title>
+    <link href="http://turingmachine.org/bl/2013-05-21-the-future-of-continuous-integration-in-gnome.html"/>
+    <updated>2013-05-21T00:00:00-07:00</updated>
+    <id>http://turingmachine.org/bl/the-future-of-continuous-integration-in-gnome</id>
+    <content type="html"><![CDATA[<p>This year is the first edition of RelEng: The International Workshop
+on Release Engineering.  Germán presented our paper <a href="../assets/pdfs/papers/dmg2013_relengGnome.pdf">The Future of
+Continuous Integration in GNOME</a>. Its full bibliographic entry is:</p>
+
+<blockquote><p>Colin Walters, Germán Poo-Caamaño, and Daniel M. German, <em>The Future
+of Continuous Integration in GNOME</em>, First International Workshop on
+Release Engineering, RELENG 2013, pages XX&#x2013;YY, May 2013.</p></blockquote>
+
+<!-- more -->
+
+
+<p>This paper is a description of the new method to deploy releases in
+GNOME in a manner that uses a version control model. The goal is to
+make it easy to deploy (and equally important) rollback releases of
+the entire desktop.</p>
+
+<blockquote><p>In Free and Open Source Software (FOSS) projects
+based on Linux systems, the users usually install the software
+from distributions. The distributions act as intermediaries be-
+tween software developers and users. Distributors collect the
+source code of the different projects and package them, ready
+to be installed by the users. Packages seems to work well for
+managing and distributing stable major and minor releases. It
+presents, however, various release management challenges for
+developers of projects with multiples dependencies not always
+available in the stable version of their systems. In projects like
+GNOME, composed of dozens of individual components, devel-
+opers must build newer versions of the libraries and applications
+that their applications depend upon before working in their own
+projects. This process can be cumbersome for developers who are
+not programmers, such as user interaction designers or technical
+writers. In this paper we describe some of the problems that the
+current distribution model presents to do continuous integration,
+testing and deployment for developers in GNOME, and present
+ongoing work intended to address these problems that uses a git-
+like approach to the building and deployment of applications.</p></blockquote>
+
+<p>Here is the presentation:</p>
+
+<center>
+<iframe src="http://www.slideshare.net/slideshow/embed_code/21650647" width="476" height="400" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+</center>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Tactics]]></title>
+    <link href="http://turingmachine.org/bl/2013-05-21-tactics-.html"/>
+    <updated>2013-05-21T00:00:00-07:00</updated>
+    <id>http://turingmachine.org/bl/tactics-</id>
+    <content type="html"><![CDATA[<p><a href="http://en.wikipedia.org/wiki/Jonathan_Wilson_(writer)">Jonathan Wilson</a> is one of the best analysts of the <a href="http://en.wikipedia.org/wiki/Association_football">Beautiful Game</a>. He
+answers an important question: <em>what is the relationship between
+players and tactics?</em> and then I ask <em>does this have any relevance to
+software engineering?</em></p>
+
+<!-- more -->
+
+
+<p>His <a href="http://www.guardian.co.uk/football/blog/2013/apr/10/th-question-players-tactics-jonathan-wilson">article</a> breaks tactics into two layers: <em>base</em> and
+<em>superstructure</em>:</p>
+
+<blockquote><p>Base governs which side creates more chances and what sort of chances
+they are; superstructure determines whether those chances are taken.</p></blockquote>
+
+<p>Of course, it is more complex than that. I wonder if there is an extra
+layer: the skill of each player. Perhaps this is part of the
+<em>base</em>. Skill is divided into the innate, and the part that can be
+taught&#x2013;usually in the long term. It is not the same to have Messi,
+Falcao or Ronaldo in your team compared to <a href="http://en.wikipedia.org/wiki/Chris_Wondolowski">Chris Wondolowski</a>. Rich
+teams can improve this part of their <em>base</em> with signings, hence the
+reason we are seeing the establishment of the era of the Super Teams
+in EUFA.</p>
+
+<p>There is another part of the <em>base</em> that is essentially the work
+that a coach does for a team. This includes the organization of the
+team on the field, the design of set pieces, the preparation before
+each game, the designation of the starting 11, substitutions, etc.</p>
+
+<p>And this helps explain why I admire some coaches, such as <a href="http://en.wikipedia.org/wiki/Manuel_Pellegrini">Pellegrini</a>,
+who with a weaker <em>base</em> of players, can create a team that can
+compete with the best in Europe. I think he will be spectacular in his
+new job at Manchester City.</p>
+
+<p>Then it comes superstructure, which is the non-deterministic part of
+the game, and why we are not playing with robots.</p>
+
+<p>In Wilson&rsquo;s words, the objective of the tactics is to reduce the
+chances to score of the other team, and to improve your own.  His
+analysis makes me think of <a href="http://www.imdb.com/title/tt1210166/">Moneyball</a>.  One of Billy Beane&rsquo;s goals was to get
+players that improved the chance to score runs for a team.</p>
+
+<p>Which brings me software engineering: <strong>Software development is a team sport.</strong></p>
+
+<p>Any software development team has players with their own <em>base</em>. Some
+are better than others. We can always go out and try to hire <em>better
+ones</em> (based on pure skill). We know that some programmers can be as
+productive as 10 times others.</p>
+
+<p>There is a part of their <em>base</em> that can be taught. I always wonder
+why managers are not more proactive at teaching their players how to
+improve their debugging or editing. It is as if these skills are
+expected to be learned on their own. As if we are knowledge workers,
+not production line ones, even though frequently we would benefit from
+learning how to improve our processes as if we were in a production line.</p>
+
+<p>Now, imagine you were just promoted to be the coach (the <em>manager</em>) of
+the team. You might have a chance to make few signings or you might
+have to be content with the team you have (unless you work for a Super
+Team &#x2014;e.g. Google&#x2014; where you might have a lot of money to hire the
+best) . Say you get a budget, what type of player would you hire?</p>
+
+<p>Think about it. If tactics play a role in software development, then
+we need to choose a player that fits the team, and makes the team
+better; not necessarily the best player available in the market. And
+who works better for the team might not be the best developer out
+there. For example, a team might be better of with a great tester than
+with a productive software developer that hates testing. Are these
+decisions considered by a typical manager? I don&rsquo;t know.</p>
+
+<p>Now, if we take a Moneyball point of view, we should start to align
+features of players with their ability to create chances to score. In
+software development teams this means the chance not to screw
+up. Software development teams are combination of individuals each
+with unique strengths; if the manager is able to create a good <em>base</em>
+around them, they will be able to produce more than working
+individually (even if working towards the same common goal).</p>
+
+<p>I have had a SE manager that was a good tactician (I had around 10 in
+my life as a developer). I wonder if they exist. Usually they care
+about tracking deadlines, and break the work apart so each of us could
+do our part, but I never had a feeling that we were working together
+supporting each other as we completed our work.</p>
+
+<p>I am sure there are certainly software developers that make their
+teams better around them. I think we need to learn to quantify
+this. And we need to learn how to make software development managers
+better at improving their <em>base</em>.</p>
+
+<p>&#x2013;dmg</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Will My Patch Make It? And How Fast? Case Study on the Linux Kernel]]></title>
+    <link href="http://turingmachine.org/bl/2013-05-19-will-my-patch-make-it-linux-msr-2013.html"/>
+    <updated>2013-05-19T00:00:00-07:00</updated>
+    <id>http://turingmachine.org/bl/will-my-patch-make-it-linux-msr-2013</id>
+    <content type="html"><![CDATA[<p>Today Yujuan presented our paper <a href="../assets/pdfs/papers/dmg2013_msrPatch.pdf">Will My Patch Make It? And How Fast? Case Study on the Linux Kernel</a> at <a href="http://2013.msrconf.org/">MSR 2013</a>. Its full bibliographic entry is:</p>
+
+<blockquote><p>Yujuan Jiang, Bram Adams, and Daniel M. German <em>Will My Patch Make It?
+And How Fast? Case Study on the Linux Kernel</em>, International
+Working Conference of Mining Software Repositories, MSR'2013, pages
+XX-YY. May 2013.</p></blockquote>
+
+<!-- more -->
+
+
+<p>The main objective of the paper is to try to determine what are the
+characteristics that make a patch being accepted by the Linux
+development team.</p>
+
+<blockquote><p>The Linux kernel follows an extremely distributed reviewing and
+integration process supported by 130 developer mailing lists and a
+hierarchy of dozens of Git repositories for version control. Since not
+every patch can make it and of those that do, some patches require a
+lot more reviewing and integration effort than others, developers,
+reviewers and integrators need support for estimating which patches
+are worthwhile to spend effort on and which ones do not stand a
+chance. This paper cross-links and analyzes eight years of patch
+reviews from the kernel mailing lists and committed patches from the
+Git repository to understand which patches are accepted and how long
+it takes those patches to get to the end user. We found that 33\% of
+the patches makes it into a Linux release, and that most of them need
+3 to 6 months for this. Furthermore, that patches developed by more
+experienced developers are more easily accepted and faster reviewed
+and integrated. Additionally, reviewing time is impacted by submission
+time, the number of affected subsystems by the patch and the number of
+requested reviewers.</p></blockquote>
+
+<p>The main outcome is that experience plays one of the most important
+factors.</p>
+
+<p>&#x2013;dmg</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[The Data Track at MSR 2013]]></title>
+    <link href="http://turingmachine.org/bl/2013-05-16-msr-2013.html"/>
+    <updated>2013-05-16T00:00:00-07:00</updated>
+    <id>http://turingmachine.org/bl/msr-2013</id>
+    <content type="html"><![CDATA[<p>This year, during <a href="http://msrcanada.org/msrvision2020/">MSR Vision 20/20</a> there was an interesting discussion
+about providing some type of reward for researchers who share their data with
+others. We decided to implement a new track&#x2013;the data track&#x2013; at the
+the <a href="http://2013.msrconf.org/">International Working Conference in Mining Software Repositories</a>
+this year. I volunteered to be its chair.</p>
+
+<!-- more -->
+
+
+<p>We decided that the papers would be 4 pages long and should describe
+datasets that are to be shared with others.  It was a total success. Of
+27 papers we accepted 15. I really hope that some of these datasets
+become seminal to the community.</p>
+
+<p><a href="http://thomas-zimmermann.com/">Tom Zimmermann</a>, the general chair, has created a good preview of the Conference.</p>
+
+<center>
+<iframe src="http://www.slideshare.net/slideshow/embed_code/18030579"
+width="427" height="356" frameborder="0" marginwidth="0"
+marginheight="0" scrolling="no" style="border:1px
+solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen
+webkitallowfullscreen mozallowfullscreen> </iframe> <div
+style="margin-bottom:5px"> <strong> <a
+href="http://www.slideshare.net/tom.zimmermann/msr-preview-v2"
+title="MSR 2013 Preview" target="_blank">MSR 2013 Preview</a>
+</strong> from <strong><a
+href="http://www.slideshare.net/tom.zimmermann" target="_blank">Thomas
+Zimmermann</a></strong> </div>
+</center>
+
+
+<p>The conference happens this Saturday and Sunday, in San Francisco.</p>
+
+<p>&#x2013;dmg</p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Towards a census of free and open source licenses.]]></title>
-    <link href="http://turingmachine.org/bl/2013/05/12/towards-a-census-of-used-open-source-licenses/"/>
+    <link href="http://turingmachine.org/bl/2013-05-12-towards-a-census-of-used-open-source-licenses.html"/>
     <updated>2013-05-12T19:09:00-07:00</updated>
-    <id>http://turingmachine.org/bl/2013/05/12/towards-a-census-of-used-open-source-licenses</id>
+    <id>http://turingmachine.org/bl/towards-a-census-of-used-open-source-licenses</id>
     <content type="html"><![CDATA[<p>During the last three years I have been attending the <a href="http://fsfe.org/activities/ftf/network.en.html">European Legal
 Network</a> Free Software
 Legal and Licensing Workshop.  Because of
@@ -45,9 +279,14 @@ discussed it.</p>
 <p>For that reason Michael requested my permission to write an article at
 LWN on my talk. He did a <a href="https://lwn.net/Articles/547400/">great
 job</a>. It is almost a play-by-play of
-the presentation, which I am making available
-<a href="/assets/presentations/20130404-amsterdam-licenses-census.pdf">here</a>. Just
-a word of advice: the numbers are preliminary. We&rsquo;ll publish
+the presentation:</p>
+
+<center>
+<iframe src="http://www.slideshare.net/slideshow/embed_code/21300738" width="476" height="400" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+</center>
+
+
+<p>Only a word of advice: the numbers are preliminary. We&rsquo;ll publish
 accurate in the very short future.</p>
 
 <p>&mdash;dmg</p>

@@ -1,65 +1,109 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
-        <loc>http://turingmachine.org/bl/2009/04/22/illiterate-cultural-shock/</loc>
+        <loc>http://turingmachine.org/bl/2009-04-22-illiterate-cultural-shock.html</loc>
         <lastmod>2013-05-13T02:37:54-07:00</lastmod>
     </url>
     <url>
-        <loc>http://turingmachine.org/bl/2010/05/25/does-the-new-york-times-mocks-me/</loc>
+        <loc>http://turingmachine.org/bl/2010-05-25-does-the-new-york-times-mocks-me.html</loc>
         <lastmod>2013-05-13T02:37:54-07:00</lastmod>
     </url>
     <url>
         <loc>
-            http://turingmachine.org/bl/2011/06/21/nserc-discovery-grants-2011-in-computer-science/
+            http://turingmachine.org/bl/2011-06-21-nserc-discovery-grants-2011-in-computer-science.html
         </loc>
         <lastmod>2013-05-13T02:37:54-07:00</lastmod>
     </url>
     <url>
         <loc>
-            http://turingmachine.org/bl/2013/05/12/this-is-the-beginning-of-the-world-dot-dot-dot/
+            http://turingmachine.org/bl/2013-05-12-this-is-the-beginning-of-the-world-dot-dot-dot.html
         </loc>
         <lastmod>2013-05-13T02:37:54-07:00</lastmod>
     </url>
     <url>
         <loc>
-            http://turingmachine.org/bl/2013/05/12/towards-a-census-of-used-open-source-licenses/
+            http://turingmachine.org/bl/2013-05-12-towards-a-census-of-used-open-source-licenses.html
         </loc>
+        <lastmod>2013-05-16T22:02:40-07:00</lastmod>
+    </url>
+    <url>
+        <loc>http://turingmachine.org/bl/2013-05-12-barcelona-champions.html</loc>
         <lastmod>2013-05-13T02:37:54-07:00</lastmod>
     </url>
     <url>
-        <loc>http://turingmachine.org/bl/2013/05/12/barcelona-champions/</loc>
-        <lastmod>2013-05-13T02:37:54-07:00</lastmod>
+        <loc>http://turingmachine.org/bl/2013-05-13-cellar-de-can-roca.html</loc>
+        <lastmod>2013-05-13T16:58:52-07:00</lastmod>
     </url>
     <url>
-        <loc>http://turingmachine.org/bl/2013/05/13/cellar-de-can-roca/</loc>
-        <lastmod>2013-05-13T02:37:54-07:00</lastmod>
-    </url>
-    <url>
-        <loc>http://turingmachine.org/bl/2013/05/13/those-russian-dash-cams/</loc>
+        <loc>http://turingmachine.org/bl/2013-05-13-those-russian-dash-cams.html</loc>
         <lastmod>2013-05-13T10:11:17-07:00</lastmod>
     </url>
     <url>
-        <loc>http://turingmachine.org/bl/2013/05/13/nserc-discovery-grants-2012/</loc>
-        <lastmod>2013-05-13T11:42:42-07:00</lastmod>
+        <loc>http://turingmachine.org/bl/2013-05-13-nserc-discovery-grants-2012.html</loc>
+        <lastmod>2013-05-13T11:48:25-07:00</lastmod>
+    </url>
+    <url>
+        <loc>http://turingmachine.org/bl/2013-05-14-using-octopress-and-org-mode.html</loc>
+        <lastmod>2013-05-16T23:18:21-07:00</lastmod>
+    </url>
+    <url>
+        <loc>http://turingmachine.org/bl/2013-05-15-why-pay-for-wine-at-all%3F.html</loc>
+        <lastmod>2013-05-16T23:13:38-07:00</lastmod>
+    </url>
+    <url>
+        <loc>http://turingmachine.org/bl/2013-05-16-msr-2013.html</loc>
+        <lastmod>2013-05-16T23:16:03-07:00</lastmod>
+    </url>
+    <url>
+        <loc>
+            http://turingmachine.org/bl/2013-05-19-will-my-patch-make-it-linux-msr-2013.html
+        </loc>
+        <lastmod>2013-05-21T23:00:14-07:00</lastmod>
+    </url>
+    <url>
+        <loc>http://turingmachine.org/bl/2013-05-20-we-are-not-afraid-to-fail.html</loc>
+        <lastmod>2013-05-20T10:26:13-07:00</lastmod>
+    </url>
+    <url>
+        <loc>http://turingmachine.org/bl/2013-05-21-tactics-.html</loc>
+        <lastmod>2013-05-22T09:37:35-07:00</lastmod>
+    </url>
+    <url>
+        <loc>
+            http://turingmachine.org/bl/2013-05-21-the-future-of-continuous-integration-in-gnome.html
+        </loc>
+        <lastmod>2013-05-21T23:00:11-07:00</lastmod>
     </url>
     <url>
         <loc>http://turingmachine.org/</loc>
-        <lastmod>2013-05-13T11:42:42-07:00</lastmod>
+        <lastmod>2013-05-22T09:37:35-07:00</lastmod>
     </url>
     <url>
         <loc>http://turingmachine.org/bl/archives/</loc>
-        <lastmod>2013-05-13T11:42:42-07:00</lastmod>
+        <lastmod>2013-05-22T09:37:35-07:00</lastmod>
     </url>
     <url>
         <loc>http://turingmachine.org/bl/</loc>
-        <lastmod>2013-05-13T11:42:42-07:00</lastmod>
+        <lastmod>2013-05-22T09:37:35-07:00</lastmod>
+    </url>
+    <url>
+        <loc>http://turingmachine.org/myHacking/</loc>
+        <lastmod>2013-05-19T23:30:34-07:00</lastmod>
     </url>
     <url>
         <loc>http://turingmachine.org/robots.txt</loc>
         <lastmod>2013-05-12T15:45:41-07:00</lastmod>
     </url>
     <url>
+        <loc>http://turingmachine.org/research/</loc>
+        <lastmod>2013-05-16T23:04:41-07:00</lastmod>
+    </url>
+    <url>
         <loc>http://turingmachine.org/who-i-am/</loc>
-        <lastmod>2013-05-12T23:32:51-07:00</lastmod>
+        <lastmod>2013-05-19T23:29:48-07:00</lastmod>
+    </url>
+    <url>
+        <loc>http://turingmachine.org/who-i-am/index.old</loc>
+        <lastmod>2013-05-16T01:29:23-07:00</lastmod>
     </url>
 </urlset>

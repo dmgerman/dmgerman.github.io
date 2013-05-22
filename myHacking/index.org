@@ -1,0 +1,67 @@
+#+OPTIONS: toc:nil        (no TOC at all)
+#+DRAWERS: NO
+#+BEGIN_HTML
+---
+layout: page
+title: My Hacking
+date: 2013-05-16 23:21
+image: /120724_0039_850/120724_0039_850
+comments: true
+sharing: true
+footer: true
+---
+#+END_HTML
+
+#+CAPTION: Victoria's Shipyard.
+[[/assets/images//120724_0039_850.jpg]]
+
+#+TOC: headlines 1
+
+
+** Recent Research Software Projects
+<a id="sec-1"></a>
+
+
+*** tracing-git: a dashboard for Linux commits
+
+We are [[http://o.cs.uvic.ca:20810/perl/cid.pl][helping the Linux kernel]] trace commits across repositories.
+
+*** Ninka
+
+Yuki Manabe and I developed Ninka, a license identification tool for source code. You can find it at: [[https://github.com/dmgerman/ninka]]
+
+*** Joa
+
+Julius Davis and I have developed Joa, a tool to help in provenance recovery of Java code: [[https://github.com/dmgerman/joa]]
+
+*** Compjugador
+
+This is the oldest automatic conjugator of Spanish verbs. It has been
+working since 1994: [[http://turingmachine.org/compjugador/][Compjugador]]
+
+** Some of my contributions to Open Source Software
+<a id="sec-2"></a>
+
+*** Scholiar
+
+I contribute regularly to [[http://xournal.sourceforge.net/][xournal]]. But there are some experimental
+features that have not made it to it that I maintain in my fork:
+https://github.com/dmgerman/scholiar
+
+*** sawfish 
+
+I use sawfish as my window manager. I have a bunch of scripts that
+make my life easier [[http://turingmachine.org/hacking/sawfishLisp/][here]].
+
+*** panotools
+
+I have contributed to libpano of [[http://panotools.sourceforge.net/][Panotools]] both as a developer and a
+researcher.
+
+
+** Other links
+<a id="sec-3"></a>
+
+- My [[http://stackoverflow.com/users/2325702/dmg?tab=reputation][Stackoverflow account]]
+- My [[http://github.com/dmgerman][github account]]
+
