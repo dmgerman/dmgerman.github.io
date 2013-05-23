@@ -19,7 +19,7 @@ a graduate student: [[../assets/pdfs/papers/dmg2013_relengGit.pdf][What effect d
   booktitle={The International Workshop on Release Engineering, RELENG 2013},
   year={2013},
   month= {May},
-  pages = {xx--yy},
+  pages = {29--32},
 }
 {% endbibtex %}
 </blockquote>
@@ -40,7 +40,7 @@ This is its Bibtex entry:
   booktitle={The International Workshop on Release Engineering, RELENG 2013},
   year={2013},
   month= "May",
-  pages = "xx--yy",
+  pages = "29--32",
 }
 #+end_example
 

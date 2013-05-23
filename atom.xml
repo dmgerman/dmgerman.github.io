@@ -4,7 +4,7 @@
   <title><![CDATA[Turing Machine]]></title>
   <link href="http://turingmachine.org/atom.xml" rel="self"/>
   <link href="http://turingmachine.org/"/>
-  <updated>2013-05-23T02:37:42-07:00</updated>
+  <updated>2013-05-23T10:02:41-07:00</updated>
   <id>http://turingmachine.org/</id>
   <author>
     <name><![CDATA[Daniel German]]></name>
@@ -24,7 +24,7 @@ a graduate student: <a href="../assets/pdfs/papers/dmg2013_relengGit.pdf">What e
 
 <blockquote>
 
-P. Rigby, E. Barr, C. Bird, P. Devanbu and D. German, “What effect does Distributed Version Control have on OSS Project Organization?”, in <i>The International Workshop on Release Engineering, RELENG 2013</i>, 2013, xx&#8211;yy.
+P. Rigby, E. Barr, C. Bird, P. Devanbu and D. German, “What effect does Distributed Version Control have on OSS Project Organization?”, in <i>The International Workshop on Release Engineering, RELENG 2013</i>, 2013, 29&#8211;32.
 </blockquote>
 
 
@@ -45,7 +45,7 @@ has moved to Subversion).</p>
   booktitle={The International Workshop on Release Engineering, RELENG 2013},
   year={2013},
   month= "May",
-  pages = "xx--yy",
+  pages = "29--32",
 }
 </code></pre>
 
@@ -89,7 +89,7 @@ Continuous Integration in GNOME</a>. Its full bibliographic entry is:</p>
 
 <blockquote>
 
-C. Walters, G. Poo-Caamaño and D. M. German, “The Future of Continuous Integration in GNOME”, in <i>The International Workshop on Release Engineering, RELENG 2013</i>, 2013, xx&#8211;yy.
+C. Walters, G. Poo-Caamaño and D. M. German, “The Future of Continuous Integration in GNOME”, in <i>The International Workshop on Release Engineering, RELENG 2013</i>, 2013, 33&#8211;36.
 </blockquote>
 
 
@@ -107,11 +107,11 @@ the entire desktop.</p>
 
 <pre><code>@inproceedings{dmg2013-relenggit,
   title={The Future of Continuous Integration in GNOME},
-  author={Colin Walters, Germán Poo-Caamaño, and Daniel M. German},
+  author={Colin Walters and Germán Poo-Caamaño and Daniel M. German},
   booktitle={The International Workshop on Release Engineering, RELENG 2013},
   year={2013},
   month= {May},
-  pages = {xx--yy},
+  pages = {33--36},
 }
 </code></pre>
 
