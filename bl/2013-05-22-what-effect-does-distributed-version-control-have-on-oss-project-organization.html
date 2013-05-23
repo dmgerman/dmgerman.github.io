@@ -3,12 +3,13 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>The Future of Continuous Integration in GNOME - Turing Machine</title>
+	<title>What effect does Distributed Version Control have on OSS Project Organization? - Turing Machine</title>
 	<meta name="author" content="Daniel German">
 
 	
-	<meta name="description" content="This year is the first edition of RelEng: The International Workshop on Release Engineering. Germán presented our paper The Future of
-Continuous &hellip;">
+	<meta name="description" content="Another paper we published at RelEng: The International Workshop on
+Release Engineering is worked mainly by Peter Rigby when we was still
+a graduate &hellip;">
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
@@ -80,19 +81,20 @@ Continuous &hellip;">
 	
 	<div id="content" class="inner"><article class="post">
 
-	<h2 class="title">The Future of Continuous Integration in GNOME</h2>
+	<h2 class="title">What Effect Does Distributed Version Control Have on OSS Project Organization?</h2>
 	<div class="entry-content">
        
         <div class="entry-image">
-        <a class="fancybox" rel="group" href="/assets/images/051210_5526_750.jpg"><img src="/assets/images/051210_5526_750.jpg" alt=""></a>
+        <a class="fancybox" rel="group" href="/assets/images/051109_3818_750.jpg"><img src="/assets/images/051109_3818_750.jpg" alt=""></a>
         </div>
        
-        <p>This year is the first edition of <a href="http://releng.polymtl.ca/">RelEng: The International Workshop on Release Engineering</a>.  <a href="http://calcifer.org/">Germán</a> presented our paper <a href="../assets/pdfs/papers/dmg2013_relengGnome.pdf">The Future of
-Continuous Integration in GNOME</a>. Its full bibliographic entry is:</p>
+        <p>Another paper we published at <a href="http://releng.polymtl.ca/">RelEng: The International Workshop on
+Release Engineering</a> is worked mainly by <a href="http://users.encs.concordia.ca/~pcr/">Peter Rigby</a> when we was still
+a graduate student: <a href="../assets/pdfs/papers/dmg2013_relengGit.pdf">What effect does Distributed Version Control have on OSS Project Organization?</a></p>
 
 <blockquote>
 
-C. Walters, G. Poo-Caamaño and D. M. German, “The Future of Continuous Integration in GNOME”, in <i>The International Workshop on Release Engineering, RELENG 2013</i>, 2013, xx&#8211;yy.
+P. Rigby, E. Barr, C. Bird, P. Devanbu and D. German, “What effect does Distributed Version Control have on OSS Project Organization?”, in <i>The International Workshop on Release Engineering, RELENG 2013</i>, 2013, xx&#8211;yy.
 </blockquote>
 
 
@@ -101,52 +103,49 @@ C. Walters, G. Poo-Caamaño and D. M. German, “The Future of Continuous Integr
 <!-- more -->
 
 
-<p>This paper is a description of the new method to deploy releases in
-GNOME in a manner that uses a version control model. The goal is to
-make it easy to deploy (and equally important) rollback releases of
-the entire desktop.</p>
+<p>This paper contrasts the practices of the use of git by the Linux
+development team with the use of CVS by FreeBSD (since then FreeBSD
+has moved to Subversion).</p>
 
 <p>This is its Bibtex entry:</p>
 
 <pre><code>@inproceedings{dmg2013-relenggit,
-  title={The Future of Continuous Integration in GNOME},
-  author={Colin Walters, Germán Poo-Caamaño, and Daniel M. German},
+  title="{What effect does Distributed Version Control have on OSS Project Organization?}",
+  author={Peter Rigby and Earl Barr and Chris Bird and Premkumar Devanbu  and Daniel German},
   booktitle={The International Workshop on Release Engineering, RELENG 2013},
   year={2013},
-  month= {May},
-  pages = {xx--yy},
+  month= "May",
+  pages = "xx--yy",
 }
 </code></pre>
 
 <p>and this its abstract:</p>
 
-<blockquote><p>In Free and Open Source Software (FOSS) projects
-based on Linux systems, the users usually install the software
-from distributions. The distributions act as intermediaries be-
-tween software developers and users. Distributors collect the
-source code of the different projects and package them, ready
-to be installed by the users. Packages seems to work well for
-managing and distributing stable major and minor releases. It
-presents, however, various release management challenges for
-developers of projects with multiples dependencies not always
-available in the stable version of their systems. In projects like
-GNOME, composed of dozens of individual components, devel-
-opers must build newer versions of the libraries and applications
-that their applications depend upon before working in their own
-projects. This process can be cumbersome for developers who are
-not programmers, such as user interaction designers or technical
-writers. In this paper we describe some of the problems that the
-current distribution model presents to do continuous integration,
-testing and deployment for developers in GNOME, and present
-ongoing work intended to address these problems that uses a git-
-like approach to the building and deployment of applications.</p></blockquote>
+<blockquote><p>Many Open Source Software (OSS) projects are
+moving form Centralized Version Control (CVC) to Distributed
+Version Control (DVC). The effect of this shift on project
+organization and developer collaboration is not well understood.
+In this paper, we use a theoretical argument to evaluate the
+appropriateness of using DVC in the context of two very common
+organization forms in OSS: a dictatorship and a peer group. We
+find that DVC facilitates large hierarchical communities as well as
+smaller groups of developers, while CVC allows for consensus-
+building by a peer group. We also find that the flexibility of
+DVC systems allows for diverse styles of developer collaboration.
+With CVC, changes flow up and down (and publicly) via a
+central repository. In contrast, DVC facilitates collaboration in
+which work output can flow sideways (and privately) between
+collaborators, with no repository being inherently more impor-
+tant or central. These sideways flows are a relatively new concept.
+Developers on the Linux project, who tend to be experienced DVC
+users, cluster around “sandboxes:” repositories where developers
+can work together on a particular topic, isolating their changes
+from other developers. In this work, we focus on two large,
+mature OSS projects to illustrate these findings. However, we
+suggest that social media sites like GitHub may engender other
+original styles of collaboration that deserve further study.</p></blockquote>
 
-<p>Here is the presentation:</p>
-
-<center>
-<iframe src="http://www.slideshare.net/slideshow/embed_code/21650647" width="476" height="400" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
-</center>
-
+<p>&#x2013;dmg</p>
 </div>
 
 
@@ -163,7 +162,7 @@ like approach to the building and deployment of applications.</p></blockquote>
   
 
 
-<time datetime="2013-05-21T00:00:00-07:00" pubdate data-updated="true">May 21<span>st</span>, 2013</time></div>
+<time datetime="2013-05-22T00:00:00-07:00" pubdate data-updated="true">May 22<span>nd</span>, 2013</time></div>
 	<div class="tags">
 
 
@@ -181,15 +180,12 @@ like approach to the building and deployment of applications.</p></blockquote>
         <div class="clear">&nbsp;</div> 
         <div class="left"> 
          
-                <a href="/bl/2013-05-21-tactics-.html" title="Previous Post: 
-Tactics">Older: Tactics</a> 
+                <a href="/bl/2013-05-21-the-future-of-continuous-integration-in-gnome.html" title="Previous Post: 
+The Future of Continuous Integration in GNOME">Older: The Future of Continuous Integration in GNOME</a> 
          
         </div> 
 
         <div class="right"> 
-         
-                <a href="/bl/2013-05-22-what-effect-does-distributed-version-control-have-on-oss-project-organization.html" title="next Post: 
-What effect does Distributed Version Control have on OSS Project Organization?">Newer: What effect does Distributed Version Control have on OSS Project Organization? </a> 
          
         </div> 
         <div class="clear">&nbsp;</div> 

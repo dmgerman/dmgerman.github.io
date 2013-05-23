@@ -4,7 +4,7 @@
   <title><![CDATA[Category: research | Turing Machine]]></title>
   <link href="http://turingmachine.org/bl/categories/research/atom.xml" rel="self"/>
   <link href="http://turingmachine.org/"/>
-  <updated>2013-05-22T09:37:36-07:00</updated>
+  <updated>2013-05-23T02:37:42-07:00</updated>
   <id>http://turingmachine.org/</id>
   <author>
     <name><![CDATA[Daniel German]]></name>
@@ -14,17 +14,86 @@
 
   
   <entry>
+    <title type="html"><![CDATA[What effect does Distributed Version Control have on OSS Project Organization?]]></title>
+    <link href="http://turingmachine.org/bl/2013-05-22-what-effect-does-distributed-version-control-have-on-oss-project-organization.html"/>
+    <updated>2013-05-22T00:00:00-07:00</updated>
+    <id>http://turingmachine.org/bl/what-effect-does-distributed-version-control-have-on-oss-project-organization</id>
+    <content type="html"><![CDATA[<p>Another paper we published at <a href="http://releng.polymtl.ca/">RelEng: The International Workshop on
+Release Engineering</a> is worked mainly by <a href="http://users.encs.concordia.ca/~pcr/">Peter Rigby</a> when we was still
+a graduate student: <a href="../assets/pdfs/papers/dmg2013_relengGit.pdf">What effect does Distributed Version Control have on OSS Project Organization?</a></p>
+
+<blockquote>
+
+P. Rigby, E. Barr, C. Bird, P. Devanbu and D. German, “What effect does Distributed Version Control have on OSS Project Organization?”, in <i>The International Workshop on Release Engineering, RELENG 2013</i>, 2013, xx--yy.
+</blockquote>
+
+
+
+
+<!-- more -->
+
+
+<p>This paper contrasts the practices of the use of git by the Linux
+development team with the use of CVS by FreeBSD (since then FreeBSD
+has moved to Subversion).</p>
+
+<p>This is its Bibtex entry:</p>
+
+<pre><code>@inproceedings{dmg2013-relenggit,
+  title="{What effect does Distributed Version Control have on OSS Project Organization?}",
+  author={Peter Rigby and Earl Barr and Chris Bird and Premkumar Devanbu  and Daniel German},
+  booktitle={The International Workshop on Release Engineering, RELENG 2013},
+  year={2013},
+  month= "May",
+  pages = "xx--yy",
+}
+</code></pre>
+
+<p>and this its abstract:</p>
+
+<blockquote><p>Many Open Source Software (OSS) projects are
+moving form Centralized Version Control (CVC) to Distributed
+Version Control (DVC). The effect of this shift on project
+organization and developer collaboration is not well understood.
+In this paper, we use a theoretical argument to evaluate the
+appropriateness of using DVC in the context of two very common
+organization forms in OSS: a dictatorship and a peer group. We
+find that DVC facilitates large hierarchical communities as well as
+smaller groups of developers, while CVC allows for consensus-
+building by a peer group. We also find that the flexibility of
+DVC systems allows for diverse styles of developer collaboration.
+With CVC, changes flow up and down (and publicly) via a
+central repository. In contrast, DVC facilitates collaboration in
+which work output can flow sideways (and privately) between
+collaborators, with no repository being inherently more impor-
+tant or central. These sideways flows are a relatively new concept.
+Developers on the Linux project, who tend to be experienced DVC
+users, cluster around “sandboxes:” repositories where developers
+can work together on a particular topic, isolating their changes
+from other developers. In this work, we focus on two large,
+mature OSS projects to illustrate these findings. However, we
+suggest that social media sites like GitHub may engender other
+original styles of collaboration that deserve further study.</p></blockquote>
+
+<p>&#x2013;dmg</p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[The Future of Continuous Integration in GNOME]]></title>
     <link href="http://turingmachine.org/bl/2013-05-21-the-future-of-continuous-integration-in-gnome.html"/>
     <updated>2013-05-21T00:00:00-07:00</updated>
     <id>http://turingmachine.org/bl/the-future-of-continuous-integration-in-gnome</id>
-    <content type="html"><![CDATA[<p>This year is the first edition of RelEng: The International Workshop
-on Release Engineering.  Germán presented our paper <a href="../assets/pdfs/papers/dmg2013_relengGnome.pdf">The Future of
+    <content type="html"><![CDATA[<p>This year is the first edition of <a href="http://releng.polymtl.ca/">RelEng: The International Workshop on Release Engineering</a>.  <a href="http://calcifer.org/">Germán</a> presented our paper <a href="../assets/pdfs/papers/dmg2013_relengGnome.pdf">The Future of
 Continuous Integration in GNOME</a>. Its full bibliographic entry is:</p>
 
-<blockquote><p>Colin Walters, Germán Poo-Caamaño, and Daniel M. German, <em>The Future
-of Continuous Integration in GNOME</em>, First International Workshop on
-Release Engineering, RELENG 2013, pages XX&#x2013;YY, May 2013.</p></blockquote>
+<blockquote>
+
+C. Walters, G. Poo-Caamaño and D. M. German, “The Future of Continuous Integration in GNOME”, in <i>The International Workshop on Release Engineering, RELENG 2013</i>, 2013, xx--yy.
+</blockquote>
+
+
+
 
 <!-- more -->
 
@@ -33,6 +102,20 @@ Release Engineering, RELENG 2013, pages XX&#x2013;YY, May 2013.</p></blockquote>
 GNOME in a manner that uses a version control model. The goal is to
 make it easy to deploy (and equally important) rollback releases of
 the entire desktop.</p>
+
+<p>This is its Bibtex entry:</p>
+
+<pre><code>@inproceedings{dmg2013-relenggit,
+  title={The Future of Continuous Integration in GNOME},
+  author={Colin Walters, Germán Poo-Caamaño, and Daniel M. German},
+  booktitle={The International Workshop on Release Engineering, RELENG 2013},
+  year={2013},
+  month= {May},
+  pages = {xx--yy},
+}
+</code></pre>
+
+<p>and this its abstract:</p>
 
 <blockquote><p>In Free and Open Source Software (FOSS) projects
 based on Linux systems, the users usually install the software
@@ -110,12 +193,7 @@ chances to score of the other team, and to improve your own.  His
 analysis makes me think of <a href="http://www.imdb.com/title/tt1210166/">Moneyball</a>.  One of Billy Beane&rsquo;s goals was to get
 players that improved the chance to score runs for a team.</p>
 
-<p>Which brings me software engineering: <strong>Software development is a team sport.</strong></p>
-
-<p>Any software development team has players with their own <em>base</em>. Some
-are better than others. We can always go out and try to hire <em>better
-ones</em> (based on pure skill). We know that some programmers can be as
-productive as 10 times others.</p>
+<p>Surround your pullquote like this {" text to be quoted "}</p>
 
 <p>There is a part of their <em>base</em> that can be taught. I always wonder
 why managers are not more proactive at teaching their players how to
@@ -130,13 +208,7 @@ have to be content with the team you have (unless you work for a Super
 Team &#x2014;e.g. Google&#x2014; where you might have a lot of money to hire the
 best) . Say you get a budget, what type of player would you hire?</p>
 
-<p>Think about it. If tactics play a role in software development, then
-we need to choose a player that fits the team, and makes the team
-better; not necessarily the best player available in the market. And
-who works better for the team might not be the best developer out
-there. For example, a team might be better of with a great tester than
-with a productive software developer that hates testing. Are these
-decisions considered by a typical manager? I don&rsquo;t know.</p>
+<p>Surround your pullquote like this {" text to be quoted "}</p>
 
 <p>Now, if we take a Moneyball point of view, we should start to align
 features of players with their ability to create chances to score. In
@@ -168,10 +240,13 @@ better at improving their <em>base</em>.</p>
     <id>http://turingmachine.org/bl/will-my-patch-make-it-linux-msr-2013</id>
     <content type="html"><![CDATA[<p>Today Yujuan presented our paper <a href="../assets/pdfs/papers/dmg2013_msrPatch.pdf">Will My Patch Make It? And How Fast? Case Study on the Linux Kernel</a> at <a href="http://2013.msrconf.org/">MSR 2013</a>. Its full bibliographic entry is:</p>
 
-<blockquote><p>Yujuan Jiang, Bram Adams, and Daniel M. German <em>Will My Patch Make It?
-And How Fast? Case Study on the Linux Kernel</em>, International
-Working Conference of Mining Software Repositories, MSR'2013, pages
-XX-YY. May 2013.</p></blockquote>
+<blockquote>
+
+Y. Jiang, B. Adams and D. M. German, “Will My Patch Make It? And How Fast? Case Study on the Linux Kernel”, in <i>International Working Conference of Mining Software Repositories, MSR'2013</i>, 2013, 101--110.
+</blockquote>
+
+
+
 
 <!-- more -->
 
@@ -179,6 +254,20 @@ XX-YY. May 2013.</p></blockquote>
 <p>The main objective of the paper is to try to determine what are the
 characteristics that make a patch being accepted by the Linux
 development team.</p>
+
+<p>This is its Bibtex entry:</p>
+
+<pre><code>@inproceedings{dmg2013-relenggit,
+  title="{Will My Patch Make It? And How Fast? Case Study on the Linux Kernel}",
+  author={Yujuan Jiang and Bram Adams and Daniel M. German},
+  booktitle={International Working Conference of Mining Software Repositories, MSR'2013},
+  year={2013},
+  month= "May",
+  pages = "101--110",
+}
+</code></pre>
+
+<p>and this its abstract:</p>
 
 <blockquote><p>The Linux kernel follows an extremely distributed reviewing and
 integration process supported by 130 developer mailing lists and a
@@ -244,52 +333,6 @@ Zimmermann</a></strong> </div>
 <p>The conference happens this Saturday and Sunday, in San Francisco.</p>
 
 <p>&#x2013;dmg</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Towards a census of free and open source licenses.]]></title>
-    <link href="http://turingmachine.org/bl/2013-05-12-towards-a-census-of-used-open-source-licenses.html"/>
-    <updated>2013-05-12T19:09:00-07:00</updated>
-    <id>http://turingmachine.org/bl/towards-a-census-of-used-open-source-licenses</id>
-    <content type="html"><![CDATA[<p>During the last three years I have been attending the <a href="http://fsfe.org/activities/ftf/network.en.html">European Legal
-Network</a> Free Software
-Legal and Licensing Workshop.  Because of
-the quality of people in attendance this is probably the best
-workshop/conference for open source licensing in the world.</p>
-
-<p>This year I presented a talk called <em>Toward a census of free and open
-source software licenses</em>.  <!--more-->
-Ever since I started working with open
-source licenses I have been looking into the issues of what licenses
-are more widely used.</p>
-
-<p>The objective of this talk is to describe that a census is not
-trivial. There are many factors that can affect the final result. For
-this reason it is very important to be very aware of the methodology
-behind the census. Otherwise one might be misled by the results.</p>
-
-<p><a href="http://blog.man7.org/">Michael Kerrisk</a> from <a href="https://lwn.net/">LWN</a>
-was in attendance. As it is customary in this workshop, its discussion
-is subject to <a href="http://en.wikipedia.org/wiki/Chatham_House_Rule">Chatham House
-Rule</a>. In a nutshell,
-after the meeting you can mention what was discussed, but not who
-discussed it.</p>
-
-<p>For that reason Michael requested my permission to write an article at
-LWN on my talk. He did a <a href="https://lwn.net/Articles/547400/">great
-job</a>. It is almost a play-by-play of
-the presentation:</p>
-
-<center>
-<iframe src="http://www.slideshare.net/slideshow/embed_code/21300738" width="476" height="400" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
-</center>
-
-
-<p>Only a word of advice: the numbers are preliminary. We&rsquo;ll publish
-accurate in the very short future.</p>
-
-<p>&mdash;dmg</p>
 ]]></content>
   </entry>
   

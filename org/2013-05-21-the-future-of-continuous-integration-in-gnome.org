@@ -9,11 +9,20 @@
 This year is the first edition of [[http://releng.polymtl.ca/][RelEng: The International Workshop on Release Engineering]].  [[http://calcifer.org/][Germán]] presented our paper [[../assets/pdfs/papers/dmg2013_relengGnome.pdf][The Future of
 Continuous Integration in GNOME]]. Its full bibliographic entry is:
 
-#+begin_quote
-Colin Walters, Germán Poo-Caamaño, and Daniel M. German, /The Future
-of Continuous Integration in GNOME/, First International Workshop on
-Release Engineering, RELENG 2013, pages XX--YY, May 2013.
-#+end_quote
+#+BEGIN_HTML
+<blockquote>
+{% bibtex %}
+@inproceedings{dmg2013-relenggit,
+  title={The Future of Continuous Integration in GNOME},
+  author={Colin Walters and Germán Poo-Caamaño and Daniel M. German},
+  booktitle={The International Workshop on Release Engineering, RELENG 2013},
+  year={2013},
+  month= {May},
+  pages = {xx--yy},
+}
+{% endbibtex %}
+</blockquote>
+#+END_HTML
 
 {{{more}}}
 
@@ -21,6 +30,22 @@ This paper is a description of the new method to deploy releases in
 GNOME in a manner that uses a version control model. The goal is to
 make it easy to deploy (and equally important) rollback releases of
 the entire desktop.
+
+This is its Bibtex entry:
+
+#+begin_example
+@inproceedings{dmg2013-relenggit,
+  title={The Future of Continuous Integration in GNOME},
+  author={Colin Walters and Germán Poo-Caamaño and Daniel M. German},
+  booktitle={The International Workshop on Release Engineering, RELENG 2013},
+  year={2013},
+  month= {May},
+  pages = {xx--yy},
+}
+#+end_example
+
+and this its abstract:
+
 
 #+begin_quote
 In Free and Open Source Software (FOSS) projects
