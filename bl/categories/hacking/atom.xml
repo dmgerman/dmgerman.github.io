@@ -4,7 +4,7 @@
   <title><![CDATA[Category: hacking | Turing Machine]]></title>
   <link href="http://turingmachine.org/bl/categories/hacking/atom.xml" rel="self"/>
   <link href="http://turingmachine.org/"/>
-  <updated>2013-05-23T10:02:41-07:00</updated>
+  <updated>2013-05-30T10:17:06-07:00</updated>
   <id>http://turingmachine.org/</id>
   <author>
     <name><![CDATA[Daniel German]]></name>
@@ -12,6 +12,82 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Recursively listing directories in elisp]]></title>
+    <link href="http://turingmachine.org/bl/2013-05-29-recursively-listing-directories-in-elisp.html"/>
+    <updated>2013-05-29T00:00:00-07:00</updated>
+    <id>http://turingmachine.org/bl/recursively-listing-directories-in-elisp</id>
+    <content type="html"><![CDATA[<p>I was looking for a function that recursively scanned directories, and could not find one. So I wrote my own. Maybe somebody else will find it useful.</p>
+
+<!-- more -->
+
+
+<h1>How to list, recursively, the files in a given directory</h1>
+
+<script src='https://gist.github.com/5675462.js'></script>
+
+
+<p>Its parameters are:</p>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="left" />
+
+<col  class="left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="left">Parameter</th>
+<th scope="col" class="left">Description</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td class="left">directory</td>
+<td class="left">Directory to scan</td>
+</tr>
+
+
+<tr>
+<td class="left">match</td>
+<td class="left">Regular expression of files to match</td>
+</tr>
+
+
+<tr>
+<td class="left">depth</td>
+<td class="left">Max depth to scan. Avoid long scans or getting into a loop</td>
+</tr>
+
+
+<tr>
+<td class="left">ignore</td>
+<td class="left">Regular expression of files and directories to ignore&#x2013;tested before match and recursion</td>
+</tr>
+</tbody>
+</table>
+
+
+<p>Here is an example on how to use it: search directory
+/home/dmg/git.dmg/projects for files with extension .org but ignore
+those files/directories that contain the substring rip or stage.</p>
+
+<pre><code>(directory-files-recursive "/home/dmg/git.dmg/projects" "\\.org$" 2 "\\(rip\\|stage\\)")
+</code></pre>
+
+<p>You can find it in github as a <a href="https://gist.github.com/dmgerman/5675462">gist</a>.</p>
+
+<h2>License</h2>
+
+<p>This code snippet is licensed under the same terms of Emacs (currently GPL v3 or LATER).</p>
+
+<p>&#x2013;dmg</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Using Octopress and Org-Mode for my website]]></title>

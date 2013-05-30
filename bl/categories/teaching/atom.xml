@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: teaching | Turing Machine]]></title>
+  <link href="http://turingmachine.org/bl/categories/teaching/atom.xml" rel="self"/>
+  <link href="http://turingmachine.org/"/>
+  <updated>2013-05-30T10:17:06-07:00</updated>
+  <id>http://turingmachine.org/</id>
+  <author>
+    <name><![CDATA[Daniel German]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[My Course Evaluations]]></title>
+    <link href="http://turingmachine.org/bl/2013-05-23-my-course-evaluations.html"/>
+    <updated>2013-05-23T00:00:00-07:00</updated>
+    <id>http://turingmachine.org/bl/my-course-evaluations</id>
+    <content type="html"><![CDATA[<p>I am in a workshop intended to  try to improve our teaching in our department.</p>
+
+<p>Students participating mention that it would be valuable to have our student evaluations posted.
+I have been thinking about doing it for some time&#x2026; so here they are:</p>
+
+<!-- more -->
+
+
+<h1>My course evaluations, by my students.</h1>
+
+<h2>2012</h2>
+
+<ul>
+<li><p><a href="../assets/pdfs/courseEvals/2012/spring/2012S_seng410.pdf">SENG 410 Media Applications, Spring</a></p></li>
+<li><p><a href="../assets/pdfs/courseEvals/2012/summer/2012summer_csc370.pdf">CSC 370 Database Systems, Summer</a></p></li>
+<li><p><a href="../assets/pdfs/courseEvals/2012/fall/CSC370_A01-A02_German,D.pdf">CSC 370 Database Systems, Fall</a></p></li>
+<li><p><a href="../assets/pdfs/courseEvals/2012/fall/CSC485-A01-586-A01-SENG480-A01_German,D.pdf">CSC485-A01-586-A01-SENG480 Intellectual Property and Software Engineering, Fall</a></p></li>
+</ul>
+
+
+<h2>2011</h2>
+
+<ul>
+<li><p><a href="../assets/pdfs/courseEvals/2011/2011F_csc595.pdf">CSC 595 Research Methods in Computer Science, Fall</a></p></li>
+<li><p><a href="../assets/pdfs/courseEvals/2011/2011F_csc370.pdf">CSC 370 Database Systems, Fall</a></p></li>
+</ul>
+
+
+<h2>2010</h2>
+
+<ul>
+<li><p><a href="../assets/pdfs/courseEvals/2010/2010S_csc589.pdf">CSC589 Mining Software Repositories, Spring</a></p></li>
+<li><p><a href="../assets/pdfs/courseEvals/2010/2010S_csc499.pdf">CSC499 Honours, Spring</a></p></li>
+<li><p><a href="../assets/pdfs/courseEvals/2010/2010K_seng401.pdf">SENG 401 Computer and Society, Summer</a></p></li>
+<li><p><a href="../assets/pdfs/courseEvals/2010/2010K_seng265.pdf">SENG 265 Introduction to Software Engineering Summer</a></p></li>
+<li><p><a href="../assets/pdfs/courseEvals/2010/2010F_csc370.pdf">CSC 370 Database Systems, Fall</a></p></li>
+</ul>
+
+
+<h2>2008</h2>
+
+<ul>
+<li><p><a href="../assets/pdfs/courseEvals/2008K_csc370.pdf">CSC 370 Database Systems, Summer</a></p></li>
+<li><p><a href="../assets/pdfs/courseEvals/2008/2008K_SEng401.pdf">SENG 401 Computer and Society, Summer</a></p></li>
+<li><p><a href="../assets/pdfs/courseEvals/2008/SENG410_Spr08.pdf">SENG 410 Media Applications, Spring</a></p></li>
+<li><p><a href="../assets/pdfs/courseEvals/2008/2008K_csc370.pdf">CSC 370 Database Systems, Summer</a></p></li>
+</ul>
+
+
+<h2>2007</h2>
+
+<ul>
+<li><p><a href="../assets/pdfs/courseEvals/2007/2007S_csc370.pdf">CSC 370 Database Systems, Spring</a></p></li>
+<li><p><a href="../assets/pdfs/courseEvals/2007/CSC484A-ENGL%20503_Sum07.pdf">CSC484A-ENGL503 Digital Humanities, Summer</a></p></li>
+</ul>
+
+
+<h2>2005</h2>
+
+<ul>
+<li><p><a href="../assets/pdfs/courseEvals/2005/2005K_CSC586E.pdf">CSC 586E Open Source Software Engineering, Summer</a></p></li>
+<li><p><a href="../assets/pdfs/courseEvals/2005/2005K_CSC370.pdf">CSC 370 Database Systems, Summer</a></p></li>
+<li><p><a href="../assets/pdfs/courseEvals/2005/2005K_seng400.pdf">SENG 400 Computer and Society, Summer</a></p></li>
+</ul>
+
+
+<h2>2004</h2>
+
+<ul>
+<li><p><a href="../assets/pdfs/courseEvals/2004/2004F_CS483A-SEng480B.pdf">CS483A-SEng480B, Fall</a></p></li>
+<li><p><a href="../assets/pdfs/courseEvals/2004/2004F_CSC370.pdf">CSC 370 Database Systems, Fall</a></p></li>
+</ul>
+
+
+<h2>2003</h2>
+
+<ul>
+<li><p><a href="../assets/pdfs/courseEvals/2003/2003F_CSC483a-583b.pdf">CSC483a-583b Fall</a></p></li>
+<li><p><a href="../assets/pdfs/courseEvals/2003/2003K_CSC370.pdf">CSC 370 Database Systems, Summer</a></p></li>
+</ul>
+
+
+<h2>2002</h2>
+
+<ul>
+<li><p><a href="../assets/pdfs/courseEvals/2002/2002F_CSC370.pdf">CSC 370 Database Systems, Fall</a></p></li>
+<li><p><a href="../assets/pdfs/courseEvals/2002/2002S_SEng480B-CSC586B.pdf">SEng480B-CSC586B, Summer</a></p></li>
+<li><p><a href="../assets/pdfs/courseEvals/2002/2002F_SEng265.pdf">SENG 265 Introduction to Software Engineering, Fall</a></p></li>
+</ul>
+
+
+<h2>2001</h2>
+
+<ul>
+<li><a href="../assets/pdfs/courseEvals/2001/2001F_SEng265.pdf">SENG 265 Introduction to Software Engineering, Fall</a></li>
+</ul>
+
+
+<p>&#x2013;dmg</p>
+]]></content>
+  </entry>
+  
+</feed>

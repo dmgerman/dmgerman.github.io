@@ -4,7 +4,7 @@
   <title><![CDATA[Turing Machine]]></title>
   <link href="http://turingmachine.org/atom.xml" rel="self"/>
   <link href="http://turingmachine.org/"/>
-  <updated>2013-05-23T10:02:41-07:00</updated>
+  <updated>2013-05-30T10:17:06-07:00</updated>
   <id>http://turingmachine.org/</id>
   <author>
     <name><![CDATA[Daniel German]]></name>
@@ -12,6 +12,515 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Recursively listing directories in elisp]]></title>
+    <link href="http://turingmachine.org/bl/2013-05-29-recursively-listing-directories-in-elisp.html"/>
+    <updated>2013-05-29T00:00:00-07:00</updated>
+    <id>http://turingmachine.org/bl/recursively-listing-directories-in-elisp</id>
+    <content type="html"><![CDATA[<p>I was looking for a function that recursively scanned directories, and could not find one. So I wrote my own. Maybe somebody else will find it useful.</p>
+
+<!-- more -->
+
+
+<h1>How to list, recursively, the files in a given directory</h1>
+
+<script src='https://gist.github.com/5675462.js'></script>
+
+
+<p>Its parameters are:</p>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="left" />
+
+<col  class="left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="left">Parameter</th>
+<th scope="col" class="left">Description</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td class="left">directory</td>
+<td class="left">Directory to scan</td>
+</tr>
+
+
+<tr>
+<td class="left">match</td>
+<td class="left">Regular expression of files to match</td>
+</tr>
+
+
+<tr>
+<td class="left">depth</td>
+<td class="left">Max depth to scan. Avoid long scans or getting into a loop</td>
+</tr>
+
+
+<tr>
+<td class="left">ignore</td>
+<td class="left">Regular expression of files and directories to ignore&#x2013;tested before match and recursion</td>
+</tr>
+</tbody>
+</table>
+
+
+<p>Here is an example on how to use it: search directory
+/home/dmg/git.dmg/projects for files with extension .org but ignore
+those files/directories that contain the substring rip or stage.</p>
+
+<pre><code>(directory-files-recursive "/home/dmg/git.dmg/projects" "\\.org$" 2 "\\(rip\\|stage\\)")
+</code></pre>
+
+<p>You can find it in github as a <a href="https://gist.github.com/dmgerman/5675462">gist</a>.</p>
+
+<h2>License</h2>
+
+<p>This code snippet is licensed under the same terms of Emacs (currently GPL v3 or LATER).</p>
+
+<p>&#x2013;dmg</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[NSERC Discovery Grants 2013 in Computer Science]]></title>
+    <link href="http://turingmachine.org/bl/2013-05-26-nserc-discovery-grants-2013-in-computer-science.html"/>
+    <updated>2013-05-26T00:00:00-07:00</updated>
+    <id>http://turingmachine.org/bl/nserc-discovery-grants-2013-in-computer-science</id>
+    <content type="html"><![CDATA[<p>The results of the NSERC Discovery Grants for 2013 have been published.</p>
+
+<p>The <a href="http://www.nserc-crsng.gc.ca/NSERC-CRSNG/FundingDecisions-DecisionsFinancement/ResearchGrants-SubventionsDeRecherche/ResultsGSC-ResultatsCSS_eng.asp?Year=2013">full list of results can be found here</a>.
+As it is becoming a tradition (results of <a href="../bl/2013-05-13-nserc-discovery-grants-2012.html">2011</a>, <a href="../bl/2011-06-21-nserc-discovery-grants-2011-in-computer-science.html">2012)</a>, here is my analysis of this year&rsquo;s results.</p>
+
+<!-- more -->
+
+
+<h1>What is the distribution of grants?</h1>
+
+<p>The total amount for Discovery Grants in Computer Science was
+$4,894,000 (
+$5,943,920 last year) divided into 204 grants
+(227 last year). There were 3 1-year and 187 5-year
+(11 1-year, 3 3-year, 213 5-year in 2012). They went to 42 different institutions (49 last year).</p>
+
+<p>Minimum amount was $15k ($14k last year), first quartile $20k ($17k),
+median $20 ($22k), mean $25.758k ($25.38k), 3rd $30k ($28k), max $75k
+($122.2k).</p>
+
+<p>Compared to 2012, there is a slight reduction in the size awards.</p>
+
+<p>This is the distribution of grants per amount.</p>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="right" />
+
+<col  class="right" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="right">Amount</th>
+<th scope="col" class="right">No. Grants</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td class="right">15,000</td>
+<td class="right">44</td>
+</tr>
+
+
+<tr>
+<td class="right">20,000</td>
+<td class="right">53</td>
+</tr>
+
+
+<tr>
+<td class="right">25,000</td>
+<td class="right">29</td>
+</tr>
+
+
+<tr>
+<td class="right">30,000</td>
+<td class="right">23</td>
+</tr>
+
+
+<tr>
+<td class="right">36,000</td>
+<td class="right">22</td>
+</tr>
+
+
+<tr>
+<td class="right">44,000</td>
+<td class="right">11</td>
+</tr>
+
+
+<tr>
+<td class="right">52,000</td>
+<td class="right">3</td>
+</tr>
+
+
+<tr>
+<td class="right">62,000</td>
+<td class="right">3</td>
+</tr>
+
+
+<tr>
+<td class="right">66,000</td>
+<td class="right">1</td>
+</tr>
+
+
+<tr>
+<td class="right">75,000</td>
+<td class="right">1</td>
+</tr>
+</tbody>
+</table>
+
+
+<p>A simple way to visualize this data is tot plot individuals to amounts. Colours reflect the province (click to enlarge):</p>
+
+<p><img src="http://turingmachine.org/assets/images/2013/nserc2013byInd.png"></p>
+
+<p>As it can be seen, there is a fairly uniform distribution across the lowest amounts, with few outliers to the right. Not surprisingly Ontario is, again, the most frequent.
+Ontario and BC represent most of the points at the right side.</p>
+
+<h2>By Province</h2>
+
+<p>Here is a breakdown of the 4 big ones:</p>
+
+<p><img src="http://turingmachine.org/assets/images/2013/ab2013.png" alt="Alberta" /></p>
+
+<p><img src="http://turingmachine.org/assets/images/2013/bc2013.png" alt="British Columbia" /></p>
+
+<p><img src="http://turingmachine.org/assets/images/2013/on2013.png" alt="Ontario" /></p>
+
+<p><img src="http://turingmachine.org/assets/images/2013/qc2013.png" alt="Quebec" /></p>
+
+<h2>How do institutions compare?</h2>
+
+<p>I present the results arranged by University. Each vertical column is
+a university; they have been sorted by province.  Each point in the
+plot is a recipient. The colour of the point represents the type of
+grant (1 to 5 years). Most are 5 years, with few being 1 year (what I
+call probation grant: they either have faith you can do significantly
+better next year, or they are giving you a warning signal).</p>
+
+<p>The median across the country was $20k per year (in the spirit of disclosure mine is $24k&#x2013;2011).</p>
+
+<p>The boxplots are a simpler way to compare universities and are
+overlayed on the data. I have removed outliers from them to avoid
+confusion with the data points. Of course, if you have paid attention
+to your stats courses you will know that boxplots are good when the
+data is normally distributed (which I don&rsquo;t assume it is). Hence their
+use in this data is flawed, but they are still useful.</p>
+
+<p><img src="http://turingmachine.org/assets/images/2013/nserc2013byInst.png" alt="By institution" /></p>
+
+<p>I also got curious who the high fliers were. And below the points are labelled.</p>
+
+<p><img src="http://turingmachine.org/assets/images/2013/nserc2013byInstLabels.png" alt="By institution with labels." /></p>
+
+<h2>Everybody</h2>
+
+<p>And here is the list of every single person:</p>
+
+<p><img src="http://turingmachine.org/assets/images/2013/nserc2013all.png" alt="Everybody." /></p>
+
+<h2>Epilogue</h2>
+
+<p>At this point, everybody is in the new cycle. This will make comparing across years easier. That will be the next installment&#x2026;</p>
+
+<p>&#x2013;dmg</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[What does an IMDB rating of a movie mean?]]></title>
+    <link href="http://turingmachine.org/bl/2013-05-24-what-does-an-imdb-rating-of-a-movie-mean.html"/>
+    <updated>2013-05-24T00:00:00-07:00</updated>
+    <id>http://turingmachine.org/bl/what-does-an-imdb-rating-of-a-movie-mean</id>
+    <content type="html"><![CDATA[<p>The last few years I have found less and less interesting movies to
+watch. Maybe I am just getting old ;)</p>
+
+<p>One simple, but effective way I have used in the past to determine if
+a movie is worth watching is to use its <a href="http://www.imdb.com">IMDB</a> rating. Except for few comedies (e.g. Monty Python) I have always enjoyed any movie in the <a href="http://www.imdb.com/chart/top">IMDB TOP 250</a>.</p>
+
+<p>But what is a good ranking? Let us try to answer that question&#x2026;</p>
+
+<!-- more -->
+
+
+<p>I have data from the IMDB up to May 2013. One of the files that they
+provide includes, for each movie, a weighted rank (from 0 to 10), and the
+number of votes (plus some other info that we are not going to use).</p>
+
+<p>There are 210,371 movies. But not all of them have the same
+importance. The minimum number of votes is 5 and the maximum 971,041
+&mdash;<a href="http://www.imdb.com/title/tt0111161">The Shawshank Redemption (1994)</a>, one of the IMDBs all-time favorites.</p>
+
+<p>Here is the distribution of the number of votes in that dataset. 75%
+of movies have less than 118 votes!</p>
+
+<pre><code>    Votes       
+Min.   :     5  
+1st Qu.:    11  
+Median :    26  
+Mean   :  1524  
+3rd Qu.:   118  
+Max.   :971041  
+</code></pre>
+
+<p>Let us choose only movies that have a significant number of votes. Let
+us use 10k as the threshold. This leave us with 4,634 movies (I wonder
+how many movies Pic A Flic has).  This is a <a href="http://en.wikipedia.org/wiki/Violin_plot">Violin plot</a> of the rank of
+movies in the IMD with at least 10,000 votes. It shows, in a single
+plot, two ones: a density kernel (the outside) and boxplot (the
+inside). The kernel tell us that this has an almost normal
+distribution and its peak is around 6.7. In fact, the median is 6.7
+(that means that 50 percent of movies with at least 10k votes are
+above 6.7) and the average is 6.6. In fact, the 75% is 7.4 (the black
+area in the middle of the plot ends at the first 25%, and 75%
+quartiles&#x2013;i.e. 25% of the movies are below 6.0). So if you go to the
+Rental store, and see a movie that is relatively popular and has a
+rank of 7.5, then it is within the top 25% of movies. If you are very picky,
+use a threshold of 8.0: there are only 430 with higher than 8, or approximately 9% of the
+movies in the IMDB with at least 10k votes.</p>
+
+<p><img src="http://turingmachine.org/assets/images/2013/imdbByVotes.png" alt="Violin plot of the distribution of Rank of Movies with at least 10k votes." /></p>
+
+<p>This only holds true for Movies. For TV-shows the numbers are very
+skewed towards 10, and there have significantly less votes.</p>
+
+<p>So next time they ask you: <em>what movie should we rent?</em> Simply answer:
+any with at least 10,000 votes in the IMDB and at least a rank
+of 8. Or even better, one of the top 250.</p>
+
+<p>One word of caution: latest movies tend to be overvalued and their
+rankings lower as time passed by. For example, <a href="http://www.imdb.com/title/tt2592910/">CM101MMXI Fundamentals
+(2013)</a> has a current rating of 9.2 with 690,768 votes!!!! A movie I
+never heard of, but maybe a total success in Turkey, has more votes
+than <em>all</em> but 8 other movies, and a rank that is the highest except
+for one movie. Suspicious, if you ask me. Also, the voting data the
+IMDB provides does not seem to match exactly what is online.</p>
+
+<p>&#x2013;dmg</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Templetizing free and open source licenses for SPDX]]></title>
+    <link href="http://turingmachine.org/bl/2013-05-23-templetizing-open-source-licenses-for-spdx.html"/>
+    <updated>2013-05-23T00:00:00-07:00</updated>
+    <id>http://turingmachine.org/bl/templetizing-open-source-licenses-for-spdx</id>
+    <content type="html"><![CDATA[<p>One of the problems of automatic license matching is that some open
+source licenses are expected to be modified every time they are
+used. For example, the <a href="http://en.wikipedia.org/wiki/BSD_licenses#3-clause_license_.28.22Revised_BSD_License.22.2C_.22New_BSD_License.22.2C_or_.22Modified_BSD_License.22.29">BSD3</a> license is expected to have several
+sections replaced by the one that uses it, such as its copyright
+holder and year of copyright:</p>
+
+<pre><code>Copyright (c) &lt;year&gt;, &lt;copyright holder&gt;
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+...
+</code></pre>
+
+<!-- more -->
+
+
+<p>The problem is that information is not standardized. The <a href="http://spdx.org/SPDX">SPDX</a> is tryig
+to do this. As part of the team, and given my experience, I have been
+helping. My proposal is the following:</p>
+
+<h1>A proposal for templetization of Free and Open Source licenses for SPDX</h1>
+
+<h2>Introduction</h2>
+
+<p>Certain sections of a license vary as they are used. Some of this
+variability is by design (think of the BSD family of licenses). In
+other cases it is due to small changes in licenses as they are copied
+and propagated.</p>
+
+<h2>Rules</h2>
+
+<p>A variable section of a license is specified with a rule. A rule is
+wrapped between  and is composed of 5 parts. Each is separated
+with ; (semicolo). They cannot be embedded within other rules.</p>
+
+<ul>
+<li><p><strong>original</strong>: the original text of the rule. It should be the first field. It is required.</p></li>
+<li><p><strong>match</strong>: a POSIX regular expression (semicolons are escaped with \; within it). This field is required.</p></li>
+<li><p><strong>name</strong>: name of the field in the template. Each rule must have a name. This field is required.</p></li>
+<li><p><strong>type</strong>: required or optional. This field is required.</p></li>
+<li><p><strong>example</strong>: another example of the use of the text. This field is optional.</p></li>
+</ul>
+
+
+<h2>Example:</h2>
+
+<pre><code>{{original=THE AUTHOR OR CONTRIBUTORS;match=.+;name=copyrightHolderLiability;type=required;example=dmg inc.}}
+</code></pre>
+
+<p>Here is an example of the its use for the BSD3:</p>
+
+<pre><code>{{original=(c) &lt;year&gt; &lt;copyright holder&gt;;match=Copyright \(c\).+ All rights reserved.;name=copyrigh;type=optional;example=Copyright (c) 1994 David Burren All rights reserved}}
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions
+are met:
+
+1. Redistributions of source code must retain the above copyright
+   notice, this list of conditions and the following disclaimer.
+2. Redistributions in binary form must reproduce the above copyright
+   notice, this list of conditions and the following disclaimer in the
+   documentation and/or other materials provided with the distribution.
+3. Neither the {{original=name;{match=(name|names;name=nameprefix;example=name}} of {{original=the author nor the names of other contributors;match=.+;name=organizationClause4;example=ACME Inc.}}
+   may be used to endorse or promote products derived from this software
+   without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY {{original=THE AUTHOR AND CONTRIBUTORS;match=.+;name=copyrightHolderAsIs;type=required}} "AS IS" AND 
+ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL {{original=THE AUTHOR OR CONTRIBUTORS;match=.+;name=copyrightHolderLiability;type=required;example=John Wayne}} BE LIABLE FOR ANY
+DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+(INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
+ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+</code></pre>
+
+<p>This proposal is hosted at <a href="https://github.com/dmgerman/spdxTemplates">github</a>.</p>
+
+<p>&#x2013;dmg</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[My Course Evaluations]]></title>
+    <link href="http://turingmachine.org/bl/2013-05-23-my-course-evaluations.html"/>
+    <updated>2013-05-23T00:00:00-07:00</updated>
+    <id>http://turingmachine.org/bl/my-course-evaluations</id>
+    <content type="html"><![CDATA[<p>I am in a workshop intended to  try to improve our teaching in our department.</p>
+
+<p>Students participating mention that it would be valuable to have our student evaluations posted.
+I have been thinking about doing it for some time&#x2026; so here they are:</p>
+
+<!-- more -->
+
+
+<h1>My course evaluations, by my students.</h1>
+
+<h2>2012</h2>
+
+<ul>
+<li><p><a href="../assets/pdfs/courseEvals/2012/spring/2012S_seng410.pdf">SENG 410 Media Applications, Spring</a></p></li>
+<li><p><a href="../assets/pdfs/courseEvals/2012/summer/2012summer_csc370.pdf">CSC 370 Database Systems, Summer</a></p></li>
+<li><p><a href="../assets/pdfs/courseEvals/2012/fall/CSC370_A01-A02_German,D.pdf">CSC 370 Database Systems, Fall</a></p></li>
+<li><p><a href="../assets/pdfs/courseEvals/2012/fall/CSC485-A01-586-A01-SENG480-A01_German,D.pdf">CSC485-A01-586-A01-SENG480 Intellectual Property and Software Engineering, Fall</a></p></li>
+</ul>
+
+
+<h2>2011</h2>
+
+<ul>
+<li><p><a href="../assets/pdfs/courseEvals/2011/2011F_csc595.pdf">CSC 595 Research Methods in Computer Science, Fall</a></p></li>
+<li><p><a href="../assets/pdfs/courseEvals/2011/2011F_csc370.pdf">CSC 370 Database Systems, Fall</a></p></li>
+</ul>
+
+
+<h2>2010</h2>
+
+<ul>
+<li><p><a href="../assets/pdfs/courseEvals/2010/2010S_csc589.pdf">CSC589 Mining Software Repositories, Spring</a></p></li>
+<li><p><a href="../assets/pdfs/courseEvals/2010/2010S_csc499.pdf">CSC499 Honours, Spring</a></p></li>
+<li><p><a href="../assets/pdfs/courseEvals/2010/2010K_seng401.pdf">SENG 401 Computer and Society, Summer</a></p></li>
+<li><p><a href="../assets/pdfs/courseEvals/2010/2010K_seng265.pdf">SENG 265 Introduction to Software Engineering Summer</a></p></li>
+<li><p><a href="../assets/pdfs/courseEvals/2010/2010F_csc370.pdf">CSC 370 Database Systems, Fall</a></p></li>
+</ul>
+
+
+<h2>2008</h2>
+
+<ul>
+<li><p><a href="../assets/pdfs/courseEvals/2008K_csc370.pdf">CSC 370 Database Systems, Summer</a></p></li>
+<li><p><a href="../assets/pdfs/courseEvals/2008/2008K_SEng401.pdf">SENG 401 Computer and Society, Summer</a></p></li>
+<li><p><a href="../assets/pdfs/courseEvals/2008/SENG410_Spr08.pdf">SENG 410 Media Applications, Spring</a></p></li>
+<li><p><a href="../assets/pdfs/courseEvals/2008/2008K_csc370.pdf">CSC 370 Database Systems, Summer</a></p></li>
+</ul>
+
+
+<h2>2007</h2>
+
+<ul>
+<li><p><a href="../assets/pdfs/courseEvals/2007/2007S_csc370.pdf">CSC 370 Database Systems, Spring</a></p></li>
+<li><p><a href="../assets/pdfs/courseEvals/2007/CSC484A-ENGL%20503_Sum07.pdf">CSC484A-ENGL503 Digital Humanities, Summer</a></p></li>
+</ul>
+
+
+<h2>2005</h2>
+
+<ul>
+<li><p><a href="../assets/pdfs/courseEvals/2005/2005K_CSC586E.pdf">CSC 586E Open Source Software Engineering, Summer</a></p></li>
+<li><p><a href="../assets/pdfs/courseEvals/2005/2005K_CSC370.pdf">CSC 370 Database Systems, Summer</a></p></li>
+<li><p><a href="../assets/pdfs/courseEvals/2005/2005K_seng400.pdf">SENG 400 Computer and Society, Summer</a></p></li>
+</ul>
+
+
+<h2>2004</h2>
+
+<ul>
+<li><p><a href="../assets/pdfs/courseEvals/2004/2004F_CS483A-SEng480B.pdf">CS483A-SEng480B, Fall</a></p></li>
+<li><p><a href="../assets/pdfs/courseEvals/2004/2004F_CSC370.pdf">CSC 370 Database Systems, Fall</a></p></li>
+</ul>
+
+
+<h2>2003</h2>
+
+<ul>
+<li><p><a href="../assets/pdfs/courseEvals/2003/2003F_CSC483a-583b.pdf">CSC483a-583b Fall</a></p></li>
+<li><p><a href="../assets/pdfs/courseEvals/2003/2003K_CSC370.pdf">CSC 370 Database Systems, Summer</a></p></li>
+</ul>
+
+
+<h2>2002</h2>
+
+<ul>
+<li><p><a href="../assets/pdfs/courseEvals/2002/2002F_CSC370.pdf">CSC 370 Database Systems, Fall</a></p></li>
+<li><p><a href="../assets/pdfs/courseEvals/2002/2002S_SEng480B-CSC586B.pdf">SEng480B-CSC586B, Summer</a></p></li>
+<li><p><a href="../assets/pdfs/courseEvals/2002/2002F_SEng265.pdf">SENG 265 Introduction to Software Engineering, Fall</a></p></li>
+</ul>
+
+
+<h2>2001</h2>
+
+<ul>
+<li><a href="../assets/pdfs/courseEvals/2001/2001F_SEng265.pdf">SENG 265 Introduction to Software Engineering, Fall</a></li>
+</ul>
+
+
+<p>&#x2013;dmg</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[What effect does Distributed Version Control have on OSS Project Organization?]]></title>
@@ -267,7 +776,7 @@ by the audience, and his answers:</p>
 
 <blockquote><p>Audience member: &ldquo;Roasted hey, wood stocks, apparently turn into very tasty things. There has to be some really abysmal failures you&rsquo;d never wish on the tongues of even your worst enemies&#x2026;Any you would like to share?&rdquo;</p>
 
-<p>Grant: &ldquo;There are tones of failures. But we know that going in. <strong>We are not afraid  to fail</strong>.&rdquo;</p></blockquote>
+<p>Grant: &ldquo;There are tonnes of failures. But we know that going in. <strong>We are not afraid  to fail</strong>.&rdquo;</p></blockquote>
 
 <p>I suspect that that attitude: willing to try and not being afraid to fail is what makes them succeed.</p>
 
@@ -547,42 +1056,149 @@ digraph G {
     <link href="http://turingmachine.org/bl/2013-05-13-nserc-discovery-grants-2012.html"/>
     <updated>2013-05-13T10:50:00-07:00</updated>
     <id>http://turingmachine.org/bl/nserc-discovery-grants-2012</id>
-    <content type="html"><![CDATA[<p>The day of the publication of the results of the NSERC Discovery Grants for 2013 is approaching, and I just realized that I didn&rsquo;t publish the ones from 2012, which
-<a href="http://turingmachine.org/bl/2011/06/21/nserc-discovery-grants-2011-in-computer-science/">I did for 2011</a></p>
+    <content type="html"><![CDATA[<p>The day of the publication of the results of the NSERC Discovery
+Grants for 2013 is approaching, and I just realized that I didn&rsquo;t
+publish the ones from 2012, which
+<a href="../bl/2011-06-21-nserc-discovery-grants-2011-in-computer-science.html">I did for 2011</a>.</p>
 
 <p>The <a href="http://www.nserc-crsng.gc.ca/NSERC-CRSNG/FundingDecisions-DecisionsFinancement/ResearchGrants-SubventionsDeRecherche/ResultsGSC-ResultatsCSS_eng.asp?Year=2012">full list of results can be found here</a>.</p>
 
-<p> <!--more--></p>
-
-<h3>What is the distribution of grants?</h3>
+<!-- more -->
 
 
-<p>First, the total amount for Discovery Grants in Computer Science was $5,943,920 per year ($5,126,543 last year) divided into 227 grants (202 last year). There were 11 1-year, 3 3-year, 213 5-year (10 1-year, 1 2-year, 1-3 year and the rest 5 years in 2011). They went to 49 different institutions (45 in 2011).</p>
+<h1>What is the distribution of grants?</h1>
 
-<p>Minimum amount was (like the year before) $14k, first quantile $17k (20k last year), median $22k (24 last year), average $26,185 ($25.380k last year), third quartile $28k ($29k), and maximum of $122.2 ($96k last year). A Shapiro-Wilk test shows that this distribution appears NOT to be normal (p &lt;&lt; 0.01).</p>
+<p>First, the total amount for Discovery Grants in Computer Science was
+$5,943,920 per year ($5,126,543 last year) divided into 227 grants
+(202 last year). There were 11 1-year, 3 3-year, 213 5-year (10
+1-year, 1 2-year, 1-3 year and the rest 5 years in 2011). They went to
+49 different institutions (45 in 2011).</p>
 
-<p>Compared to 2011, there was more money available per person (26.2k versus 25.4k), and there were many more smaller grant, but also the larger grants accounted for a larger share (one person got a lot of money).</p>
+<p>Minimum amount was (like the year before) $14k, first quantile $17k
+(20k last year), median $22k (24 last year), average $26,185 ($25.380k
+last year), third quartile $28k ($29k), and maximum of $122.2 ($96k
+last year). A Shapiro-Wilk test shows that this distribution appears
+NOT to be normal (p &lt;&lt; 0.01).</p>
+
+<p>Compared to 2011, there was more money available per person (26.2k
+versus 25.4k), and there were many more smaller grant, but also the
+larger grants accounted for a larger share (one person got a lot of
+money).</p>
 
 <p>This is the distribution of grants per amount.</p>
 
-<pre>
-14,000      43
-17,000      32
-19,000      9 
-22,000      47
-27,000      2 
-27,920      1 
-28,000      39
-33,000      1 
-34,000      23
-42,000      17
-52,000      5 
-62,000      3 
-74,000      1 
-78,000      2 
-92,000      1 
-122,000     1 
-</pre>
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="left" />
+
+<col  class="right" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="left">Amount</th>
+<th scope="col" class="right">No. Grants</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td class="left">14,000</td>
+<td class="right">43</td>
+</tr>
+
+
+<tr>
+<td class="left">17,000</td>
+<td class="right">32</td>
+</tr>
+
+
+<tr>
+<td class="left">19,000</td>
+<td class="right">9</td>
+</tr>
+
+
+<tr>
+<td class="left">22,000</td>
+<td class="right">47</td>
+</tr>
+
+
+<tr>
+<td class="left">27,000</td>
+<td class="right">2</td>
+</tr>
+
+
+<tr>
+<td class="left">27,920</td>
+<td class="right">1</td>
+</tr>
+
+
+<tr>
+<td class="left">28,000</td>
+<td class="right">39</td>
+</tr>
+
+
+<tr>
+<td class="left">33,000</td>
+<td class="right">1</td>
+</tr>
+
+
+<tr>
+<td class="left">34,000</td>
+<td class="right">23</td>
+</tr>
+
+
+<tr>
+<td class="left">42,000</td>
+<td class="right">17</td>
+</tr>
+
+
+<tr>
+<td class="left">52,000</td>
+<td class="right">5</td>
+</tr>
+
+
+<tr>
+<td class="left">62,000</td>
+<td class="right">3</td>
+</tr>
+
+
+<tr>
+<td class="left">74,000</td>
+<td class="right">1</td>
+</tr>
+
+
+<tr>
+<td class="left">78,000</td>
+<td class="right">2</td>
+</tr>
+
+
+<tr>
+<td class="left">92,000</td>
+<td class="right">1</td>
+</tr>
+
+
+<tr>
+<td class="left">122,000</td>
+<td class="right">1</td>
+</tr>
+</tbody>
+</table>
 
 
 <p>A simple way to visualize this data is tot plot individuals to amounts. Colours reflect the province (click to enlarge):</p>
@@ -594,16 +1210,15 @@ Ontario and BC represent most of the points at the right side.</p>
 
 <p>Here is a breakdown of the 4 big ones:</p>
 
-<p><img src="http://turingmachine.org/assets/images/2012/ab2012.png"></p>
+<p><img src="http://turingmachine.org/assets/images/2012/ab2012.png" alt="Alberta" /></p>
 
-<p><img src="http://turingmachine.org/assets/images/2012/bc2012.png"></p>
+<p><img src="http://turingmachine.org/assets/images/2012/bc2012.png" alt="British Columbia" /></p>
 
-<p><img src="http://turingmachine.org/assets/images/2012/on2012.png"></p>
+<p><img src="http://turingmachine.org/assets/images/2012/on2012.png" alt="Ontario" /></p>
 
-<p><img src="http://turingmachine.org/assets/images/2012/qc2012.png"></p>
+<p><img src="http://turingmachine.org/assets/images/2012/qc2012.png" alt="Quebec" /></p>
 
-<h3>How do institutions compare?</h3>
-
+<h2>How do institutions compare?</h2>
 
 <p>I present the results arranged by University. Each vertical column is
 a university; they have been sorted by province.  Each point in the
@@ -612,7 +1227,7 @@ grant (1 to 5 years). Most are 5 years, with few being 1 year (what I
 call probation grant: they either have faith you can do significantly
 better next year, or they are giving you a warning signal).</p>
 
-<p>The median across the country was $22k per year (in the spirit of disclosure mine is $24k&mdash;2011).</p>
+<p>The median across the country was $22k per year (in the spirit of disclosure mine is $24k&#x2013;2011).</p>
 
 <p>The boxplots are a simpler way to compare universities and are
 overlayed on the data. I have removed outliers from them to avoid
@@ -621,24 +1236,22 @@ to your stats courses you will know that boxplots are good when the
 data is normally distributed (which I don&rsquo;t assume it is). Hence their
 use in this data is flawed, but they are still useful.</p>
 
-<p><img src="http://turingmachine.org/assets/images/2012/nserc2012byInst.png"></p>
+<p><img src="http://turingmachine.org/assets/images/2012/nserc2012byInst.png" alt="By institution" /></p>
 
 <p>I also got curious who the high fliers were. And below the points are labelled.</p>
 
-<p><img src="http://turingmachine.org/assets/images/2012/nserc2012byInstLabels.png"></p>
+<p><img src="http://turingmachine.org/assets/images/2012/nserc2012byInstLabels.png" alt="By institution with labels." /></p>
 ]]></content>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Those Russian Dash Cams...]]></title>
+    <title type="html"><![CDATA[Those Russian Dash Cams&#x2026;]]></title>
     <link href="http://turingmachine.org/bl/2013-05-13-those-russian-dash-cams.html"/>
     <updated>2013-05-13T09:56:00-07:00</updated>
     <id>http://turingmachine.org/bl/those-russian-dash-cams</id>
-    <content type="html"><![CDATA[<p>They show the bad, but they also show the humane side.<!--more--></p>
+    <content type="html"><![CDATA[<p>They show the bad, but they also show the humane side.<!-- more --></p>
 
 <iframe width="560" height="315" src="http://www.youtube.com/embed/TzBInt4zljQ" frameborder="0" allowfullscreen></iframe>
-
-
 
 ]]></content>
   </entry>
@@ -656,7 +1269,7 @@ I knew I had a chance to one day eat at the best restaurant in the
 world.</p>
 
 <p>Looking at the <a href="http://en.wikipedia.org/wiki/The_World's_50_Best_Restaurants">rakings of the best places to
-eat</a> <!--more-->
+eat</a> <!-- more -->
 I decided that that restaurant was going to be <a href="http://en.wikipedia.org/wiki/El_Celler_de_Can_Roca">El Cellar de CanRoca</a>.</p>
 
 <p>Two years before, I was visiting Girona, and decided to walk into the
@@ -674,7 +1287,7 @@ served</a>. It
 has been, without a doubt, the best meal in my life, and the longest
 (we arrived at 1:30 and left at 5:30).</p>
 
-<p>&mdash;dmg</p>
+<p>&#x2013;dmg</p>
 ]]></content>
   </entry>
   
@@ -683,13 +1296,15 @@ has been, without a doubt, the best meal in my life, and the longest
     <link href="http://turingmachine.org/bl/2013-05-12-barcelona-champions.html"/>
     <updated>2013-05-12T21:02:00-07:00</updated>
     <id>http://turingmachine.org/bl/barcelona-champions</id>
-    <content type="html"><![CDATA[<p>FC Barcelona is finally champion of <a href="http://en.wikipedia.org/wiki/2012%E2%80%9313_La_Liga">la
-Liga</a>. It is
-certainly an accomplishment to have won 4 out of the last 5
-championships. Yet this year has a sombre tone. The loss against
-<a href="http://www.guardian.co.uk/football/2013/may/01/barcelona-bayern-munich-live-mbm-report">Bayern
-0-7</a>
-left much to be desired. <!--more-->It was not only that they lost, but the
+    <content type="html"><![CDATA[<p>FC Barcelona is finally champion of <a href="http://en.wikipedia.org/wiki/2012%E2%80%9313_La_Liga">La Liga</a>. It is certainly an
+accomplishment to have won 4 out of the last 5 championships. Yet this
+year has a sombre tone. The loss against <a href="http://www.guardian.co.uk/football/2013/may/01/barcelona-bayern-munich-live-mbm-report">Bayern 0-7</a> left much to be
+desired.</p>
+
+<!-- more -->
+
+
+<p>It was not only that they lost, but the
 apathy of the team during the second game. It was clear they had given
 up.</p>
 
@@ -697,24 +1312,27 @@ up.</p>
 
 <p>The photo at the right was taken in Feb. 2012, at Camp Nou. Messi almost scored in this play. Look at where he left the players behind him. He is one of a kind.</p>
 
-<p>&mdash;dmg</p>
+<p>&#x2013;dmg</p>
 ]]></content>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Towards a census of free and open source licenses.]]></title>
+    <title type="html"><![CDATA[Towards a census of free and open source licenses]]></title>
     <link href="http://turingmachine.org/bl/2013-05-12-towards-a-census-of-used-open-source-licenses.html"/>
     <updated>2013-05-12T19:09:00-07:00</updated>
     <id>http://turingmachine.org/bl/towards-a-census-of-used-open-source-licenses</id>
     <content type="html"><![CDATA[<p>During the last three years I have been attending the <a href="http://fsfe.org/activities/ftf/network.en.html">European Legal
-Network</a> Free Software
-Legal and Licensing Workshop.  Because of
-the quality of people in attendance this is probably the best
+Network</a> Free Software Legal and Licensing Workshop. Because of the
+quality of people in attendance this is probably the best
 workshop/conference for open source licensing in the world.</p>
 
-<p>This year I presented a talk called <em>Toward a census of free and open
-source software licenses</em>.  <!--more-->
-Ever since I started working with open
+<p>This year I presented a talk called <strong>Toward a census of free and open
+source software licenses</strong>.</p>
+
+<!-- more -->
+
+
+<p>Ever since I started working with open
 source licenses I have been looking into the issues of what licenses
 are more widely used.</p>
 
@@ -723,17 +1341,14 @@ trivial. There are many factors that can affect the final result. For
 this reason it is very important to be very aware of the methodology
 behind the census. Otherwise one might be misled by the results.</p>
 
-<p><a href="http://blog.man7.org/">Michael Kerrisk</a> from <a href="https://lwn.net/">LWN</a>
-was in attendance. As it is customary in this workshop, its discussion
-is subject to <a href="http://en.wikipedia.org/wiki/Chatham_House_Rule">Chatham House
-Rule</a>. In a nutshell,
-after the meeting you can mention what was discussed, but not who
-discussed it.</p>
+<p><a href="http://blog.man7.org/">Michael Kerrisk</a> from <a href="https://lwn.net/">LWN</a> was in attendance. As it is customary in this
+workshop, its discussion is subject to <a href="http://en.wikipedia.org/wiki/Chatham_House_Rule">Chatham House Rule</a>. In a
+nutshell, after the meeting you can mention what was discussed, but
+not who discussed it.</p>
 
 <p>For that reason Michael requested my permission to write an article at
-LWN on my talk. He did a <a href="https://lwn.net/Articles/547400/">great
-job</a>. It is almost a play-by-play of
-the presentation:</p>
+LWN on my talk. He did a <a href="https://lwn.net/Articles/547400/">great job</a>. It is almost a play-by-play of the
+presentation:</p>
 
 <center>
 <iframe src="http://www.slideshare.net/slideshow/embed_code/21300738" width="476" height="400" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
@@ -743,26 +1358,26 @@ the presentation:</p>
 <p>Only a word of advice: the numbers are preliminary. We&rsquo;ll publish
 accurate in the very short future.</p>
 
-<p>&mdash;dmg</p>
+<p>&#x2013;dmg</p>
 ]]></content>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[This is the beginning of the world... again]]></title>
+    <title type="html"><![CDATA[This is the beginning of the world&#x2026; again]]></title>
     <link href="http://turingmachine.org/bl/2013-05-12-this-is-the-beginning-of-the-world-dot-dot-dot.html"/>
     <updated>2013-05-12T17:52:00-07:00</updated>
     <id>http://turingmachine.org/bl/this-is-the-beginning-of-the-world-dot-dot-dot</id>
     <content type="html"><![CDATA[<p>I am tired of web-based blogging. I want to blog when I want, where I
-want&mdash;that includes not having an internet connection&mdash;-and don&rsquo;t be
+want&#x2013;that includes not having an internet connection&#x2014;and don&rsquo;t be
 forced to use any specific infrastructure to do it.</p>
 
 <p>Why? because I like my editor. And every time I have to use a
 different editing environment I feel trustrated.</p>
 
-<p>So here it goes again&hellip; a reboot of my web site. Well, it just has to
-happen every few years&hellip;</p>
+<p>So here it goes again&#x2026; a reboot of my web site. Well, it just has to
+happen every few years&#x2026;</p>
 
-<p>&mdash;dmg</p>
+<p>&#x2013;dmg</p>
 ]]></content>
   </entry>
   
@@ -771,18 +1386,15 @@ happen every few years&hellip;</p>
     <link href="http://turingmachine.org/bl/2011-06-21-nserc-discovery-grants-2011-in-computer-science.html"/>
     <updated>2011-06-21T23:50:00-07:00</updated>
     <id>http://turingmachine.org/bl/nserc-discovery-grants-2011-in-computer-science</id>
-    <content type="html"><![CDATA[<p>NSERC has published the results of the <a href="http://www.nserc-crsng.gc.ca/NSERC-CRSNG/FundingDecisions-DecisionsFinancement/ResearchGrants-SubventionsDeRecherche/ResultsGSC-ResultatsCSS_eng.asp?Year=2011">NSERC discovery grant
-competition in
-2011</a>. NSERC
-only published the raw data, so with a little bit of initiative one
-can retrieve it and visualize it.</p>
+    <content type="html"><![CDATA[<p>NSERC has published the results of the <a href="http://www.nserc-crsng.gc.ca/NSERC-CRSNG/FundingDecisions-DecisionsFinancement/ResearchGrants-SubventionsDeRecherche/ResultsGSC-ResultatsCSS_eng.asp?Year=2011">NSERC discovery grant competition in 2011</a>. NSERC only published the raw data, so with a
+little bit of initiative one can retrieve it and visualize it.</p>
 
-<p>I had several questions about this data&hellip;.</p>
+<p>I had several questions about this data&#x2026;.</p>
 
-<p> <!--more--></p>
+<!-- more -->
 
-<h3>What is the distribution of grants?</h3>
 
+<h1>What is the distribution of grants?</h1>
 
 <p>First, the total amount for Discovery Grants in Computer Science was $5,126,543 per year divided in 202 grants (10 1 year, 1 2 year, 1 3 year and the rest 5 years). They went to 45 different institutions.</p>
 
@@ -790,44 +1402,132 @@ can retrieve it and visualize it.</p>
 
 <p>This is the distribution of grants per amount.</p>
 
-<pre>
-14,000 46
-15,000 1
-18,000 1
-20,000 39
-24,000 43
-29,000 34
-33,000 19
-42,000 7
-49,000 6
-59,243 1
-60,000 1
-60,300 1
-76,000 1
-85,000 1
-96,000 1
-</pre>
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="left" />
+
+<col  class="right" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="left">Amount</th>
+<th scope="col" class="right">No. Grants</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td class="left">14,000</td>
+<td class="right">46</td>
+</tr>
+
+
+<tr>
+<td class="left">15,000</td>
+<td class="right">1</td>
+</tr>
+
+
+<tr>
+<td class="left">18,000</td>
+<td class="right">1</td>
+</tr>
+
+
+<tr>
+<td class="left">20,000</td>
+<td class="right">39</td>
+</tr>
+
+
+<tr>
+<td class="left">24,000</td>
+<td class="right">43</td>
+</tr>
+
+
+<tr>
+<td class="left">29,000</td>
+<td class="right">34</td>
+</tr>
+
+
+<tr>
+<td class="left">33,000</td>
+<td class="right">19</td>
+</tr>
+
+
+<tr>
+<td class="left">42,000</td>
+<td class="right">7</td>
+</tr>
+
+
+<tr>
+<td class="left">49,000</td>
+<td class="right">6</td>
+</tr>
+
+
+<tr>
+<td class="left">59,243</td>
+<td class="right">1</td>
+</tr>
+
+
+<tr>
+<td class="left">60,000</td>
+<td class="right">1</td>
+</tr>
+
+
+<tr>
+<td class="left">60,300</td>
+<td class="right">1</td>
+</tr>
+
+
+<tr>
+<td class="left">76,000</td>
+<td class="right">1</td>
+</tr>
+
+
+<tr>
+<td class="left">85,000</td>
+<td class="right">1</td>
+</tr>
+
+
+<tr>
+<td class="left">96,000</td>
+<td class="right">1</td>
+</tr>
+</tbody>
+</table>
 
 
 <p>A simple way to visualize this data is tot plot individuals to amounts. Colours reflect the province (click to enlarge):</p>
 
-<p><img src="http://turingmachine.org/assets/images/2011/nserc2011byInd.png"></p>
+<p><img src="http://turingmachine.org/assets/images/2011/nserc2011byInd.png" alt="By institution" /></p>
 
 <p>As it can be seen, there is a fairly uniform distribution across the lowest amounts, with few outliers to the right. Not surprisingly Ontario is the most frequent.
 Ontario and BC represent most of the points at the right side. It is surprising to see the absence of Alberta there (its highest is 33k).</p>
 
 <p>Here is a breakdown of the 4 big ones:</p>
 
-<p><img src="http://turingmachine.org/assets/images/2011/ab2011.png"></p>
+<p><img src="http://turingmachine.org/assets/images/2011/ab2011.png" alt="Alberta" /></p>
 
-<p><img src="http://turingmachine.org/assets/images/2011/bc2011.png"></p>
+<p><img src="http://turingmachine.org/assets/images/2011/bc2011.png" alt="British Columbia" /></p>
 
-<p><img src="http://turingmachine.org/assets/images/2011/on2011.png"></p>
+<p><img src="http://turingmachine.org/assets/images/2011/on2011.png" alt="Ontario" /></p>
 
-<p><img src="http://turingmachine.org/assets/images/2011/qc2011.png"></p>
+<p><img src="http://turingmachine.org/assets/images/2011/qc2011.png" alt="Quebec" /></p>
 
-<h3>How do institutions compare?</h3>
-
+<h2>How do institutions compare?</h2>
 
 <p>I present the results arranged by University. Each vertical column is
 a university; they have been sorted by province.  Each point in the
@@ -845,62 +1545,13 @@ to your stats courses you will know that boxplots are good when the
 data is normally distributed (which I don&rsquo;t assume it is). Hence their
 use in this data is flawed, but they are still useful.</p>
 
-<p><img src="http://turingmachine.org/assets/images/2011/nserc2011byInst.png"></p>
+<p><img src="http://turingmachine.org/assets/images/2011/nserc2011byInst.png" alt="By institution" /></p>
 
 <p>I also got curious who the high fliers were. And below the points are labelled.</p>
 
-<p><img src="http://turingmachine.org/assets/images/2011/nserc2011byInstLabels.png"></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Does the New York Times mocks me?]]></title>
-    <link href="http://turingmachine.org/bl/2010-05-25-does-the-new-york-times-mocks-me.html"/>
-    <updated>2010-05-25T00:22:00-07:00</updated>
-    <id>http://turingmachine.org/bl/does-the-new-york-times-mocks-me</id>
-    <content type="html"><![CDATA[<p>This weekend I watched &ldquo;The People vs Larry Flint&rdquo;. One of the scenes is:</p>
+<p><img src="http://turingmachine.org/assets/images/2011/nserc2011byInstLabels.png" alt="By institution with labels" /></p>
 
-<!--more-->
-
-
-
-
-<blockquote><p>Larry: You guys read Playboy?<br/>Friend 1: Well yeah.<br/>Friend 2: Sure.<br/>Jimmy: Yeah.<br/>Larry: Uhmm &#8230; Did you, uh&#8211;excuse me, Baby. Did you enjoy this month&#8217;s article on how to hook up your quadraphonic stereo system?<br/>Friend 3: I think I missed that one.<br/>Larry: And, uh, did you follow their advice on how to make a perfect martini?<br/>Chester: Hey, Larry, c&#8217;mon man, move over.<br/>Larry: Who is this magazine for anyway? I mean, ya know, it&#8217;s like if you don&#8217;t make twenty thousand-plus a year, you don&#8217;t jerk off. Seven million people buying it, and nobody&#8217;s reading it. Gentlemen, Playboy is mocking you!</p></blockquote>
-
-
-<p>Today I opened the New York Times Travel Magazine, that is included
-with the Sunday edition of the paper (yes, I get the paper version). I
-found an editorial for the <a href="http://tmagazine.blogs.nytimes.com/2010/05/19/geek-chic-power-ranger/">Yves Saint Laurent&rsquo;s Travel Adapter</a>, at a
-list price of 450 US. The description reads: &ldquo;Considering how long
-stylish travelers have had to cart around less-than-beautiful
-electrical doohickeys, it&rsquo;s a wonder that fashion hasn&rsquo;t come to the
-rescue sooner.&rdquo;</p>
-
-<p>I wonder if the New York Times is mocking me.</p>
-
-<p>And I haven&rsquo;t even mentioned the ads for many of its products.</p>
-
-<p>&mdash;dmg</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Illiterate: cultural shock]]></title>
-    <link href="http://turingmachine.org/bl/2009-04-22-illiterate-cultural-shock.html"/>
-    <updated>2009-04-22T00:35:00-07:00</updated>
-    <id>http://turingmachine.org/bl/illiterate-cultural-shock</id>
-    <content type="html"><![CDATA[<p>I got an envelope today, and &ldquo;suddenly it hit me&rdquo;. I am totally
-illiterate. I can&rsquo;t even read my own name. I needed 10 minutes using
-the wikipedia to understand it (and of course I knew what it was!)</p>
-
-<!--more-->
-
-
-<p>モラレス ゲルマン ダニエル</p>
-
-<p>I have no idea what it says inside, though .</p>
-
-<p>&mdash;dmg</p>
+<p>&#x2013;dmg</p>
 ]]></content>
   </entry>
   

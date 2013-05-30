@@ -1,0 +1,262 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>What does an IMDB rating of a movie mean? - Turing Machine</title>
+	<meta name="author" content="Daniel German">
+
+	
+	<meta name="description" content="The last few years I have found less and less interesting movies to
+watch. Maybe I am just getting old ;) One simple, but effective way I have used &hellip;">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<link href="/atom.xml" rel="alternate" title="Turing Machine" type="application/atom+xml">
+	<link rel="canonical" href="">
+	<link href="/favicon.png" rel="shortcut icon">
+	<link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+	<!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	
+</head>
+
+<body>
+	<header id="header" class="inner"><h1><a href="/bl">Turing Machine</a></h1>
+<nav id="main-nav"><ul class="main">
+	<li><a href="/bl/">Blog</a></li>
+	<li><a href="/research/">Research</a></li>
+	<li><a href="/bl/archives">Archives</a></li>
+        <li><a href="/who-i-am">About&nbsp;me</a></li>
+        <li><a href="http://silvernegative.com">My&nbsp;photography</a></li>
+</ul>
+</nav>
+<nav id="mobile-nav">
+	<div class="alignleft menu">
+		<a class="button">Menu</a>
+		<div class="container"><ul class="main">
+	<li><a href="/bl/">Blog</a></li>
+	<li><a href="/research/">Research</a></li>
+	<li><a href="/bl/archives">Archives</a></li>
+        <li><a href="/who-i-am">About&nbsp;me</a></li>
+        <li><a href="http://silvernegative.com">My&nbsp;photography</a></li>
+</ul>
+</div>
+	</div>
+	<div class="alignright search">
+		<a class="button"></a>
+		<div class="container">
+			<form action="http://google.com/search" method="get">
+				<input type="text" name="q" results="0">
+				<input type="hidden" name="q" value="site:turingmachine.org">
+			</form>
+		</div>
+	</div>
+</nav>
+<nav id="sub-nav" class="alignright">
+	<div class="social">
+		
+		
+		
+		
+    
+		
+		
+		
+		
+		
+		<a class="rss" href="/atom.xml" title="RSS">RSS</a>
+		
+	</div>
+	<form class="search" action="http://google.com/search" method="get">
+		<input class="alignright" type="text" name="q" results="0">
+		<input type="hidden" name="q" value="site:turingmachine.org">
+	</form>
+</nav>
+
+</header>
+	
+		
+	
+	<div id="content" class="inner"><article class="post">
+
+	<h2 class="title">What Does an IMDB Rating of a Movie Mean?</h2>
+	<div class="entry-content">
+       
+        <div class="entry-image">
+        <a class="fancybox" rel="group" href="/assets/images/060814-060812_7464_850.jpg"><img src="/assets/images/060814-060812_7464_850.jpg" alt=""></a>
+        </div>
+       
+        <p>The last few years I have found less and less interesting movies to
+watch. Maybe I am just getting old ;)</p>
+
+<p>One simple, but effective way I have used in the past to determine if
+a movie is worth watching is to use its <a href="http://www.imdb.com">IMDB</a> rating. Except for few comedies (e.g. Monty Python) I have always enjoyed any movie in the <a href="http://www.imdb.com/chart/top">IMDB TOP 250</a>.</p>
+
+<p>But what is a good ranking? Let us try to answer that question&#x2026;</p>
+
+<!-- more -->
+
+
+<p>I have data from the IMDB up to May 2013. One of the files that they
+provide includes, for each movie, a weighted rank (from 0 to 10), and the
+number of votes (plus some other info that we are not going to use).</p>
+
+<p>There are 210,371 movies. But not all of them have the same
+importance. The minimum number of votes is 5 and the maximum 971,041
+&mdash;<a href="http://www.imdb.com/title/tt0111161">The Shawshank Redemption (1994)</a>, one of the IMDBs all-time favorites.</p>
+
+<p>Here is the distribution of the number of votes in that dataset. 75%
+of movies have less than 118 votes!</p>
+
+<pre><code>    Votes       
+Min.   :     5  
+1st Qu.:    11  
+Median :    26  
+Mean   :  1524  
+3rd Qu.:   118  
+Max.   :971041  
+</code></pre>
+
+<p>Let us choose only movies that have a significant number of votes. Let
+us use 10k as the threshold. This leave us with 4,634 movies (I wonder
+how many movies Pic A Flic has).  This is a <a href="http://en.wikipedia.org/wiki/Violin_plot">Violin plot</a> of the rank of
+movies in the IMD with at least 10,000 votes. It shows, in a single
+plot, two ones: a density kernel (the outside) and boxplot (the
+inside). The kernel tell us that this has an almost normal
+distribution and its peak is around 6.7. In fact, the median is 6.7
+(that means that 50 percent of movies with at least 10k votes are
+above 6.7) and the average is 6.6. In fact, the 75% is 7.4 (the black
+area in the middle of the plot ends at the first 25%, and 75%
+quartiles&#x2013;i.e. 25% of the movies are below 6.0). So if you go to the
+Rental store, and see a movie that is relatively popular and has a
+rank of 7.5, then it is within the top 25% of movies. If you are very picky,
+use a threshold of 8.0: there are only 430 with higher than 8, or approximately 9% of the
+movies in the IMDB with at least 10k votes.</p>
+
+<p><img src="/assets/images/2013/imdbByVotes.png" alt="Violin plot of the distribution of Rank of Movies with at least 10k votes." /></p>
+
+<p>This only holds true for Movies. For TV-shows the numbers are very
+skewed towards 10, and there have significantly less votes.</p>
+
+<p>So next time they ask you: <em>what movie should we rent?</em> Simply answer:
+any with at least 10,000 votes in the IMDB and at least a rank
+of 8. Or even better, one of the top 250.</p>
+
+<p>One word of caution: latest movies tend to be overvalued and their
+rankings lower as time passed by. For example, <a href="http://www.imdb.com/title/tt2592910/">CM101MMXI Fundamentals
+(2013)</a> has a current rating of 9.2 with 690,768 votes!!!! A movie I
+never heard of, but maybe a total success in Turkey, has more votes
+than <em>all</em> but 8 other movies, and a rank that is the highest except
+for one movie. Suspicious, if you ask me. Also, the voting data the
+IMDB provides does not seem to match exactly what is online.</p>
+
+<p>&#x2013;dmg</p>
+</div>
+
+
+<div class="meta">
+	<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-05-24T00:00:00-07:00" pubdate data-updated="true">May 24<span>th</span>, 2013</time></div>
+	<div class="tags">
+
+
+	<a class='category' href='/bl/categories/ramblings/'>ramblings</a>
+
+
+</div>
+	
+</div>
+
+
+
+
+<div id="sub-nav"> 
+        <div class="clear">&nbsp;</div> 
+        <div class="left"> 
+         
+                <a href="/bl/2013-05-23-templetizing-open-source-licenses-for-spdx.html" title="Previous Post: 
+Templetizing free and open source licenses for SPDX">Older: Templetizing free and open source licenses for SPDX</a> 
+         
+        </div> 
+
+        <div class="right"> 
+         
+                <a href="/bl/2013-05-26-nserc-discovery-grants-2013-in-computer-science.html" title="next Post: 
+NSERC Discovery Grants 2013 in Computer Science">Newer: NSERC Discovery Grants 2013 in Computer Science </a> 
+         
+        </div> 
+        <div class="clear">&nbsp;</div> 
+</div> 
+</article>
+
+
+	<div class="share">
+	<div class="addthis_toolbox addthis_default_style ">
+	
+	
+	<a class="addthis_button_tweet"></a>
+	
+	
+	<a class="addthis_counter addthis_pill_style"></a>
+	</div>
+  <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid="></script>
+</div>
+
+
+
+
+<section id="comment">
+    <h2 class="title">Comments</h2>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+</section>
+
+</div>
+	<footer id="footer" class="inner">Copyright &copy; 2013
+
+    Daniel German
+
+</footer>
+	<script src="/javascripts/slash.js"></script>
+<script src="/javascripts/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+	$('.fancybox').fancybox();
+})(jQuery);
+</script> <!-- Delete or comment this line to disable Fancybox -->
+
+
+<script type="text/javascript">
+      var disqus_shortname = 'theTM';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://turingmachine.org/bl/2013-05-24-what-does-an-imdb-rating-of-a-movie-mean.html';
+        var disqus_url = 'http://turingmachine.org/bl/2013-05-24-what-does-an-imdb-rating-of-a-movie-mean.html';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+
+
+</body>
+</html>
