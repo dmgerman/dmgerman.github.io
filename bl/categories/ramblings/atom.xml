@@ -4,7 +4,7 @@
   <title><![CDATA[Category: ramblings | turingMachine]]></title>
   <link href="http://turingmachine.org/bl/categories/ramblings/atom.xml" rel="self"/>
   <link href="http://turingmachine.org/"/>
-  <updated>2013-08-20T13:34:29-07:00</updated>
+  <updated>2013-08-20T13:35:08-07:00</updated>
   <id>http://turingmachine.org/</id>
   <author>
     <name><![CDATA[Daniel German]]></name>
@@ -29,15 +29,7 @@ paying for the phone part. What I want is to pay only for data.</p>
 <!-- more -->
 
 
-<p>@@html:{% pullquote %}
-Searching for the best deal I came to the conclusion that a tablet
-plan for my phone was the best deal. Why? I don&rsquo;t receive phone calls
-in my phone.
-{&ldquo;The big 3 (telus, rogers, bell) + fido all allow you to use a tablet
-plan on a phone.&rdquo;} If you use the phone, you&rsquo;ll be charged $1/min. If
-you use texting its price varies.</p>
-
-<p>@@html:{% endpullquote %}</p>
+<p>Surround your pullquote like this {" text to be quoted "}</p>
 
 <p>With a data connection:</p>
 
@@ -299,12 +291,7 @@ is. Notice how the curve at the bottom varies by usage.</p>
 
 <h1>What do you do?</h1>
 
-<p>{% pullquote %}
-{&ldquo;My suggestion: monitor your usage, understand you needs, and make an
-informed decision.&rdquo;}
-My wish is that we pay per byte used, at the tone of one cent per
-Megabyte plus a base rate of $5 dollars.
-html:{% endpullquote %}</p>
+<p>Surround your pullquote like this {" text to be quoted "}</p>
 
 <p>Also, note that I haven&rsquo;t mentioned reliability, reachability, nor
 quality of service. This might be a factor that makes a given plan
@@ -12218,7 +12205,7 @@ median $20 ($22k), mean $25.758k ($25.38k), 3rd $30k ($28k), max $75k
 
 <p>A simple way to visualize this data is tot plot individuals to amounts. Colours reflect the province (click to enlarge):</p>
 
-<p>{% img /assets/images/2013/nserc2013byInd.png %}</p>
+<p><img src="/assets/images/2013/nserc2013byInd.png"></p>
 
 <p>As it can be seen, there is a fairly uniform distribution across the lowest amounts, with few outliers to the right. Not surprisingly Ontario is, again, the most frequent.
 Ontario and BC represent most of the points at the right side.</p>
