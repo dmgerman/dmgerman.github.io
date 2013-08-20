@@ -4,7 +4,7 @@
   <title><![CDATA[Category: papers | turingMachine]]></title>
   <link href="http://turingmachine.org/bl/categories/papers/atom.xml" rel="self"/>
   <link href="http://turingmachine.org/"/>
-  <updated>2013-08-20T13:30:23-07:00</updated>
+  <updated>2013-08-20T13:34:29-07:00</updated>
   <id>http://turingmachine.org/</id>
   <author>
     <name><![CDATA[Daniel German]]></name>
@@ -23,8 +23,16 @@ Release Engineering</a> is worked mainly by <a href="http://users.encs.concordia
 a graduate student: <a href="../assets/pdfs/papers/dmg2013_relengGit.pdf">What effect does Distributed Version Control have on OSS Project Organization?</a></p>
 
 <blockquote>
-
-P. Rigby, E. Barr, C. Bird, P. Devanbu and D. German, “What effect does Distributed Version Control have on OSS Project Organization?”, in <i>The International Workshop on Release Engineering, RELENG 2013</i>, 2013, 29--32.
+{% bibtex %}
+@inproceedings{dmg2013-relenggit,
+  title={What effect does Distributed Version Control have on OSS Project Organization?},
+  author={Peter Rigby and Earl Barr and Chris Bird and Premkumar Devanbu  and Daniel German},
+  booktitle={The International Workshop on Release Engineering, RELENG 2013},
+  year={2013},
+  month= {May},
+  pages = {29--32},
+}
+{% endbibtex %}
 </blockquote>
 
 
@@ -88,8 +96,16 @@ original styles of collaboration that deserve further study.</p></blockquote>
 Continuous Integration in GNOME</a>. Its full bibliographic entry is:</p>
 
 <blockquote>
-
-C. Walters, G. Poo-Caamaño and D. M. German, “The Future of Continuous Integration in GNOME”, in <i>The International Workshop on Release Engineering, RELENG 2013</i>, 2013, 33--36.
+{% bibtex %}
+@inproceedings{dmg2013-relenggit,
+  title={The Future of Continuous Integration in GNOME},
+  author={Colin Walters and Germán Poo-Caamaño and Daniel M. German},
+  booktitle={The International Workshop on Release Engineering, RELENG 2013},
+  year={2013},
+  month= {May},
+  pages = {33--36},
+}
+{% endbibtex %}
 </blockquote>
 
 
@@ -155,8 +171,16 @@ like approach to the building and deployment of applications.</p></blockquote>
     <content type="html"><![CDATA[<p>Today Yujuan presented our paper <a href="../assets/pdfs/papers/dmg2013_msrPatch.pdf">Will My Patch Make It? And How Fast? Case Study on the Linux Kernel</a> at <a href="http://2013.msrconf.org/">MSR 2013</a>. Its full bibliographic entry is:</p>
 
 <blockquote>
-
-Y. Jiang, B. Adams and D. M. German, “Will My Patch Make It? And How Fast? Case Study on the Linux Kernel”, in <i>International Working Conference of Mining Software Repositories, MSR'2013</i>, 2013, 101--110.
+{% bibtex %}
+@inproceedings{dmg2013-relenggit,
+  title={Will My Patch Make It? And How Fast? Case Study on the Linux Kernel},
+  author={Yujuan Jiang and Bram Adams and Daniel M. German},
+  booktitle={International Working Conference of Mining Software Repositories, MSR'2013},
+  year={2013},
+  month= "May",
+  pages = "101--110",
+}
+{% endbibtex %}
 </blockquote>
 
 
