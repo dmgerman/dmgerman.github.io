@@ -4,7 +4,7 @@
   <title><![CDATA[Category: hacking | turingMachine]]></title>
   <link href="http://turingmachine.org/bl/categories/hacking/atom.xml" rel="self"/>
   <link href="http://turingmachine.org/"/>
-  <updated>2013-08-20T13:36:41-07:00</updated>
+  <updated>2013-09-15T14:04:30-05:00</updated>
   <id>http://turingmachine.org/</id>
   <author>
     <name><![CDATA[Daniel German]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[Recursively listing directories in elisp]]></title>
     <link href="http://turingmachine.org/bl/2013-05-29-recursively-listing-directories-in-elisp.html"/>
-    <updated>2013-05-29T00:00:00-07:00</updated>
+    <updated>2013-05-29T00:00:00-05:00</updated>
     <id>http://turingmachine.org/bl/recursively-listing-directories-in-elisp</id>
     <content type="html"><![CDATA[<p>I was looking for a function that recursively scanned directories, and could not find one. So I wrote my own. Maybe somebody else will find it useful.</p>
 
@@ -92,7 +92,7 @@ those files/directories that contain the substring rip or stage.</p>
   <entry>
     <title type="html"><![CDATA[Using Octopress and Org-Mode for my website]]></title>
     <link href="http://turingmachine.org/bl/2013-05-14-using-octopress-and-org-mode.html"/>
-    <updated>2013-05-14T00:00:00-07:00</updated>
+    <updated>2013-05-14T00:00:00-05:00</updated>
     <id>http://turingmachine.org/bl/using-octopress-and-org-mode</id>
     <content type="html"><![CDATA[<p>Every few years I decide that it is time to use a new infrastructure
 to start blogging. This time <a href="http://leif.me">Leif</a> suggested that I look into

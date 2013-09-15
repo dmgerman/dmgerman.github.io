@@ -4,7 +4,7 @@
   <title><![CDATA[Category: research | turingMachine]]></title>
   <link href="http://turingmachine.org/bl/categories/research/atom.xml" rel="self"/>
   <link href="http://turingmachine.org/"/>
-  <updated>2013-08-20T13:36:41-07:00</updated>
+  <updated>2013-09-15T14:04:30-05:00</updated>
   <id>http://turingmachine.org/</id>
   <author>
     <name><![CDATA[Daniel German]]></name>
@@ -14,9 +14,48 @@
 
   
   <entry>
+    <title type="html"><![CDATA[On license compliance]]></title>
+    <link href="http://turingmachine.org/bl/2013-09-15-on-license-compliance.html"/>
+    <updated>2013-09-15T00:00:00-05:00</updated>
+    <id>http://turingmachine.org/bl/on-license-compliance</id>
+    <content type="html"><![CDATA[<h1>On licence compliance</h1>
+
+<p>Today I am participating in a workshop organized by <a href="https://infoinstitute.utexas.edu/people/instructors/matt-germonprez">Matt Germonprez</a>. The title of my presentation is:</p>
+
+<p>On the provenance of Free and Open Source Software and the legal implications of its reuse</p>
+
+<p>It is mostly based on this paper [[<a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6178302">A Method for Open Source License
+Compliance of Java Applications</a>, IEEE Software May-June 2012 (vol. 29
+no. 3) (email me if you can&rsquo;t get a copy).</p>
+
+<!-- more -->
+
+
+<p>Intellectual property and software engineering: The use of open
+source continues to increase in commercial software development. One of
+the main challenges these organizations face is to fully understand the
+requirements that the licenses of the open source software impose on
+software they want to use. In the last few years we have performed
+empirical studies to try to understand these issues; we have also
+developed Ninka, a license identification tool for open source licenses
+(<a href="http://ninka.turingmachine.org">http://ninka.turingmachine.org</a>), and developed methods and tools to
+help determine the provenance of Java binary files. Recently we have
+been working with the SPDX initiative towards the definition of a
+standard to exchange licensing information of software products.</p>
+
+<center>
+<iframe src="http://www.slideshare.net/slideshow/embed_code/26207287" width="476" height="400" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+</center>
+
+
+<p>&#x2013;dmg</p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Templetizing free and open source licenses for SPDX]]></title>
     <link href="http://turingmachine.org/bl/2013-05-23-templetizing-open-source-licenses-for-spdx.html"/>
-    <updated>2013-05-23T00:00:00-07:00</updated>
+    <updated>2013-05-23T00:00:00-05:00</updated>
     <id>http://turingmachine.org/bl/templetizing-open-source-licenses-for-spdx</id>
     <content type="html"><![CDATA[<p>One of the problems of automatic license matching is that some open
 source licenses are expected to be modified every time they are
@@ -111,7 +150,7 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
   <entry>
     <title type="html"><![CDATA[What effect does Distributed Version Control have on OSS Project Organization?]]></title>
     <link href="http://turingmachine.org/bl/2013-05-22-what-effect-does-distributed-version-control-have-on-oss-project-organization.html"/>
-    <updated>2013-05-22T00:00:00-07:00</updated>
+    <updated>2013-05-22T00:00:00-05:00</updated>
     <id>http://turingmachine.org/bl/what-effect-does-distributed-version-control-have-on-oss-project-organization</id>
     <content type="html"><![CDATA[<p>Another paper we published at <a href="http://releng.polymtl.ca/">RelEng: The International Workshop on
 Release Engineering</a> is worked mainly by <a href="http://users.encs.concordia.ca/~pcr/">Peter Rigby</a> when we was still
@@ -177,7 +216,7 @@ original styles of collaboration that deserve further study.</p></blockquote>
   <entry>
     <title type="html"><![CDATA[The Future of Continuous Integration in GNOME]]></title>
     <link href="http://turingmachine.org/bl/2013-05-21-the-future-of-continuous-integration-in-gnome.html"/>
-    <updated>2013-05-21T00:00:00-07:00</updated>
+    <updated>2013-05-21T00:00:00-05:00</updated>
     <id>http://turingmachine.org/bl/the-future-of-continuous-integration-in-gnome</id>
     <content type="html"><![CDATA[<p>This year is the first edition of <a href="http://releng.polymtl.ca/">RelEng: The International Workshop on Release Engineering</a>.  <a href="http://calcifer.org/">Germán</a> presented our paper <a href="../assets/pdfs/papers/dmg2013_relengGnome.pdf">The Future of
 Continuous Integration in GNOME</a>. Its full bibliographic entry is:</p>
@@ -245,7 +284,7 @@ like approach to the building and deployment of applications.</p></blockquote>
   <entry>
     <title type="html"><![CDATA[Tactics]]></title>
     <link href="http://turingmachine.org/bl/2013-05-21-tactics-.html"/>
-    <updated>2013-05-21T00:00:00-07:00</updated>
+    <updated>2013-05-21T00:00:00-05:00</updated>
     <id>http://turingmachine.org/bl/tactics-</id>
     <content type="html"><![CDATA[<p><a href="http://en.wikipedia.org/wiki/Jonathan_Wilson_(writer)">Jonathan Wilson</a> is one of the best analysts of the <a href="http://en.wikipedia.org/wiki/Association_football">Beautiful Game</a>. He
 answers an important question: <em>what is the relationship between
@@ -323,67 +362,6 @@ supporting each other as we completed our work.</p>
 teams better around them. I think we need to learn to quantify
 this. And we need to learn how to make software development managers
 better at improving their <em>base</em>.</p>
-
-<p>&#x2013;dmg</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Will My Patch Make It? And How Fast? Case Study on the Linux Kernel]]></title>
-    <link href="http://turingmachine.org/bl/2013-05-19-will-my-patch-make-it-linux-msr-2013.html"/>
-    <updated>2013-05-19T00:00:00-07:00</updated>
-    <id>http://turingmachine.org/bl/will-my-patch-make-it-linux-msr-2013</id>
-    <content type="html"><![CDATA[<p>Today Yujuan presented our paper <a href="../assets/pdfs/papers/dmg2013_msrPatch.pdf">Will My Patch Make It? And How Fast? Case Study on the Linux Kernel</a> at <a href="http://2013.msrconf.org/">MSR 2013</a>. Its full bibliographic entry is:</p>
-
-<blockquote>
-
-Y. Jiang, B. Adams and D. M. German, “Will My Patch Make It? And How Fast? Case Study on the Linux Kernel”, in <i>International Working Conference of Mining Software Repositories, MSR'2013</i>, 2013, 101--110.
-</blockquote>
-
-
-
-
-<!-- more -->
-
-
-<p>The main objective of the paper is to try to determine what are the
-characteristics that make a patch being accepted by the Linux
-development team.</p>
-
-<p>This is its Bibtex entry:</p>
-
-<pre><code>@inproceedings{dmg2013-relenggit,
-  title="{Will My Patch Make It? And How Fast? Case Study on the Linux Kernel}",
-  author={Yujuan Jiang and Bram Adams and Daniel M. German},
-  booktitle={International Working Conference of Mining Software Repositories, MSR'2013},
-  year={2013},
-  month= "May",
-  pages = "101--110",
-}
-</code></pre>
-
-<p>and this its abstract:</p>
-
-<blockquote><p>The Linux kernel follows an extremely distributed reviewing and
-integration process supported by 130 developer mailing lists and a
-hierarchy of dozens of Git repositories for version control. Since not
-every patch can make it and of those that do, some patches require a
-lot more reviewing and integration effort than others, developers,
-reviewers and integrators need support for estimating which patches
-are worthwhile to spend effort on and which ones do not stand a
-chance. This paper cross-links and analyzes eight years of patch
-reviews from the kernel mailing lists and committed patches from the
-Git repository to understand which patches are accepted and how long
-it takes those patches to get to the end user. We found that 33\% of
-the patches makes it into a Linux release, and that most of them need
-3 to 6 months for this. Furthermore, that patches developed by more
-experienced developers are more easily accepted and faster reviewed
-and integrated. Additionally, reviewing time is impacted by submission
-time, the number of affected subsystems by the patch and the number of
-requested reviewers.</p></blockquote>
-
-<p>The main outcome is that experience plays one of the most important
-factors.</p>
 
 <p>&#x2013;dmg</p>
 ]]></content>

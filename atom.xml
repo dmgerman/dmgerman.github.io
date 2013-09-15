@@ -4,7 +4,7 @@
   <title><![CDATA[turingMachine]]></title>
   <link href="http://turingmachine.org/atom.xml" rel="self"/>
   <link href="http://turingmachine.org/"/>
-  <updated>2013-08-20T13:36:41-07:00</updated>
+  <updated>2013-09-15T14:04:30-05:00</updated>
   <id>http://turingmachine.org/</id>
   <author>
     <name><![CDATA[Daniel German]]></name>
@@ -14,9 +14,48 @@
 
   
   <entry>
+    <title type="html"><![CDATA[On license compliance]]></title>
+    <link href="http://turingmachine.org/bl/2013-09-15-on-license-compliance.html"/>
+    <updated>2013-09-15T00:00:00-05:00</updated>
+    <id>http://turingmachine.org/bl/on-license-compliance</id>
+    <content type="html"><![CDATA[<h1>On licence compliance</h1>
+
+<p>Today I am participating in a workshop organized by <a href="https://infoinstitute.utexas.edu/people/instructors/matt-germonprez">Matt Germonprez</a>. The title of my presentation is:</p>
+
+<p>On the provenance of Free and Open Source Software and the legal implications of its reuse</p>
+
+<p>It is mostly based on this paper [[<a href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6178302">A Method for Open Source License
+Compliance of Java Applications</a>, IEEE Software May-June 2012 (vol. 29
+no. 3) (email me if you can&rsquo;t get a copy).</p>
+
+<!-- more -->
+
+
+<p>Intellectual property and software engineering: The use of open
+source continues to increase in commercial software development. One of
+the main challenges these organizations face is to fully understand the
+requirements that the licenses of the open source software impose on
+software they want to use. In the last few years we have performed
+empirical studies to try to understand these issues; we have also
+developed Ninka, a license identification tool for open source licenses
+(<a href="http://ninka.turingmachine.org">http://ninka.turingmachine.org</a>), and developed methods and tools to
+help determine the provenance of Java binary files. Recently we have
+been working with the SPDX initiative towards the definition of a
+standard to exchange licensing information of software products.</p>
+
+<center>
+<iframe src="http://www.slideshare.net/slideshow/embed_code/26207287" width="476" height="400" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+</center>
+
+
+<p>&#x2013;dmg</p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[How to minimize what you pay for mobile Internet]]></title>
     <link href="http://turingmachine.org/bl/2013-08-20-how-to-minimize-what-you-pay-for-mobile-internet.html"/>
-    <updated>2013-08-20T00:00:00-07:00</updated>
+    <updated>2013-08-20T00:00:00-05:00</updated>
     <id>http://turingmachine.org/bl/how-to-minimize-what-you-pay-for-mobile-internet</id>
     <content type="html"><![CDATA[<p><strong>Updated: Telus has changed their pricing, making it one of the most attractive options</strong></p>
 
@@ -29,15 +68,16 @@ paying for the phone part. What I want is to pay only for data.</p>
 <!-- more -->
 
 
-<p><span class='pullquote-right' data-pullquote='The big 3 (telus, rogers, bell) + fido all allow you to use a tablet
-plan on a phone.'>
-Searching for the best deal I came to the conclusion that a tablet
+<p><span class='pullquote-right' data-pullquote='The big 3 (telus, rogers, bell) + fido all allow you to
+use a tablet plan on a phone.'></p>
+
+<p>Searching for the best deal I came to the conclusion that a tablet
 plan for my phone was the best deal. Why? I don&rsquo;t receive phone calls
-in my phone.
-The big 3 (telus, rogers, bell) + fido all allow you to use a tablet
-plan on a phone. If you use the phone, you&rsquo;ll be charged $1/min. If
-you use texting its price varies.
-html:</span></p>
+in my phone. The big 3 (telus, rogers, bell) + fido all allow you to
+use a tablet plan on a phone. If you use the phone, you&rsquo;ll be
+charged $1/min. If you use texting its price varies.</p>
+
+<p></span></p>
 
 <p>With a data connection:</p>
 
@@ -50,7 +90,7 @@ html:</span></p>
 
 
 <p>The advantage of the data plans is that they are by-month. You don&rsquo;t
-need a contract, so you can cancel with one-month notice. Most of them
+need a contract, hence you can cancel with one-month notice. Most of them
 are &ldquo;flex&rdquo; so what you pay varies depending on the data you use. And
 that is where the big question lies: which one is the best plan?</p>
 
@@ -305,7 +345,7 @@ My suggestion: monitor your usage, understand you needs, and make an
 informed decision.
 My wish is that we pay per byte used, at the tone of one cent per
 Megabyte plus a base rate of $5 dollars.
-html:</span></p>
+</span></p>
 
 <p>Also, note that I haven&rsquo;t mentioned reliability, reachability, nor
 quality of service. This might be a factor that makes a given plan
@@ -331,7 +371,7 @@ Telus. The question is: flex rate or fixed?</p>
   <entry>
     <title type="html"><![CDATA[All NSERC discovery awards in Computer Science in the last 5 years]]></title>
     <link href="http://turingmachine.org/bl/2013-06-18-all-nserc-discovery-awards-in-computer-science-in-the-last-5-years.html"/>
-    <updated>2013-06-18T00:00:00-07:00</updated>
+    <updated>2013-06-18T00:00:00-05:00</updated>
     <id>http://turingmachine.org/bl/all-nserc-discovery-awards-in-computer-science-in-the-last-5-years</id>
     <content type="html"><![CDATA[<p>This is the list of all awardees in Computer Science in the Computer
 Science Group since 2010 plus the awards in 2009 under the old
@@ -11548,7 +11588,7 @@ NSERC. The amounts are per year.</p>
   <entry>
     <title type="html"><![CDATA[Camille's, the best of 38 coffee places and restaurants in Victoria in on Month]]></title>
     <link href="http://turingmachine.org/bl/2013-06-12-38-coffee-places-and-restaurants-in-victoria-in-on-month.html"/>
-    <updated>2013-06-12T00:00:00-07:00</updated>
+    <updated>2013-06-12T00:00:00-05:00</updated>
     <id>http://turingmachine.org/bl/38-coffee-places-and-restaurants-in-victoria-in-on-month</id>
     <content type="html"><![CDATA[<p>Once in a while I feel a bit tired of the places where I eat lunch,
 then I have the urge to try new ones (and the ones I haven&rsquo;t visited
@@ -12113,7 +12153,7 @@ to the right of the Odeon cineplex on Yates.</p>
   <entry>
     <title type="html"><![CDATA[Lesson from Vincent Laforet: Patience]]></title>
     <link href="http://turingmachine.org/bl/2013-06-02-vincent-laforet-on-digital-rev.html"/>
-    <updated>2013-06-02T00:00:00-07:00</updated>
+    <updated>2013-06-02T00:00:00-05:00</updated>
     <id>http://turingmachine.org/bl/vincent-laforet-on-digital-rev</id>
     <content type="html"><![CDATA[<p>Many photographers have influenced my work, but few like <a href="http://blog.vincentlaforet.com/">Vincent
 Laforet</a>. I love his aerial photographs of New York from the first
@@ -12147,7 +12187,7 @@ for that decisive moment (and to know when you should wait).</p>
   <entry>
     <title type="html"><![CDATA[Recursively listing directories in elisp]]></title>
     <link href="http://turingmachine.org/bl/2013-05-29-recursively-listing-directories-in-elisp.html"/>
-    <updated>2013-05-29T00:00:00-07:00</updated>
+    <updated>2013-05-29T00:00:00-05:00</updated>
     <id>http://turingmachine.org/bl/recursively-listing-directories-in-elisp</id>
     <content type="html"><![CDATA[<p>I was looking for a function that recursively scanned directories, and could not find one. So I wrote my own. Maybe somebody else will find it useful.</p>
 
@@ -12223,7 +12263,7 @@ those files/directories that contain the substring rip or stage.</p>
   <entry>
     <title type="html"><![CDATA[NSERC Discovery Grants 2013 in Computer Science]]></title>
     <link href="http://turingmachine.org/bl/2013-05-26-nserc-discovery-grants-2013-in-computer-science.html"/>
-    <updated>2013-05-26T00:00:00-07:00</updated>
+    <updated>2013-05-26T00:00:00-05:00</updated>
     <id>http://turingmachine.org/bl/nserc-discovery-grants-2013-in-computer-science</id>
     <content type="html"><![CDATA[<p>The results of the NSERC Discovery Grants for 2013 have been published.</p>
 
@@ -12387,7 +12427,7 @@ use in this data is flawed, but they are still useful.</p>
   <entry>
     <title type="html"><![CDATA[What does an IMDB rating of a movie mean?]]></title>
     <link href="http://turingmachine.org/bl/2013-05-24-what-does-an-imdb-rating-of-a-movie-mean.html"/>
-    <updated>2013-05-24T00:00:00-07:00</updated>
+    <updated>2013-05-24T00:00:00-05:00</updated>
     <id>http://turingmachine.org/bl/what-does-an-imdb-rating-of-a-movie-mean</id>
     <content type="html"><![CDATA[<p>The last few years I have found less and less interesting movies to
 watch. Maybe I am just getting old ;)</p>
@@ -12460,7 +12500,7 @@ IMDB provides does not seem to match exactly what is online.</p>
   <entry>
     <title type="html"><![CDATA[Templetizing free and open source licenses for SPDX]]></title>
     <link href="http://turingmachine.org/bl/2013-05-23-templetizing-open-source-licenses-for-spdx.html"/>
-    <updated>2013-05-23T00:00:00-07:00</updated>
+    <updated>2013-05-23T00:00:00-05:00</updated>
     <id>http://turingmachine.org/bl/templetizing-open-source-licenses-for-spdx</id>
     <content type="html"><![CDATA[<p>One of the problems of automatic license matching is that some open
 source licenses are expected to be modified every time they are
@@ -12549,7 +12589,7 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
   <entry>
     <title type="html"><![CDATA[My Course Evaluations]]></title>
     <link href="http://turingmachine.org/bl/2013-05-23-my-course-evaluations.html"/>
-    <updated>2013-05-23T00:00:00-07:00</updated>
+    <updated>2013-05-23T00:00:00-05:00</updated>
     <id>http://turingmachine.org/bl/my-course-evaluations</id>
     <content type="html"><![CDATA[<p>I am in a workshop intended to  try to improve our teaching in our department.</p>
 
@@ -12656,7 +12696,7 @@ I have been thinking about doing it for some time&#x2026; so here they are:</p>
   <entry>
     <title type="html"><![CDATA[What effect does Distributed Version Control have on OSS Project Organization?]]></title>
     <link href="http://turingmachine.org/bl/2013-05-22-what-effect-does-distributed-version-control-have-on-oss-project-organization.html"/>
-    <updated>2013-05-22T00:00:00-07:00</updated>
+    <updated>2013-05-22T00:00:00-05:00</updated>
     <id>http://turingmachine.org/bl/what-effect-does-distributed-version-control-have-on-oss-project-organization</id>
     <content type="html"><![CDATA[<p>Another paper we published at <a href="http://releng.polymtl.ca/">RelEng: The International Workshop on
 Release Engineering</a> is worked mainly by <a href="http://users.encs.concordia.ca/~pcr/">Peter Rigby</a> when we was still
@@ -12722,7 +12762,7 @@ original styles of collaboration that deserve further study.</p></blockquote>
   <entry>
     <title type="html"><![CDATA[The Future of Continuous Integration in GNOME]]></title>
     <link href="http://turingmachine.org/bl/2013-05-21-the-future-of-continuous-integration-in-gnome.html"/>
-    <updated>2013-05-21T00:00:00-07:00</updated>
+    <updated>2013-05-21T00:00:00-05:00</updated>
     <id>http://turingmachine.org/bl/the-future-of-continuous-integration-in-gnome</id>
     <content type="html"><![CDATA[<p>This year is the first edition of <a href="http://releng.polymtl.ca/">RelEng: The International Workshop on Release Engineering</a>.  <a href="http://calcifer.org/">Germán</a> presented our paper <a href="../assets/pdfs/papers/dmg2013_relengGnome.pdf">The Future of
 Continuous Integration in GNOME</a>. Its full bibliographic entry is:</p>
@@ -12790,7 +12830,7 @@ like approach to the building and deployment of applications.</p></blockquote>
   <entry>
     <title type="html"><![CDATA[Tactics]]></title>
     <link href="http://turingmachine.org/bl/2013-05-21-tactics-.html"/>
-    <updated>2013-05-21T00:00:00-07:00</updated>
+    <updated>2013-05-21T00:00:00-05:00</updated>
     <id>http://turingmachine.org/bl/tactics-</id>
     <content type="html"><![CDATA[<p><a href="http://en.wikipedia.org/wiki/Jonathan_Wilson_(writer)">Jonathan Wilson</a> is one of the best analysts of the <a href="http://en.wikipedia.org/wiki/Association_football">Beautiful Game</a>. He
 answers an important question: <em>what is the relationship between
@@ -12892,7 +12932,7 @@ better at improving their <em>base</em>.</p>
   <entry>
     <title type="html"><![CDATA[We are not afraid to fail]]></title>
     <link href="http://turingmachine.org/bl/2013-05-20-we-are-not-afraid-to-fail.html"/>
-    <updated>2013-05-20T00:00:00-07:00</updated>
+    <updated>2013-05-20T00:00:00-05:00</updated>
     <id>http://turingmachine.org/bl/we-are-not-afraid-to-fail</id>
     <content type="html"><![CDATA[<p><a href="http://en.wikipedia.org/wiki/Grant_Achatz">Grant Achatz</a> is one of the great chefs of our times. His restaurant
 <a href="http://en.wikipedia.org/wiki/Alinea_(restaurant)">Alinea</a> (in Chicago) is considered one of the best in the world.</p>
@@ -12938,7 +12978,7 @@ by the audience, and his answers:</p>
   <entry>
     <title type="html"><![CDATA[Will My Patch Make It? And How Fast? Case Study on the Linux Kernel]]></title>
     <link href="http://turingmachine.org/bl/2013-05-19-will-my-patch-make-it-linux-msr-2013.html"/>
-    <updated>2013-05-19T00:00:00-07:00</updated>
+    <updated>2013-05-19T00:00:00-05:00</updated>
     <id>http://turingmachine.org/bl/will-my-patch-make-it-linux-msr-2013</id>
     <content type="html"><![CDATA[<p>Today Yujuan presented our paper <a href="../assets/pdfs/papers/dmg2013_msrPatch.pdf">Will My Patch Make It? And How Fast? Case Study on the Linux Kernel</a> at <a href="http://2013.msrconf.org/">MSR 2013</a>. Its full bibliographic entry is:</p>
 
@@ -12999,7 +13039,7 @@ factors.</p>
   <entry>
     <title type="html"><![CDATA[The Data Track at MSR 2013]]></title>
     <link href="http://turingmachine.org/bl/2013-05-16-msr-2013.html"/>
-    <updated>2013-05-16T00:00:00-07:00</updated>
+    <updated>2013-05-16T00:00:00-05:00</updated>
     <id>http://turingmachine.org/bl/msr-2013</id>
     <content type="html"><![CDATA[<p>This year, during <a href="http://msrcanada.org/msrvision2020/">MSR Vision 20/20</a> there was an interesting discussion
 about providing some type of reward for researchers who share their data with
@@ -13041,7 +13081,7 @@ Zimmermann</a></strong> </div>
   <entry>
     <title type="html"><![CDATA[Why pay for wine at all?]]></title>
     <link href="http://turingmachine.org/bl/2013-05-15-why-pay-for-wine-at-all%3F.html"/>
-    <updated>2013-05-15T00:00:00-07:00</updated>
+    <updated>2013-05-15T00:00:00-05:00</updated>
     <id>http://turingmachine.org/bl/why-pay-for-wine-at-all?</id>
     <content type="html"><![CDATA[<p>The Globe and Mail asks: <a href="http://www.theglobeandmail.com/life/food-and-wine/wine/why-you-pay-52-for-a-15-wine-in-a-restaurant/article11919459/">Why you pay $52 for a $15 wine in a restaurant?</a>. My response to that, why pay for wine at all?</p>
 ]]></content>
@@ -13050,7 +13090,7 @@ Zimmermann</a></strong> </div>
   <entry>
     <title type="html"><![CDATA[Using Octopress and Org-Mode for my website]]></title>
     <link href="http://turingmachine.org/bl/2013-05-14-using-octopress-and-org-mode.html"/>
-    <updated>2013-05-14T00:00:00-07:00</updated>
+    <updated>2013-05-14T00:00:00-05:00</updated>
     <id>http://turingmachine.org/bl/using-octopress-and-org-mode</id>
     <content type="html"><![CDATA[<p>Every few years I decide that it is time to use a new infrastructure
 to start blogging. This time <a href="http://leif.me">Leif</a> suggested that I look into
@@ -13185,7 +13225,7 @@ digraph G {
   <entry>
     <title type="html"><![CDATA[NSERC Discovery Grants 2012 in Computer Science]]></title>
     <link href="http://turingmachine.org/bl/2013-05-13-nserc-discovery-grants-2012.html"/>
-    <updated>2013-05-13T10:50:00-07:00</updated>
+    <updated>2013-05-13T10:50:00-05:00</updated>
     <id>http://turingmachine.org/bl/nserc-discovery-grants-2012</id>
     <content type="html"><![CDATA[<p>The day of the publication of the results of the NSERC Discovery
 Grants for 2013 is approaching, and I just realized that I didn&rsquo;t
@@ -13378,47 +13418,12 @@ use in this data is flawed, but they are still useful.</p>
   <entry>
     <title type="html"><![CDATA[Those Russian Dash Cams&#x2026;]]></title>
     <link href="http://turingmachine.org/bl/2013-05-13-those-russian-dash-cams.html"/>
-    <updated>2013-05-13T09:56:00-07:00</updated>
+    <updated>2013-05-13T09:56:00-05:00</updated>
     <id>http://turingmachine.org/bl/those-russian-dash-cams</id>
     <content type="html"><![CDATA[<p>They show the bad, but they also show the humane side.<!-- more --></p>
 
 <iframe width="560" height="315" src="http://www.youtube.com/embed/TzBInt4zljQ" frameborder="0" allowfullscreen></iframe>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Cellar de Can Roca: the best meal of my life (in the best restaurant of the world)]]></title>
-    <link href="http://turingmachine.org/bl/2013-05-13-cellar-de-can-roca.html"/>
-    <updated>2013-05-13T00:49:00-07:00</updated>
-    <id>http://turingmachine.org/bl/cellar-de-can-roca</id>
-    <content type="html"><![CDATA[<p>I knew I was never going to be able to get a reservation at
-<a href="http://en.wikipedia.org/wiki/El_Bulli">elBulli</a> (note the camelCase
-:).  But since <a href="http://en.wikipedia.org/wiki/Ferran_Adri%C3%A0">Ferran
-Adrià</a> decided to close it
-I knew I had a chance to one day eat at the best restaurant in the
-world.</p>
-
-<p>Looking at the <a href="http://en.wikipedia.org/wiki/The_World's_50_Best_Restaurants">rakings of the best places to
-eat</a> <!-- more -->
-I decided that that restaurant was going to be <a href="http://en.wikipedia.org/wiki/El_Celler_de_Can_Roca">El Cellar de CanRoca</a>.</p>
-
-<p>Two years before, I was visiting Girona, and decided to walk into the
-restaurant (no planning from my part, as usual). Of course, there was
-no space :). I asked my friend Jaume, who lives in Girona, to reserve
-a table. He did, last year.  And just few days ago, <a href="http://www.guardian.co.uk/lifeandstyle/2013/apr/29/el-celler-de-can-roca-restaurant">the Cellar was
-named the best restaurant in the
-world</a>. I
-am glad we went when we did. I was told that the day it was announced,
-its web site crashed and they got thousands of phone calls.</p>
-
-<p>Was it worth it? You bet. Here are the <a href="http://www.flickr.com/photos/28858028@N00/sets/72157629963362602/">photos of each of the dishes
-we were
-served</a>. It
-has been, without a doubt, the best meal in my life, and the longest
-(we arrived at 1:30 and left at 5:30).</p>
-
-<p>&#x2013;dmg</p>
 ]]></content>
   </entry>
   

@@ -4,7 +4,7 @@
   <title><![CDATA[Category: papers | turingMachine]]></title>
   <link href="http://turingmachine.org/bl/categories/papers/atom.xml" rel="self"/>
   <link href="http://turingmachine.org/"/>
-  <updated>2013-08-20T13:36:41-07:00</updated>
+  <updated>2013-09-15T14:04:30-05:00</updated>
   <id>http://turingmachine.org/</id>
   <author>
     <name><![CDATA[Daniel German]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[What effect does Distributed Version Control have on OSS Project Organization?]]></title>
     <link href="http://turingmachine.org/bl/2013-05-22-what-effect-does-distributed-version-control-have-on-oss-project-organization.html"/>
-    <updated>2013-05-22T00:00:00-07:00</updated>
+    <updated>2013-05-22T00:00:00-05:00</updated>
     <id>http://turingmachine.org/bl/what-effect-does-distributed-version-control-have-on-oss-project-organization</id>
     <content type="html"><![CDATA[<p>Another paper we published at <a href="http://releng.polymtl.ca/">RelEng: The International Workshop on
 Release Engineering</a> is worked mainly by <a href="http://users.encs.concordia.ca/~pcr/">Peter Rigby</a> when we was still
@@ -82,7 +82,7 @@ original styles of collaboration that deserve further study.</p></blockquote>
   <entry>
     <title type="html"><![CDATA[The Future of Continuous Integration in GNOME]]></title>
     <link href="http://turingmachine.org/bl/2013-05-21-the-future-of-continuous-integration-in-gnome.html"/>
-    <updated>2013-05-21T00:00:00-07:00</updated>
+    <updated>2013-05-21T00:00:00-05:00</updated>
     <id>http://turingmachine.org/bl/the-future-of-continuous-integration-in-gnome</id>
     <content type="html"><![CDATA[<p>This year is the first edition of <a href="http://releng.polymtl.ca/">RelEng: The International Workshop on Release Engineering</a>.  <a href="http://calcifer.org/">Germán</a> presented our paper <a href="../assets/pdfs/papers/dmg2013_relengGnome.pdf">The Future of
 Continuous Integration in GNOME</a>. Its full bibliographic entry is:</p>
@@ -150,7 +150,7 @@ like approach to the building and deployment of applications.</p></blockquote>
   <entry>
     <title type="html"><![CDATA[Will My Patch Make It? And How Fast? Case Study on the Linux Kernel]]></title>
     <link href="http://turingmachine.org/bl/2013-05-19-will-my-patch-make-it-linux-msr-2013.html"/>
-    <updated>2013-05-19T00:00:00-07:00</updated>
+    <updated>2013-05-19T00:00:00-05:00</updated>
     <id>http://turingmachine.org/bl/will-my-patch-make-it-linux-msr-2013</id>
     <content type="html"><![CDATA[<p>Today Yujuan presented our paper <a href="../assets/pdfs/papers/dmg2013_msrPatch.pdf">Will My Patch Make It? And How Fast? Case Study on the Linux Kernel</a> at <a href="http://2013.msrconf.org/">MSR 2013</a>. Its full bibliographic entry is:</p>
 
